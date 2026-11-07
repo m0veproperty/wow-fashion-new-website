@@ -1,0 +1,200 @@
+{
+  "parent": {
+    "name": "Skirts",
+    "hero": "hero",
+    "headline": "A little movement.<br><em>A new direction.</em>",
+    "description": "The everyday mini. The flowing midi.<br>Find the shape that feels like you.",
+    "style": "Let your skirt set the mood.",
+    "advice": "Start with a shape you love, then change the feeling with a simple top. A crisp shirt brings definition; a relaxed knit makes the same skirt feel easy. There is more than one way to wear your favourite.",
+    "ids": [
+      17,
+      3,
+      15,
+      56,
+      39,
+      48,
+      19,
+      58,
+      49,
+      45,
+      34,
+      63
+    ],
+    "featuredId": 56,
+    "featuredSlug": "pleated-skirts",
+    "featuredLabel": "Explore pleated skirts",
+    "detailLine": "A pleat. A hem. A different feeling.",
+    "heroAlt": "Campaign inspiration: a woman in a terracotta pleated midi skirt and ivory top in a pale stone courtyard",
+    "browseTitle": "Find your shape. Make it yours.",
+    "campaignNote": "The parent campaign image is illustrative AI-generated styling inspiration. Category headers use existing WOW Fashion product photographs."
+  },
+  "collections": [
+    {
+      "slug": "casual-skirts",
+      "name": "Casual Skirts",
+      "match": "Casual Skirts",
+      "hero": 17,
+      "headline": "Easy days.<br><em>Your own way.</em>",
+      "description": "From a favourite tee to a fresh white shirt, find a skirt for the everyday.",
+      "style": "Keep it easy.",
+      "advice": "Let a print set the mood, then add a plain top and comfortable flats. A light cardigan makes the same outfit work when the day cools."
+    },
+    {
+      "slug": "corduroy-skirts",
+      "name": "Corduroy Skirts",
+      "match": "Corduroy Skirts",
+      "hero": 58,
+      "headline": "A little texture.<br><em>A fresh start.</em>",
+      "description": "Explore corduroy skirts with a tactile finish and plenty of everyday character.",
+      "style": "Play with texture.",
+      "advice": "Pair corduroy with a smooth cotton shirt or a simple knit. Add tights and ankle boots for a layered look, checking each listing for fabric details."
+    },
+    {
+      "slug": "denim-skirts",
+      "name": "Denim Skirts",
+      "match": "Denim Skirts",
+      "hero": 3,
+      "headline": "Familiar denim.<br><em>A new shape.</em>",
+      "description": "Mini, midi or long: discover another way to wear your favourite blue.",
+      "style": "Make denim your own.",
+      "advice": "Try a tucked-in tee with a longer denim skirt, or balance a short hem with an easy shirt. Choose the length and shape that suit your day."
+    },
+    {
+      "slug": "gypsy-skirts",
+      "name": "Gypsy Skirts",
+      "match": "Gypsy Skirts",
+      "hero": 6,
+      "headline": "Room to move.<br><em>Made for you.</em>",
+      "description": "Explore flowing shapes, expressive prints and relaxed bohemian styling.",
+      "style": "Let the skirt lead.",
+      "advice": "Keep your top simple when a print does the talking. A fitted vest balances a fuller hem, while flat sandals keep the outfit relaxed."
+    },
+    {
+      "slug": "high-waisted-skirts",
+      "name": "High Waisted Skirts",
+      "match": "High Waisted Skirts",
+      "hero": 19,
+      "headline": "A higher waist.<br><em>A fresh line.</em>",
+      "description": "Discover waist-defining shapes, from everyday denim to statement prints.",
+      "style": "Find your proportion.",
+      "advice": "Tuck in a lightweight shirt or try a shorter knit to show the waistband. Use the individual waist measurements to choose a comfortable fit."
+    },
+    {
+      "slug": "knee-length-skirt",
+      "name": "Knee Length Skirts",
+      "ids": [
+        48,
+        15,
+        23,
+        34,
+        60
+      ],
+      "assignment": "Editorial selection based on source photographs and product names; fit and length vary by garment.",
+      "hero": 48,
+      "headline": "The middle ground.<br><em>All your own.</em>",
+      "description": "An edit of knee-skimming and nearby midi lengths, chosen for easy outfit building.",
+      "style": "Make length work for you.",
+      "advice": "Try a clean-lined shirt with a pencil shape, or a neat tee with a pleated skirt. Where a hem falls depends on your height, so compare the listed length with a skirt you own."
+    },
+    {
+      "slug": "leather-skirts",
+      "name": "Leather Skirts",
+      "match": "Leather Skirts",
+      "hero": 15,
+      "headline": "A sharper edge.<br><em>A softer touch.</em>",
+      "description": "Explore leather-look finishes and defined silhouettes for a different kind of everyday.",
+      "style": "Balance the finish.",
+      "advice": "A textured knit or simple cotton shirt softens a sleek skirt. Check each product listing for the exact material, stretch and care instructions."
+    },
+    {
+      "slug": "long-skirts",
+      "name": "Long Skirts",
+      "match": "Long Skirts",
+      "hero": 63,
+      "headline": "Longer lines.<br><em>Easy movement.</em>",
+      "description": "Discover flowing lengths, expressive prints and skirts that make an outfit.",
+      "style": "Keep the balance.",
+      "advice": "A shorter top gives a long skirt room to shine. Try flat sandals for a relaxed finish, or a neat jacket when you want a little more structure."
+    },
+    {
+      "slug": "pleated-skirts",
+      "name": "Pleated Skirts",
+      "match": "Pleated Skirts",
+      "hero": 56,
+      "headline": "A little movement.<br><em>A lot of feeling.</em>",
+      "description": "Discover the rhythm of pleats, from playful short shapes to flowing midi styles.",
+      "style": "Let the folds move.",
+      "advice": "Keep the top half simple and let the pleats bring the detail. A fine knit or tucked-in tee makes an easy starting point."
+    },
+    {
+      "slug": "short-skirts",
+      "name": "Short Skirts",
+      "match": "Short Skirts",
+      "hero": 39,
+      "headline": "A shorter hem.<br><em>A fresh mood.</em>",
+      "description": "Mini lengths and expressive details, ready to style your way.",
+      "style": "Change the balance.",
+      "advice": "Try a roomy shirt with a short skirt, or pair a neat knit with tights and boots. Check the garment length to find your preferred coverage."
+    },
+    {
+      "slug": "slit-skirts",
+      "name": "Slit Skirts",
+      "match": "Slit Skirts",
+      "hero": 2,
+      "headline": "A small detail.<br><em>A bold line.</em>",
+      "description": "Explore skirts with split details, from printed everyday styles to a sleek evening look.",
+      "style": "Let one detail lead.",
+      "advice": "A plain top keeps the focus on the split. Check the opening and overall length in the product photographs before choosing your fit."
+    },
+    {
+      "slug": "suede-skirts",
+      "name": "Suede Skirts",
+      "match": "Suede Skirts",
+      "hero": 45,
+      "headline": "Soft-looking texture.<br><em>Clean lines.</em>",
+      "description": "Discover suede-look finishes in mini and pencil silhouettes.",
+      "style": "Mix your textures.",
+      "advice": "Pair a suede-look skirt with a crisp shirt or a ribbed knit. Check the product composition and care label before cleaning."
+    },
+    {
+      "slug": "summer-and-beach-skirts",
+      "name": "Summer & Beach Skirts",
+      "match": "Summer & Beach Skirts",
+      "hero": 20,
+      "headline": "Sunlit days.<br><em>Easy layers.</em>",
+      "description": "Prints, flowing hems and relaxed shapes for your warm-weather wardrobe.",
+      "style": "Keep the outfit light.",
+      "advice": "Start with a simple vest and flat sandals, then add a loose shirt. Check the listing for fabric weight, lining and coverage."
+    },
+    {
+      "slug": "work-and-business-skirts",
+      "name": "Work & Business Skirts",
+      "match": "Work & Business Skirts",
+      "hero": 21,
+      "headline": "A considered shape.<br><em>Your daily rhythm.</em>",
+      "description": "Build a workday outfit around a pencil silhouette, a print or a flowing hem.",
+      "style": "Give the day some shape.",
+      "advice": "Try a tucked-in blouse with a neat jacket, then choose shoes for the day ahead. Check the hem length and fabric for your own workplace."
+    },
+    {
+      "slug": "wrap-skirts",
+      "name": "Wrap Skirts",
+      "match": "Wrap Skirts",
+      "hero": 49,
+      "headline": "A different angle.<br><em>A personal touch.</em>",
+      "description": "Discover wrap-inspired shapes, asymmetric lines and expressive prints.",
+      "style": "Follow the line.",
+      "advice": "A simple fitted top lets an overlapping hem stand out. Check whether each design has a working tie or a fixed wrap effect."
+    },
+    {
+      "slug": "a-line-skirts",
+      "name": "A-Line Skirts",
+      "match": "A-Line Skirts",
+      "hero": 38,
+      "headline": "A gentle flare.<br><em>A fresh perspective.</em>",
+      "description": "Discover skirts that open out from the waist, in prints and everyday finishes.",
+      "style": "Start with the silhouette.",
+      "advice": "Try a tucked-in tee or a shorter knit with an A-line shape. Keep the waistband visible if you want to emphasise the flare."
+    }
+  ]
+}

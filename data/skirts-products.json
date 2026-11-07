@@ -1,0 +1,732 @@
+[
+  {
+    "id": 0,
+    "name": "A-Line Maxi Denim Skirt",
+    "url": "https://wowfashion.com/a-line-maxi-denim-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79517-im2zf5-769x1024.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 1,
+    "name": "Bandage Slit Bodycon Skirt",
+    "url": "https://wowfashion.com/bandage-slit-bodycon-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/0-db3e71.jpeg",
+    "categories": [
+      "Skirts",
+      "Slit Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 2,
+    "name": "Black Polka Dot Split Thigh Skirt",
+    "url": "https://wowfashion.com/black-polka-dot-split-thigh-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/76566-ld0whb-769x1024.jpg",
+    "categories": [
+      "Fashion",
+      "Skirts",
+      "Slit Skirts",
+      "Work & Business Skirts",
+      "Wrap Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 3,
+    "name": "Blue A-Line Denim Skirt",
+    "url": "https://wowfashion.com/blue-a-line-denim-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/74602-krqi7h.jpg",
+    "categories": [
+      "Casual Skirts",
+      "Denim Skirts",
+      "Fashion",
+      "Long Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 4,
+    "name": "Blue Denim Split Long Skirt",
+    "url": "https://wowfashion.com/blue-denim-split-long-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79164-weixgw.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 5,
+    "name": "Boho Floral High Waist Summer Skirt",
+    "url": "https://wowfashion.com/boho-floral-high-waist-summer-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79108-gj3n3u-1024x1024.jpg",
+    "categories": [
+      "High Waisted Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 6,
+    "name": "Boho Gypsy Maxi Summer Skirt",
+    "url": "https://wowfashion.com/boho-gypsy-maxi-summer-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79184-8cbxpn.jpg",
+    "categories": [
+      "Gypsy Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 7,
+    "name": "Boho High Waist Maxi Skirt",
+    "url": "https://wowfashion.com/boho-high-waist-maxi-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79026-wvr41z-1024x1024.jpg",
+    "categories": [
+      "High Waisted Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 8,
+    "name": "Boho Pencil Corduroy Embroidery Skirt",
+    "url": "https://wowfashion.com/boho-pencil-corduroy-embroidery-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60769-ljm63j-683x1024.jpg",
+    "categories": [
+      "Corduroy Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 9,
+    "name": "Buttoned Side Split Denim Skirt",
+    "url": "https://wowfashion.com/buttoned-side-split-denim-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79443-egybfg.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 10,
+    "name": "Casual Boho Floral Printed Summer Skirt",
+    "url": "https://wowfashion.com/summer-casual-boho-floral-printed-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/61831-mjy4af.jpg",
+    "categories": [
+      "Casual Skirts",
+      "Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 11,
+    "name": "Casual Elastic Maxi Linen Gypsy Skirt",
+    "url": "https://wowfashion.com/casual-elastic-maxi-linen-gypsy-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/62437-1obpzo.jpg",
+    "categories": [
+      "Gypsy Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 12,
+    "name": "Casual Jeans Denim Mini Skirt",
+    "url": "https://wowfashion.com/casual-jeans-denim-mini-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/13969-qhg25l-1.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Short Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 13,
+    "name": "Denim Ripped Casual Mini Skirt",
+    "url": "https://wowfashion.com/denim-ripped-casual-mini-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60375-0c1qcp.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 14,
+    "name": "Denim Summer High Waist Skirt",
+    "url": "https://wowfashion.com/denim-summer-pockets-high-waist-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60356-s8tvhw.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 15,
+    "name": "Elegant High Waist Leather Pencil Skirt",
+    "url": "https://wowfashion.com/elegant-high-waist-leather-pencil-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79635-tkghed-769x1024.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 16,
+    "name": "Elegant High Waist Raw Edge Denim Skirt",
+    "url": "https://wowfashion.com/elegant-high-waist-raw-edge-denim-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79663-q0lplw-768x1024.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 17,
+    "name": "Floral Print Summer Boho Maxi Skirt",
+    "url": "https://wowfashion.com/floral-print-summer-boho-maxi-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/74611-r0zmeq.jpg",
+    "categories": [
+      "Casual Skirts",
+      "Fashion",
+      "Gypsy Skirts",
+      "High Waisted Skirts",
+      "Long Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 18,
+    "name": "Front Zipper Leather Skirt",
+    "url": "https://wowfashion.com/front-zipper-leather-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/10691-gfvdke-1.jpg",
+    "categories": [
+      "A-Line Skirts",
+      "Leather Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 19,
+    "name": "Green High Waist Leopard Print Slit Skirt",
+    "url": "https://wowfashion.com/high-waist-leopard-print-slit-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/61758-zz8fdy.jpg",
+    "categories": [
+      "High Waisted Skirts",
+      "Skirts",
+      "Slit Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 20,
+    "name": "Green Leopard Dot Print Summer Skirt",
+    "url": "https://wowfashion.com/green-leopard-dot-print-summer-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/0-a80951.jpeg",
+    "categories": [
+      "Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 21,
+    "name": "High Waist Animal Print Work Skirt",
+    "url": "https://wowfashion.com/high-waist-animal-print-work-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/0-0a6b12.jpeg",
+    "categories": [
+      "Skirts",
+      "Work & Business Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 22,
+    "name": "High Waist Denim Mini Skirt with Front Pockets",
+    "url": "https://wowfashion.com/high-waist-denim-mini-skirt-with-front-pockets__trashed/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/13955-qpcojw.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Short Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 23,
+    "name": "High Waist Slim Work Skirt",
+    "url": "https://wowfashion.com/high-waist-slim-work-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/0-37c3e1.jpeg",
+    "categories": [
+      "Skirts",
+      "Work & Business Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 24,
+    "name": "High Waisted Velvet Pleated Skirt",
+    "url": "https://wowfashion.com/high-waisted-velvet-pleated-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/61923-mcrmvc-674x1024.jpg",
+    "categories": [
+      "Pleated Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 25,
+    "name": "Knitted A-Line Skirt",
+    "url": "https://wowfashion.com/knitted-a-line-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/56663-2yipy5.jpg",
+    "categories": [
+      "A-Line Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 26,
+    "name": "Lace Up Suede Mini Skirt",
+    "url": "https://wowfashion.com/lace-up-suede-mini-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60502-hhybv2.jpg",
+    "categories": [
+      "Skirts",
+      "Suede Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 27,
+    "name": "Leather Lace Mini Slit Skirt",
+    "url": "https://wowfashion.com/leather-lace-mini-slit-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/63259-nvth7j.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts",
+      "Slit Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 28,
+    "name": "Leather Slim Wrap Leather Skirt",
+    "url": "https://wowfashion.com/leather-slim-wrap-leather-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60446-ctiqqz.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts",
+      "Wrap Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 29,
+    "name": "Linen Vintage Elastic Gypsy Skirt",
+    "url": "https://wowfashion.com/linen-vintage-elastic-gypsy-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/62417-plzaqe.jpg",
+    "categories": [
+      "Gypsy Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 30,
+    "name": "Midi Tulle Princess Pleated Summer Skirt",
+    "url": "https://wowfashion.com/midi-tulle-princess-pleated-summer-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/62102-gye3xn-1024x1024.jpg",
+    "categories": [
+      "Pleated Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 31,
+    "name": "Multi Dot Bow Tie Summer Skirt",
+    "url": "https://wowfashion.com/multi-dot-bow-tie-summer-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/0-43d404-1.jpeg",
+    "categories": [
+      "Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 32,
+    "name": "Patchwork A-Line Button High Waisted Skirt",
+    "url": "https://wowfashion.com/patchwork-a-line-button-high-waisted-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60332-fxuldb-683x1024.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 33,
+    "name": "Plaid Print Mini Slit Skirt",
+    "url": "https://wowfashion.com/plaid-print-mini-slit-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/63318-mx2tas-745x1024.jpg",
+    "categories": [
+      "Skirts",
+      "Slit Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 34,
+    "name": "Pleated Chiffon Vintage Casual Skirt",
+    "url": "https://wowfashion.com/pleated-chiffon-vintage-casual-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/61737-r63jkn.jpg",
+    "categories": [
+      "Casual Skirts",
+      "Pleated Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 35,
+    "name": "Pleated Mini Plaid Casual Skirt",
+    "url": "https://wowfashion.com/pleated-mini-plaid-casual-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/62159-japlrx.jpg",
+    "categories": [
+      "Casual Skirts",
+      "Pleated Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 36,
+    "name": "Polka Dot Maxi Summer Skirt",
+    "url": "https://wowfashion.com/polka-dot-maxi-summer-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/34815-qxs3yd-1.jpg",
+    "categories": [
+      "Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 37,
+    "name": "Princess Tulle Mesh Pleated Long Skirt",
+    "url": "https://wowfashion.com/princess-tulle-mesh-pleated-long-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/0-3a2afa.jpeg",
+    "categories": [
+      "Long Skirts",
+      "Pleated Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 38,
+    "name": "Retro Floral A-Line Skirt",
+    "url": "https://wowfashion.com/retro-floral-a-line-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/56808-sqw2yk-1.jpg",
+    "categories": [
+      "A-Line Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 39,
+    "name": "Ruffle Side Drawstring Mini Skirt",
+    "url": "https://wowfashion.com/ruffle-side-drawstring-mini-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/76486-6qbkee-769x1024.jpg",
+    "categories": [
+      "Casual Skirts",
+      "Fashion",
+      "High Waisted Skirts",
+      "Short Skirts",
+      "Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 40,
+    "name": "Ruffle Solid Split Gypsy Skirt",
+    "url": "https://wowfashion.com/ruffle-solid-split-gypsy-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60879-1q8x4p.jpg",
+    "categories": [
+      "Gypsy Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 41,
+    "name": "Ruffled Leather Zipper Short Skirt",
+    "url": "https://wowfashion.com/ruffled-leather-zipper-short-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60403-i9jrsw-683x1024.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 42,
+    "name": "Sexy High Waist A-Line Skirt",
+    "url": "https://wowfashion.com/sexy-high-waist-a-line-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/56694-arjlsc.jpg",
+    "categories": [
+      "A-Line Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 43,
+    "name": "Sexy Pleated A-Line Skirt",
+    "url": "https://wowfashion.com/sexy-pleated-a-line-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/56730-ay1iod.jpg",
+    "categories": [
+      "A-Line Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 44,
+    "name": "Single Breasted Suede A-Line Skirt",
+    "url": "https://wowfashion.com/single-breasted-suede-a-line-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/56646-daz18n-1.jpg",
+    "categories": [
+      "A-Line Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 45,
+    "name": "Slim High Waist Suede Skirt",
+    "url": "https://wowfashion.com/slim-high-waist-suede-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60708-r3o6dl.jpg",
+    "categories": [
+      "Skirts",
+      "Suede Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 46,
+    "name": "Snake Print Leather Bodycon Skirt",
+    "url": "https://wowfashion.com/snake-print-leather-bodycon-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60460-kca9qb.jpeg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 47,
+    "name": "Solid Color Long Leather Pencil Skirt",
+    "url": "https://wowfashion.com/solid-color-long-leather-pencil-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79753-kgfwh6-768x1024.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 48,
+    "name": "Solid Suede Work Pencil Midi Skirt",
+    "url": "https://wowfashion.com/solid-suede-work-pencil-midi-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60648-jb18w4.jpg",
+    "categories": [
+      "Skirts",
+      "Suede Skirts",
+      "Work & Business Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 49,
+    "name": "Split Printed Wrap Gypsy Long Skirt",
+    "url": "https://wowfashion.com/split-printed-wrap-gypsy-long-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60864-qxpbr0-683x1024.jpg",
+    "categories": [
+      "Gypsy Skirts",
+      "Long Skirts",
+      "Skirts",
+      "Wrap Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 50,
+    "name": "Stretchy High Waist Floral Long Skirt",
+    "url": "https://wowfashion.com/stretchy-high-waist-floral-long-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60922-tyrqv7.jpg",
+    "categories": [
+      "Long Skirts",
+      "Skirts",
+      "Wrap Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 51,
+    "name": "Suede Belted Leather Skirt",
+    "url": "https://wowfashion.com/suede-belted-leather-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60528-1brh2o-683x1024.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts",
+      "Suede Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 52,
+    "name": "Summer Denim Pencil Skirt",
+    "url": "https://wowfashion.com/summer-denim-pencil-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60299-xb0tyt.jpg",
+    "categories": [
+      "Denim Skirts",
+      "Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 53,
+    "name": "Summer Flare Mini Pleated Skirt",
+    "url": "https://wowfashion.com/summer-flare-mini-pleated-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79425-tnkyam-1024x1024.jpg",
+    "categories": [
+      "Short Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 54,
+    "name": "Tassel Pink Summer Skirt",
+    "url": "https://wowfashion.com/tassel-pink-summer-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/35002-fkc2gc-1-683x1024.jpg",
+    "categories": [
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 55,
+    "name": "Trendy Black Faux Leather Asymmetrical Skirt",
+    "url": "https://wowfashion.com/trendy-black-faux-leather-asymmetrical-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79740-zplkia.jpg",
+    "categories": [
+      "Short Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 56,
+    "name": "Tulle Vintage Pleated Midi Skirt",
+    "url": "https://wowfashion.com/tulle-vintage-midi-pleated-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/62070-3asi4q.jpg",
+    "categories": [
+      "Pleated Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 57,
+    "name": "Velvet Pleated Winter Slim Skirt",
+    "url": "https://wowfashion.com/velvet-pleated-winter-slim-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/61948-ppqlva-759x1024.jpg",
+    "categories": [
+      "Pleated Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 58,
+    "name": "Vintage Corduroy Pencil Mini Skirt",
+    "url": "https://wowfashion.com/vintage-corduroy-pencil-mini-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/61853-faiqnt-683x1024.jpg",
+    "categories": [
+      "Corduroy Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 59,
+    "name": "Vintage Faux Leather Pencil Pocket Skirt",
+    "url": "https://wowfashion.com/vintage-faux-leather-pencil-pocket-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/60413-cxsnge-683x1024.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 60,
+    "name": "Vintage High Waist Leather Side Split Skirt",
+    "url": "https://wowfashion.com/vintage-high-waist-leather-side-split-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/79647-hysntw-1024x1024.jpg",
+    "categories": [
+      "Leather Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 61,
+    "name": "Vintage Plaid Casual Short Skirt",
+    "url": "https://wowfashion.com/vintage-plaid-casual-short-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/0-5f9bdd.jpeg",
+    "categories": [
+      "Casual Skirts",
+      "Short Skirts",
+      "Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 62,
+    "name": "Vintage Tasselled High Waisted Summer Skirt",
+    "url": "https://wowfashion.com/vintage-tassel-summer-high-waisted-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/61867-7ruubs-683x1024.jpg",
+    "categories": [
+      "High Waisted Skirts",
+      "Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  },
+  {
+    "id": 63,
+    "name": "White Lace Beach Maxi Skirt",
+    "url": "https://wowfashion.com/white-lace-beach-maxi-skirt/",
+    "imageSource": "https://wowfashion.com/wp-content/uploads/74623-ha5jx7.jpg",
+    "categories": [
+      "Casual Skirts",
+      "Fashion",
+      "Long Skirts",
+      "Summer & Beach Skirts"
+    ],
+    "price": "View current price"
+  }
+]

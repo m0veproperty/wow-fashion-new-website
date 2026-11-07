@@ -9,7 +9,9 @@ const departments=[
  {slug:'cardigans',singular:'cardigan',...(await json('data/cardigans.json')),products:await json('data/cardigan-products.json')},
  {slug:'coats-and-jackets',singular:'coat or jacket',...(await json('data/outerwear.json')),products:await json('data/outerwear-products.json')},
  {slug:'dresses',singular:'dress',...(await json('data/dresses.json')),products:await json('data/dress-products.json')},
- {slug:'pants',singular:'pair of trousers',...(await json('data/pants.json')),products:await json('data/pants-products.json')}
+ {slug:'pants',singular:'pair of trousers',...(await json('data/pants.json')),products:await json('data/pants-products.json')},
+ {slug:'skirts',singular:'skirt',...(await json('data/skirts.json')),products:await json('data/skirts-products.json')},
+ {slug:'sweaters',singular:'sweater',...(await json('data/sweaters.json')),products:await json('data/sweaters-products.json')}
 ];
 for(const department of departments){
  const render=createCollectionRenderer(department);

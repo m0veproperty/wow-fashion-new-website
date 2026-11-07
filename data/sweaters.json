@@ -1,0 +1,183 @@
+{
+  "parent": {
+    "name": "Sweaters",
+    "hero": "hero",
+    "headline": "A softer layer.<br><em>A fresh feeling.</em>",
+    "description": "The familiar knit. The unexpected detail.<br>Find a sweater to make your own.",
+    "style": "Start with a layer you love.",
+    "advice": "A fine knit, a roomy shape or a textured stitch can change the whole outfit. Try denim for an easy day, or a flowing skirt when you want a different silhouette. Build from a piece that feels like you.",
+    "ids": [
+      2,
+      3,
+      4,
+      39,
+      14,
+      19,
+      24,
+      22,
+      15,
+      18,
+      33,
+      40
+    ],
+    "featuredId": 2,
+    "featuredSlug": "wool-and-knitted-sweaters",
+    "featuredLabel": "Explore wool and knitted sweaters",
+    "detailLine": "A rib. A stitch. A different feeling.",
+    "heroAlt": "Campaign inspiration: a woman in an oatmeal cable-knit sweater beside a pale stone wall",
+    "browseTitle": "Find your knit. Make it yours.",
+    "campaignNote": "The parent campaign image is illustrative AI-generated styling inspiration. Category headers use existing WOW Fashion product photographs."
+  },
+  "collections": [
+    {
+      "slug": "cardigan-sweaters",
+      "name": "Cardigan Sweaters",
+      "match": "Cardigan Sweaters",
+      "hero": 18,
+      "headline": "An open layer.<br><em>An easy finish.</em>",
+      "description": "A cardigan-style knit brings another possibility to your everyday wardrobe.",
+      "style": "Leave room to layer.",
+      "advice": "Try an open cardigan over a simple vest and jeans, or a shirt and skirt. Browse the wider Cardigans collection for more lengths and shapes."
+    },
+    {
+      "slug": "cashmere-sweaters",
+      "name": "Cashmere Sweaters",
+      "match": "Cashmere Sweaters",
+      "hero": 3,
+      "headline": "Quiet colours.<br><em>Considered layers.</em>",
+      "description": "Explore the shop’s cashmere-labelled edit, from neat shapes to relaxed knits.",
+      "style": "Start with the details.",
+      "advice": "Style a fine-looking knit with tailored trousers or denim. Check the individual fibre composition and care label before choosing a cashmere or blended style."
+    },
+    {
+      "slug": "cotton-sweaters",
+      "name": "Cotton Sweaters",
+      "match": "Cotton Sweaters",
+      "hero": 39,
+      "headline": "Everyday layers.<br><em>Fresh possibilities.</em>",
+      "description": "Discover the cotton-labelled sweater edit for easy outfit building.",
+      "style": "Keep your base simple.",
+      "advice": "Try a ribbed knit with a patterned skirt or a favourite pair of jeans. Check each listing for cotton content, weight and fit."
+    },
+    {
+      "slug": "cropped-sweaters",
+      "name": "Cropped Sweaters",
+      "match": "Cropped Sweaters",
+      "hero": 14,
+      "headline": "A shorter line.<br><em>A new balance.</em>",
+      "description": "Cropped knits bring a different proportion to high-waisted skirts and trousers.",
+      "style": "Play with the waistline.",
+      "advice": "Pair a shorter knit with a higher rise, or layer it over a longer vest. Compare the garment length with a top you already like."
+    },
+    {
+      "slug": "long-sweaters",
+      "name": "Long Sweaters",
+      "match": "Long Sweaters",
+      "hero": 19,
+      "headline": "Longer layers.<br><em>Easy days.</em>",
+      "description": "Discover extended hems and relaxed styling possibilities in the long sweater edit.",
+      "style": "Build around the length.",
+      "advice": "Try a long knit with slim trousers or leggings, then choose a coat with room through the body. Check the garment length for your preferred coverage."
+    },
+    {
+      "slug": "off-the-shoulder-sweaters",
+      "name": "Off the Shoulder Sweaters",
+      "match": "Off The Shoulder Sweaters",
+      "hero": 5,
+      "headline": "A softer neckline.<br><em>A different mood.</em>",
+      "description": "Explore open necklines and shoulder-baring shapes, from neat ribs to relaxed knits.",
+      "style": "Frame the neckline.",
+      "advice": "Keep jewellery simple and let the neckline shape the outfit. A higher-waisted skirt or trouser can balance a shorter knit."
+    },
+    {
+      "slug": "oversized-and-baggy-sweaters",
+      "name": "Oversized & Baggy Sweaters",
+      "match": "Oversized & Baggy Sweaters",
+      "hero": 22,
+      "headline": "A little more room.<br><em>A little more you.</em>",
+      "description": "Relaxed shapes, expressive colour and space to make the outfit your own.",
+      "style": "Balance the volume.",
+      "advice": "Try a roomy sweater with a straighter skirt or slimmer trousers. Compare the shoulder and chest measurements to find the amount of ease you like."
+    },
+    {
+      "slug": "spring-sweaters",
+      "name": "Spring Sweaters",
+      "match": "Spring Sweaters",
+      "hero": 11,
+      "headline": "A lighter mood.<br><em>A fresh layer.</em>",
+      "description": "Refresh your everyday wardrobe with colour, familiar shapes and easy spring styling.",
+      "style": "Layer for the day.",
+      "advice": "Wear a neat knit with denim or a flowing skirt, keeping a light jacket close. Check the fabric weight to suit the weather where you are."
+    },
+    {
+      "slug": "summer-sweaters",
+      "name": "Summer Sweaters",
+      "match": "Summer Sweaters",
+      "hero": 9,
+      "headline": "Longer days.<br><em>Lighter styling.</em>",
+      "description": "Explore shorter shapes and open details for your summer sweater edit.",
+      "style": "Keep it simple.",
+      "advice": "Try a short knit with a linen-look skirt or relaxed trousers. Check the listed fabric and coverage before choosing a layer for warmer days."
+    },
+    {
+      "slug": "tunic-sweaters",
+      "name": "Tunic Sweaters",
+      "match": "Tunic Sweaters",
+      "hero": 26,
+      "headline": "A longer line.<br><em>A relaxed mood.</em>",
+      "description": "Discover tunic-inspired knitwear and layered details for everyday outfits.",
+      "style": "Let the hem lead.",
+      "advice": "Keep your lower half simple when a longer top brings the detail. Check the garment measurements and photographs for the coverage you want."
+    },
+    {
+      "slug": "turtle-neck-sweaters",
+      "name": "Turtle Neck Sweaters",
+      "match": "Turtleneck Sweaters",
+      "hero": 13,
+      "headline": "A higher neckline.<br><em>A clean finish.</em>",
+      "description": "Discover roll-neck and high-neck knits to build a layered outfit around.",
+      "style": "Frame your layers.",
+      "advice": "Try a neat high neck under an open jacket, or let a relaxed knit stand alone. Check the collar shape and fit on the individual listing."
+    },
+    {
+      "slug": "winter-sweaters",
+      "name": "Winter Sweaters",
+      "ids": [
+        15,
+        4,
+        12,
+        13,
+        30,
+        36,
+        37,
+        38
+      ],
+      "assignment": "Editorial selection based on source photographs and product names; fit and length vary by garment.",
+      "hero": 15,
+      "headline": "Time to layer.<br><em>Make it yours.</em>",
+      "description": "An editorial selection of high necks and substantial-looking knits for colder-day styling.",
+      "style": "Build warmth in layers.",
+      "advice": "Start with a comfortable base, add a knit and finish with a coat that leaves room to move. Check fibre content and weight to suit your climate."
+    },
+    {
+      "slug": "wool-and-knitted-sweaters",
+      "name": "Wool & Knitted Sweaters",
+      "match": "Wool & Knitted Sweaters",
+      "hero": 2,
+      "headline": "Texture tells<br><em>its own story.</em>",
+      "description": "Explore cables, ribs and expressive knit details in the wool and knitted edit.",
+      "style": "Mix texture and shape.",
+      "advice": "Try a detailed knit with plain trousers or denim so the stitch stands out. Check each listing for the actual wool content and washing instructions."
+    },
+    {
+      "slug": "fall-sweaters",
+      "name": "Fall Sweaters",
+      "match": "Fall Sweaters",
+      "hero": 24,
+      "headline": "A change of season.<br><em>A familiar layer.</em>",
+      "description": "Discover autumn styling possibilities in the fall sweater edit.",
+      "style": "Ease into layers.",
+      "advice": "Pair a knit with denim or a midi skirt, then add boots and a light coat. Choose the fabric weight that feels right for your day."
+    }
+  ]
+}
