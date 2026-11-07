@@ -44,6 +44,7 @@ if(film){
  const showFilmFallback=()=>{$('#film-error').hidden=false;};
  film.addEventListener('error',showFilmFallback);
  film.querySelector('source')?.addEventListener('error',showFilmFallback);
+ if(film.error||film.networkState===HTMLMediaElement.NETWORK_NO_SOURCE)showFilmFallback();
  document.addEventListener('visibilitychange',()=>{if(document.hidden)film.pause();});
  playFilm();
 }
