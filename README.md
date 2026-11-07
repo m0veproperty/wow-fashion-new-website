@@ -44,3 +44,7 @@ The shared renderer is scripts/collection-template.mjs. Department content is in
 ## Completed dress collection
 
 The original animated Dresses parent and Club Dresses page are preserved. The other 15 dress subcategory pages use static product-photo headers, including the five additional shop collections Floral, Maxi, Sequin, Wedding Guest and Work Dresses. The parent carousel and directory link to all 16 subcategories. Catalogue data was read from all four pages of https://wowfashion.com/all-dresses/ on 7 November 2026: 120 source records, with 8 retired __trashed listings excluded. Product assignments follow the source taxonomy. The shared renderer skips preserved pages explicitly.
+
+## Pants and Leggings
+
+`/pants/` contains the parent and all 26 editorial subcategories plus Jeans, Joggers and Shorts. The 97 source records were read from all four pages of https://wowfashion.com/trousers-and-leggings/ on 7 November 2026; 3 retired __trashed listings are excluded. Product assignments follow the shop except documented editorial selections for boyfriend and cropped jeans. Corduroy has no active matching products: its page explicitly labels other trouser styles as alternatives. Parent and corduroy campaign images are illustrative AI-generated styling; product cards retain original photography. Relevant duplicate shop records point to the same consolidated route.

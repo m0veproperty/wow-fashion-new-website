@@ -1,0 +1,367 @@
+{
+  "parent": {
+    "name": "Pants & Leggings",
+    "hero": "hero",
+    "headline": "Find your fit.<br><em>Make your move.</em>",
+    "description": "The everyday denim. The easy trouser.<br>A starting point for wherever the day takes you.",
+    "style": "Start from the ground up.",
+    "advice": "A wider leg changes the silhouette. A higher waist gives a familiar shirt a new shape. Build from a pair you love, add a simple top and choose the finishing layer that feels like you.",
+    "ids": [
+      95,
+      7,
+      59,
+      24,
+      71,
+      40,
+      50,
+      42,
+      67,
+      41,
+      85,
+      18
+    ],
+    "featuredId": 95,
+    "featuredSlug": "wide-leg-pants",
+    "featuredLabel": "Explore wide-leg trousers",
+    "detailLine": "A rise. A hem. A different feeling.",
+    "heroAlt": "Campaign inspiration: a woman in taupe wide-leg trousers and an ivory top in a pale stone courtyard",
+    "campaignNote": "The parent and Corduroy Pants campaign images are illustrative styling inspiration. Other category headers use existing WOW Fashion product photographs.",
+    "shopUrl": "https://wowfashion.com/trousers-and-leggings/",
+    "editLabel": "trouser and legging",
+    "plural": "pants and leggings",
+    "collectionLabel": "pants and leggings",
+    "browseTitle": "Find your fit. Make it yours."
+  },
+  "collections": [
+    {
+      "slug": "black-leggings",
+      "name": "Black Leggings",
+      "match": "Black Leggings",
+      "hero": 59,
+      "headline": "An everyday base.<br><em>Your own finish.</em>",
+      "description": "Simple colour, plenty of possibilities. Discover black leggings to build an easy outfit around.",
+      "style": "Start with proportion",
+      "advice": "Try a longer shirt over close-fitting leggings, or a shorter layer with a high waist. Check fabric opacity and the individual measurements before choosing."
+    },
+    {
+      "slug": "bootcut-jeans",
+      "name": "Bootcut Jeans",
+      "match": "Bootcut Jeans",
+      "hero": 53,
+      "headline": "A little flare.<br><em>A familiar favourite.</em>",
+      "description": "A close line through the leg and a wider finish at the hem. Explore bootcut denim with your kind of attitude.",
+      "style": "Think from the hem up",
+      "advice": "Try bootcut jeans with the shoes you plan to wear and check the inseam. A tucked-in top can bring definition to the waist and balance the flare."
+    },
+    {
+      "slug": "boyfriend-jeans",
+      "name": "Boyfriend Jeans",
+      "hero": 71,
+      "headline": "Relax the fit.<br><em>Keep the feeling.</em>",
+      "description": "Laid-back denim, distressed details and room to make it personal. Find a relaxed starting point for everyday dressing.",
+      "style": "Keep one line clean",
+      "advice": "Balance relaxed jeans with a simple tee or a more fitted top. Roll the hem if the length suits, and check the listed rise and hip measurements.",
+      "ids": [
+        71
+      ],
+      "assignment": "Editorial selection using the existing product title and relaxed, turned-up shape; no dedicated shop category."
+    },
+    {
+      "slug": "capri-leggings",
+      "name": "Capri Leggings",
+      "match": "Capri Leggings",
+      "hero": 9,
+      "headline": "Less length.<br><em>More possibility.</em>",
+      "description": "Cropped shapes and easy styling options. Explore capri leggings for your everyday rotation.",
+      "style": "Choose your crop",
+      "advice": "A capri hem can sit differently depending on height. Compare the inseam with a pair you own and choose a length that feels comfortable when you move."
+    },
+    {
+      "slug": "cargo-khaki-pants",
+      "name": "Cargo / Khaki Pants",
+      "match": "Cargo / Khaki Trousers",
+      "hero": 40,
+      "headline": "Useful details.<br><em>Your kind of style.</em>",
+      "description": "Cargo pockets, relaxed shapes and a practical-looking edge. Find a pair with plenty of everyday character.",
+      "style": "Let the pockets lead",
+      "advice": "Try cargo trousers with a plain tee or a neat knit. Keep the top simple when the trouser has extra pockets, straps or volume."
+    },
+    {
+      "slug": "casual-pants",
+      "name": "Casual Pants",
+      "match": "Casual Pants",
+      "hero": 67,
+      "headline": "Easy mornings.<br><em>Open-ended days.</em>",
+      "description": "Relaxed silhouettes and pieces that work with what you already wear. Discover casual pants for the plans between the plans.",
+      "style": "Keep the balance easy",
+      "advice": "Pair a loose trouser with a more defined top, or wear a relaxed shirt with a narrower leg. Check the waistband and rise for the fit you prefer."
+    },
+    {
+      "slug": "colored-patterned-leggings",
+      "name": "Colored / Patterned Leggings",
+      "match": "Colored & Patterned Leggings",
+      "hero": 25,
+      "headline": "Colour outside<br><em>the lines.</em>",
+      "description": "A bold print, a softer shade or a pattern that changes the mood. Find leggings with a little more personality.",
+      "style": "Give the pattern room",
+      "advice": "Wear patterned leggings with a plain top and simple shoes. Pull one colour from the print into your accessories if you want a more coordinated finish.",
+      "ids": [
+        14,
+        25,
+        31,
+        37,
+        54,
+        62,
+        64,
+        81,
+        83
+      ],
+      "assignment": "Existing coloured/patterned category, excluding an outfit set whose primary photo does not clearly present leggings."
+    },
+    {
+      "slug": "corduroy-pants",
+      "name": "Corduroy Pants",
+      "hero": "corduroy-hero",
+      "headline": "A little texture.<br><em>A warmer mood.</em>",
+      "description": "Fine ribs, rich colours and a vintage-inspired point of view. A little inspiration for your next corduroy outfit.",
+      "style": "Mix smooth with textured",
+      "advice": "A simple knit or crisp shirt lets corduroy texture stand out. Check the wale, fibre blend and garment measurements when choosing the pair that works for you.",
+      "ids": [],
+      "related": [
+        85,
+        86,
+        95,
+        50
+      ],
+      "note": "Our corduroy edit is coming together. No current corduroy products were found in the catalogue; the styles below are other trouser options, not corduroy.",
+      "relatedLabel": "OTHER TROUSER STYLES",
+      "emptyHeading": "While you wait, <em>explore other styles.</em>",
+      "heroAlt": "Illustrative campaign styling: caramel corduroy trousers with an ivory knit",
+      "assignment": "No matching active product in the catalogue or current editorial category. Alternatives are explicitly labelled."
+    },
+    {
+      "slug": "cropped-jeans",
+      "name": "Cropped Jeans",
+      "hero": 18,
+      "headline": "Show a little<br><em>ankle.</em>",
+      "description": "Shorter-looking hems and easy denim shapes. Explore an editorial selection with cropped styling in mind.",
+      "style": "Make the length your own",
+      "advice": "Cropped lengths depend on height and fit. Compare the inseam with a pair you own; a turned-up hem can change the look without changing the whole outfit.",
+      "ids": [
+        18,
+        71,
+        84
+      ],
+      "assignment": "Editorial selection from photographs showing ankle-length or turned-up hems. Length varies by wearer; verify listing inseam."
+    },
+    {
+      "slug": "cropped-pants",
+      "name": "Cropped Pants",
+      "match": "Cropped Trousers",
+      "hero": 11,
+      "headline": "A shorter line.<br><em>A fresh perspective.</em>",
+      "description": "Ankle-skimming shapes and considered details. Find cropped trousers to pair with everyday favourites.",
+      "style": "Let the shoe show",
+      "advice": "Try a cropped trouser with a simple flat, trainer or boot. Check where the hem sits on you and keep the top proportionate to the leg shape."
+    },
+    {
+      "slug": "denim-shorts",
+      "name": "Denim Shorts",
+      "match": "Denim Shorts",
+      "hero": 41,
+      "headline": "Denim days.<br><em>A lighter version.</em>",
+      "description": "From a clean waist to a distressed hem. Explore denim shorts for easy warm-weather styling.",
+      "style": "Start with the rise",
+      "advice": "Check the waist, hip and inseam measurements together. Pair a fitted short with a relaxed shirt, or keep it simple with a tucked-in tee."
+    },
+    {
+      "slug": "flared-pants",
+      "name": "Flared Pants",
+      "match": "Flared Trousers",
+      "hero": 24,
+      "headline": "A little movement.<br><em>A different rhythm.</em>",
+      "description": "A defined line that opens at the hem. Discover flared trousers, from subtle shape to expressive print.",
+      "style": "Balance the flare",
+      "advice": "Try a fitted or tucked-in top to keep the waist visible. Check the trouser length with your chosen shoes so the hem sits where you want it."
+    },
+    {
+      "slug": "fleece-lined-thermal-leggings",
+      "name": "Fleece Lined / Thermal Leggings",
+      "match": "Fleece Lined / Thermal Leggings",
+      "hero": 88,
+      "headline": "Layer up.<br><em>Stay yourself.</em>",
+      "description": "Lined styles and cooler-day possibilities. Explore the thermal legging edit for your next layered outfit.",
+      "style": "Check the inner layer",
+      "advice": "Read the listing for lining, fibre composition and thickness. Warmth depends on the garment and conditions; leave room for comfortable movement beneath longer layers."
+    },
+    {
+      "slug": "harem-pants",
+      "name": "Harem Pants",
+      "match": "Harem Trousers",
+      "hero": 32,
+      "headline": "Room to move.<br><em>Room to be you.</em>",
+      "description": "Relaxed volume, tapered finishes and expressive shapes. Explore harem trousers with an easy point of view.",
+      "style": "Give the silhouette balance",
+      "advice": "A simple close-fitting top can balance a fuller trouser. Check the rise and leg shape in the photographs, and compare the measurements with a comfortable pair you own."
+    },
+    {
+      "slug": "high-waisted-jeans",
+      "name": "High Waisted Jeans",
+      "match": "High Waisted Jeans",
+      "hero": 7,
+      "headline": "A higher rise.<br><em>A fresh start.</em>",
+      "description": "Defined waists and denim shapes with everyday possibility. Find high-waisted jeans to make your own.",
+      "style": "Make the waist visible",
+      "advice": "Try a tucked-in shirt or a shorter knit to show the rise. Check the waist and hip measurements together, particularly when switching between fitted and relaxed cuts."
+    },
+    {
+      "slug": "high-waisted-leggings",
+      "name": "High Waisted Leggings",
+      "match": "High Waisted Leggings",
+      "hero": 42,
+      "headline": "A higher waist.<br><em>An easy base.</em>",
+      "description": "Clean-looking lines, considered waistbands and plenty of styling options. Explore the high-waisted legging edit.",
+      "style": "Choose the fit for you",
+      "advice": "Compare the rise and waistband measurements with a pair you like. Check opacity and fabric details, then add a relaxed shirt or simple top."
+    },
+    {
+      "slug": "high-waisted-pants",
+      "name": "High Waisted Pants",
+      "match": "High Waisted Trousers",
+      "hero": 40,
+      "headline": "Define the waist.<br><em>Set the mood.</em>",
+      "description": "From a wider leg to a closer silhouette. Find high-waisted trousers that bring an outfit together.",
+      "style": "Work with the proportions",
+      "advice": "A tucked-in top helps show the waistline; a cropped jacket can do the same. Check the rise so the waistband sits where you find it comfortable."
+    },
+    {
+      "slug": "leather-pants",
+      "name": "Leather Pants",
+      "match": "Leather Trousers",
+      "hero": 45,
+      "headline": "A sharper line.<br><em>A softer balance.</em>",
+      "description": "Leather-look finishes, clean shapes and a little edge. Discover trousers that make a simple outfit feel different.",
+      "style": "Mix the textures",
+      "advice": "Try a leather-look trouser with a soft knit or plain cotton shirt. The shop category includes faux and PU finishes: check each listing for exact composition and care."
+    },
+    {
+      "slug": "linen-pants",
+      "name": "Linen Pants",
+      "match": "Linen Trousers",
+      "hero": 95,
+      "headline": "An easy drape.<br><em>A lighter day.</em>",
+      "description": "Relaxed shapes and an unhurried feeling from the linen trouser edit. Find a pair to start a softer outfit.",
+      "style": "Let the fabric fall",
+      "advice": "Pair a flowing trouser with a simple tank or a loosely tucked shirt. Check the specific fibre blend, opacity and care instructions on the product listing."
+    },
+    {
+      "slug": "ripped-jeans",
+      "name": "Ripped Jeans",
+      "match": "ripped jeans",
+      "hero": 18,
+      "headline": "A familiar blue.<br><em>A little character.</em>",
+      "description": "Distressed finishes and everyday denim shapes. Explore ripped jeans with your kind of detail.",
+      "style": "Keep the rest simple",
+      "advice": "Let the distressed areas be the detail and choose a plain top or clean jacket. Check the product photos to see the placement and extent of the openings."
+    },
+    {
+      "slug": "short-pants",
+      "name": "Short Pants",
+      "match": "Short Pants",
+      "hero": 80,
+      "headline": "A shorter shape.<br><em>A playful mood.</em>",
+      "description": "Easy hems and expressive detail from the short pants edit. A starting point for a lighter outfit.",
+      "style": "Balance the hemline",
+      "advice": "Try a relaxed shirt over a shorter bottom or tuck in a simple top to show the waist. Check both the rise and inseam to choose your preferred coverage."
+    },
+    {
+      "slug": "skinny-jeans",
+      "name": "Skinny Jeans",
+      "match": "Skinny Jeans",
+      "hero": 75,
+      "headline": "A closer fit.<br><em>A familiar feeling.</em>",
+      "description": "Slim denim shapes with plenty of styling possibilities. Find skinny jeans for your everyday wardrobe.",
+      "style": "Think about stretch",
+      "advice": "Check the fabric blend and garment measurements before choosing a size. A longer shirt or relaxed knit can balance the close-fitting leg."
+    },
+    {
+      "slug": "skinny-pants",
+      "name": "Skinny Pants",
+      "match": "Skinny Trousers",
+      "hero": 77,
+      "headline": "A clean line.<br><em>A little definition.</em>",
+      "description": "Close-fitting shapes and considered details. Explore skinny trousers to balance your favourite looser layers.",
+      "style": "Build from the silhouette",
+      "advice": "Try a slim trouser with an oversized shirt or relaxed jacket. Check the waist, hip and stretch details rather than relying on the style name alone."
+    },
+    {
+      "slug": "velvet-leggings",
+      "name": "Velvet Leggings",
+      "match": "Velvet Leggings",
+      "hero": 38,
+      "headline": "A softer finish.<br><em>A richer feeling.</em>",
+      "description": "Textured-looking styles and a little depth of colour. Explore the velvet legging edit for your next outfit.",
+      "style": "Keep the texture in focus",
+      "advice": "Pair a velvet-look finish with a plain knit or smooth shirt. Check the listing for the exact fabric, lining and care guidance before choosing."
+    },
+    {
+      "slug": "wide-leg-pants",
+      "name": "Wide Leg Trousers",
+      "match": "Wide Leg Trousers",
+      "hero": 95,
+      "headline": "Take a little<br><em>space.</em>",
+      "description": "Flowing lines, relaxed shapes and room to move. Find wide-leg trousers that set the tone for your outfit.",
+      "style": "Define one part of the shape",
+      "advice": "Try a tucked-in top or a shorter jacket to show the waist. Check the inseam with your intended shoes so the longer line falls comfortably."
+    },
+    {
+      "slug": "work-pants",
+      "name": "Work Pants",
+      "match": "Work Trousers",
+      "hero": 0,
+      "headline": "Ready for<br><em>your day.</em>",
+      "description": "A considered starting point for the working wardrobe. Explore the shop’s work trouser edit and style it your way.",
+      "style": "Start with your setting",
+      "advice": "Check your workplace dress expectations, then balance a patterned trouser with a plain blouse or knit. Compare the rise and length with a pair you already wear."
+    },
+    {
+      "slug": "jeans",
+      "name": "Jeans",
+      "match": "Jeans",
+      "hero": 16,
+      "headline": "Your everyday<br><em>denim story.</em>",
+      "description": "Relaxed cuts, expressive details and a familiar foundation. Explore the jeans edit and find a shape to make your own.",
+      "style": "Choose the shape first",
+      "advice": "Start with the leg shape and rise you enjoy wearing. Then compare measurements and fabric details, leaving wash and finishing touches to make it personal."
+    },
+    {
+      "slug": "joggers",
+      "name": "Joggers",
+      "match": "Joggers",
+      "hero": 67,
+      "headline": "Slow down.<br><em>Step out.</em>",
+      "description": "Relaxed-looking lines and an off-duty point of view. Discover the jogger edit for easy everyday dressing.",
+      "style": "Keep the finish considered",
+      "advice": "Pair joggers with a plain tee and an easy jacket. Check the waistband, cuffs and fabric details to choose the fit and feel you prefer."
+    },
+    {
+      "slug": "shorts",
+      "name": "Shorts",
+      "match": "Shorts",
+      "hero": 69,
+      "headline": "A lighter layer.<br><em>A longer day.</em>",
+      "description": "From relaxed shapes to denim and coordinated sets. Find shorts for the warm-weather side of your wardrobe.",
+      "style": "Choose your length",
+      "advice": "Check the inseam and rise together to find comfortable coverage. Balance a loose short with a simpler top, or layer an open shirt over the outfit.",
+      "ids": [
+        17,
+        41,
+        56,
+        69,
+        70,
+        80
+      ],
+      "assignment": "Existing shorts category, excluding a shirt-focused set photo."
+    }
+  ]
+}
