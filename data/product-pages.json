@@ -1,0 +1,96 @@
+[
+  {
+    "id": "wow-test-001",
+    "slug": "everyday-rib-cardigan",
+    "name": "The Everyday Rib Cardigan",
+    "category": "Cardigans",
+    "categoryUrl": "/cardigans/",
+    "price": 48,
+    "currency": "GBP",
+    "description": "A familiar layer, with a little more feeling. Fine ribbing, a clean V-neck and tonal buttons make this the piece you build the rest of your day around.",
+    "details": [
+      "Fine vertical rib texture",
+      "V-neck with five tonal buttons",
+      "Long sleeves and a straight, hip-length hem",
+      "Designed as a regular-fit layering piece"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "variants": [
+      {
+        "id": "oat",
+        "name": "Oat",
+        "hex": "#c9b69c",
+        "images": [
+          {
+            "view": "front",
+            "src": "/assets/products/everyday-rib-cardigan/oat-front.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/oat-front-thumb.webp",
+            "alt": "The Everyday Rib Cardigan in Oat, front view on a model",
+            "width": 900,
+            "height": 1600
+          },
+          {
+            "view": "back",
+            "src": "/assets/products/everyday-rib-cardigan/oat-back.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/oat-back-thumb.webp",
+            "alt": "The Everyday Rib Cardigan in Oat, back view on a model",
+            "width": 900,
+            "height": 1600
+          }
+        ]
+      },
+      {
+        "id": "sage",
+        "name": "Sage",
+        "hex": "#8c9b87",
+        "images": [
+          {
+            "view": "front",
+            "src": "/assets/products/everyday-rib-cardigan/sage-front.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/sage-front-thumb.webp",
+            "alt": "The Everyday Rib Cardigan in Sage, front view on a model",
+            "width": 900,
+            "height": 1600
+          },
+          {
+            "view": "back",
+            "src": "/assets/products/everyday-rib-cardigan/sage-back.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/sage-back-thumb.webp",
+            "alt": "The Everyday Rib Cardigan in Sage, back view on a model",
+            "width": 900,
+            "height": 1600
+          }
+        ]
+      },
+      {
+        "id": "cocoa",
+        "name": "Cocoa",
+        "hex": "#785648",
+        "images": [
+          {
+            "view": "front",
+            "src": "/assets/products/everyday-rib-cardigan/cocoa-front.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/cocoa-front-thumb.webp",
+            "alt": "The Everyday Rib Cardigan in Cocoa, front view on a model",
+            "width": 900,
+            "height": 1600
+          },
+          {
+            "view": "back",
+            "src": "/assets/products/everyday-rib-cardigan/cocoa-back.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/cocoa-back-thumb.webp",
+            "alt": "The Everyday Rib Cardigan in Cocoa, back view on a model",
+            "width": 900,
+            "height": 1600
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -25,3 +25,5 @@ for(const department of departments){
 }
 console.log('Preserved both animated dress pages.');
 
+
+await import('./build-products.mjs');
