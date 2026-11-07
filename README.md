@@ -4,6 +4,8 @@ One repository for the new collection website and the progress portal.
 
 ## Website
 
+- `/cardigans/`: cardigan parent page with a static campaign image.
+- `/cardigans/<subcategory>/`: all 12 editorial cardigan subcategories, plus Hooded, Warm and Zipped shop categories.
 - `/blouses/`: blouse parent page with a static campaign image.
 - `/blouses/<subcategory>/`: all 14 editorial blouse subcategories from the portal.
 - `/dresses/`: the original dress parent design and campaign video.
@@ -28,3 +30,9 @@ The website map now shows **Has the page been built?** and **Does the page featu
 Deploy the collection site from repository root. Deploy the portal with Root Directory `portal` and retain its existing Blob and access-code environment settings. Portal commands run inside `portal/`: `npm ci`, `npm test`, `npm run check`, `npm run build`.
 
 Original deployed design sources: https://wow-fashion-dress-edit.vercel.app/ and https://wow-fashion-club-dresses.vercel.app/. Existing project URLs remain available as historical references.
+
+## Cardigan collection
+
+The 48 source listings were read from https://wowfashion.com/cardigans/ and its second catalogue page on 7 November 2026. The two retired __trashed links are excluded, leaving 46 product references. Category assignments follow the shop taxonomy except Animal Print, which selects the available leopard kimono by its title and photograph. Material category labels are retained from the shop; exact composition should be checked on each listing. Product photography is stored locally in public/assets/cardigans. The parent campaign hero is AI-generated styling inspiration, not a product listing.
+
+The shared renderer is scripts/collection-template.mjs. Department content is in data/cardigans.json and data/collections.json. Both Vercel projects build from this repository; new page releases include portal build-status entries and live preview links.

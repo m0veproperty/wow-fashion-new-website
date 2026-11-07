@@ -1,0 +1,185 @@
+{
+  "parent": {
+    "name": "Cardigans",
+    "hero": "hero",
+    "headline": "One more layer.<br><em>A little more you.</em>",
+    "description": "The soft knit. The easy throw-on.<br>The cardigan that brings it all together.",
+    "style": "The layer that changes everything.",
+    "advice": "Button it over a simple tee. Drape it over a favourite dress. Leave it open with denim when the day slows down. A considered layer gives the pieces you already love a different feeling.",
+    "ids": [
+      6,
+      45,
+      1,
+      29,
+      5,
+      32,
+      20,
+      33,
+      22,
+      42,
+      24,
+      31
+    ],
+    "featuredId": 6,
+    "featuredSlug": "warm-cardigans",
+    "featuredLabel": "Explore warm cardigans",
+    "detailLine": "A stitch. A button. A different feeling.",
+    "heroAlt": "Campaign inspiration: a woman in an oatmeal cardigan and cream trousers beside a sunlit stone wall",
+    "campaignNote": "The parent campaign image is illustrative styling inspiration. Subcategory images and product cards use existing WOW Fashion product photography."
+  },
+  "collections": [
+    {
+      "slug": "animal-print-cardigans",
+      "name": "Animal Print Cardigans",
+      "ids": [
+        31
+      ],
+      "hero": 31,
+      "headline": "A little wild.<br><em>Entirely you.</em>",
+      "description": "One expressive print can change the whole outfit. Explore leopard layers with plenty of personality.",
+      "style": "Let the print lead",
+      "advice": "Keep the layers underneath simple: a plain tee, straight-leg denim and a favourite pair of boots. Pick out one colour from the print for your accessories.",
+      "assignment": "Editorial selection: Leopard Print Casual Kimono Cardigan. Retired leopard knit listing excluded."
+    },
+    {
+      "slug": "cardigan-vests",
+      "name": "Cardigan Vests",
+      "match": "Cardigan Vests",
+      "hero": 20,
+      "headline": "Another layer.<br><em>A different angle.</em>",
+      "description": "Sleeveless shapes, easy movement and room to play. Find a cardigan vest that brings your outfit together.",
+      "style": "Build from the sleeve",
+      "advice": "Layer a sleeveless cardigan over a crisp shirt or close-fitting tee. A longer vest works with a straight trouser; a shorter shape pairs naturally with a higher waist."
+    },
+    {
+      "slug": "cashmere-cardigans",
+      "name": "Cashmere Cardigans",
+      "match": "Cashmere Cardigans",
+      "hero": 29,
+      "headline": "Softly layered.<br><em>Simply lovely.</em>",
+      "description": "Wrap shapes and considered silhouettes from the cashmere edit. A gentle starting point for everyday dressing.",
+      "style": "Balance softness with structure",
+      "advice": "Try a wrap cardigan with tailored trousers, or a V-neck shape over a simple tee. Check each listing for its exact fibre composition and follow the garment’s care label."
+    },
+    {
+      "slug": "cropped-dressy-cardigans",
+      "name": "Cropped and Dressy Cardigans",
+      "match": "Cropped & Dressy Cardigans",
+      "hero": 45,
+      "headline": "A shorter layer.<br><em>A lasting impression.</em>",
+      "description": "A defined waist, an interesting button, a little evening possibility. Find the finishing touch in our cropped and dressy edit.",
+      "style": "Make the proportions work",
+      "advice": "Try a cropped cardigan with a high-waisted skirt or wide-leg trousers. For an evening outfit, let the neckline and buttons be the detail and keep accessories simple."
+    },
+    {
+      "slug": "kimono-cardigans",
+      "name": "Kimono Cardigans",
+      "match": "Kimono Cardigans",
+      "hero": 33,
+      "headline": "Let it flow.<br><em>Make it yours.</em>",
+      "description": "Open fronts, expressive patterns and an easy sweep of fabric. Discover kimono-style cardigans for relaxed layering.",
+      "style": "Give the shape some space",
+      "advice": "Balance a flowing layer with a simple tank and a straight trouser. Leave the front open to show the outfit underneath, or try a slim belt for a little definition."
+    },
+    {
+      "slug": "lace-cardigans",
+      "name": "Lace Cardigans",
+      "match": "Lace Cardigans",
+      "hero": 28,
+      "headline": "Delicate details.<br><em>A different mood.</em>",
+      "description": "Openwork textures and intricate patterns, from a light finishing layer to an expressive cover-up.",
+      "style": "Choose your underlayer",
+      "advice": "Wear lace over a plain camisole to bring out the pattern. Some styles are sheer cover-ups: check the product photographs and choose the coverage that suits your plans."
+    },
+    {
+      "slug": "lightweight-cardigans",
+      "name": "Lightweight Cardigans",
+      "match": "Lightweight Cardigans",
+      "hero": 32,
+      "headline": "Just enough.<br><em>Never too much.</em>",
+      "description": "Fine layers and relaxed shapes for the moments between seasons. Find the cardigan you can keep close.",
+      "style": "Keep the layers in balance",
+      "advice": "Start with a slim tee or sleeveless top and add an open cardigan. Choose a length that works with your waistline, and check the listing for fabric weight and composition."
+    },
+    {
+      "slug": "long-cardigans",
+      "name": "Long Cardigans",
+      "match": "Long Cardigans",
+      "hero": 1,
+      "headline": "Take the<br><em>long way.</em>",
+      "description": "An easy sweep, a relaxed silhouette, a layer worth lingering in. Explore longer cardigans with everyday possibility.",
+      "style": "Create a clean line",
+      "advice": "A long open cardigan works well over a simple column of colour. Try straight-leg jeans or a narrow trouser, and leave the front open so the layers can move."
+    },
+    {
+      "slug": "short-sleeved-cardigans",
+      "name": "Short Sleeved Cardigans",
+      "match": "Short Sleeved Cardigans",
+      "hero": 22,
+      "headline": "A little sleeve.<br><em>A lighter feeling.</em>",
+      "description": "Shorter sleeves and thoughtful textures. Discover an easy finishing layer for brighter days and indoor plans.",
+      "style": "Keep the neckline clear",
+      "advice": "Try a short-sleeved cardigan over a plain tank, or layer a cropped shape over a dress. Keep the underlayer simple when the knit or trim has plenty of detail."
+    },
+    {
+      "slug": "silk-cardigans",
+      "name": "Silk Cardigans",
+      "match": "Silk Cardigans",
+      "hero": 41,
+      "headline": "A softer line.<br><em>A quieter statement.</em>",
+      "description": "Delicate details and fluid-looking layers from our silk cardigan edit. Find a considered finishing touch.",
+      "style": "Let the layer fall naturally",
+      "advice": "Pair a long fine layer with a simple dress or a clean trouser shape. Silk-category listings can vary in composition; check the specific garment details before choosing."
+    },
+    {
+      "slug": "summer-spring-cardigans",
+      "name": "Summer and Spring Cardigans",
+      "match": "Summer & Spring Cardigans",
+      "hero": 13,
+      "headline": "Longer days.<br><em>Lighter layers.</em>",
+      "description": "Fresh patterns, open shapes and a warm-weather outlook. A cardigan for the breeze, the shade and the plans after sunset.",
+      "style": "Dress for the in-between",
+      "advice": "Try a light open layer over a simple tee and shorts, or a relaxed summer dress. Check opacity and fabric composition when choosing something for warmer days."
+    },
+    {
+      "slug": "wool-cardigans",
+      "name": "Wool Cardigans",
+      "match": "Wool Cardigans",
+      "hero": 5,
+      "headline": "Texture to love.<br><em>Layers to live in.</em>",
+      "description": "From a fine knit to a more expressive stitch. Discover shapes and textures in the wool cardigan edit.",
+      "style": "Let texture do the talking",
+      "advice": "Balance a chunky-looking knit with smooth trousers or denim. For finer styles, add a shirt underneath. Check each listing for its exact wool content and care instructions."
+    },
+    {
+      "slug": "hooded-cardigans",
+      "name": "Hooded Cardigans",
+      "match": "Hooded cardigans",
+      "hero": 19,
+      "headline": "Off-duty ease.<br><em>On your terms.</em>",
+      "description": "A relaxed hood, a comfortable-looking shape and room for another layer. Discover cardigans for slower mornings and everyday plans.",
+      "style": "Keep it easy",
+      "advice": "Wear a hooded cardigan with a plain tee and straight-leg jeans. If you add an outer coat, leave enough room at the neck and shoulders for the hood to sit comfortably."
+    },
+    {
+      "slug": "warm-cardigans",
+      "name": "Warm Cardigans",
+      "match": "Warm Cardigans",
+      "hero": 6,
+      "headline": "Stay a little<br><em>longer.</em>",
+      "description": "Textured knits and fuller layers for a cosy-looking outfit. Explore the shop’s warm cardigan selection.",
+      "style": "Build warmth in layers",
+      "advice": "Start with a comfortable base layer and choose a cardigan with room through the shoulders. Warmth depends on fibre content, knit and fit, so check the individual product details."
+    },
+    {
+      "slug": "zipped-cardigans",
+      "name": "Zipped Cardigans",
+      "match": "Zipped Cardigans",
+      "hero": 24,
+      "headline": "Zip up.<br><em>Step out.</em>",
+      "description": "Clean closures and versatile shapes. Find a zipped cardigan that changes with your day.",
+      "style": "Adjust the neckline",
+      "advice": "Wear a zip cardigan open over a simple tee or zip it partway to frame the neckline. Pair a close-fitting shape with a relaxed trouser for an easy balance."
+    }
+  ]
+}
