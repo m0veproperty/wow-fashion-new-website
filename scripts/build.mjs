@@ -6,7 +6,8 @@ const blouseParent=await json('data/blouse-parent.json');
 Object.assign(blouseParent,{ids:[79,31,12,5,52,7,28,10,63,19,13,40],featuredId:79,featuredSlug:'cotton-blouses',featuredLabel:'Explore cotton blouses',detailLine:'A collar. A cuff. A different feeling.',heroAlt:'Campaign inspiration: a woman wearing an ivory blouse in a sunlit courtyard',campaignNote:'The parent and denim campaign images are illustrative styling inspiration.'});
 const departments=[
  {slug:'blouses',singular:'blouse',parent:blouseParent,collections:await json('data/collections.json'),products:await json('data/products.json')},
- {slug:'cardigans',singular:'cardigan',...(await json('data/cardigans.json')),products:await json('data/cardigan-products.json')}
+ {slug:'cardigans',singular:'cardigan',...(await json('data/cardigans.json')),products:await json('data/cardigan-products.json')},
+ {slug:'coats-and-jackets',singular:'coat or jacket',...(await json('data/outerwear.json')),products:await json('data/outerwear-products.json')}
 ];
 for(const department of departments){
  const render=createCollectionRenderer(department);

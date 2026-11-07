@@ -1,0 +1,215 @@
+{
+  "parent": {
+    "name": "Coats & Jackets",
+    "hero": "hero",
+    "headline": "The outside layer.<br><em>The inside feeling.</em>",
+    "description": "The everyday jacket. The considered coat.<br>A finishing layer for wherever life takes you.",
+    "style": "Make an entrance. Feel like yourself.",
+    "advice": "Throw a trench over familiar denim. Add a tailored layer to a simple knit. Choose a textured jacket when the rest is quiet. The piece you put on last can give the whole outfit a new point of view.",
+    "ids": [
+      76,
+      15,
+      57,
+      0,
+      13,
+      45,
+      43,
+      37,
+      63,
+      44,
+      22,
+      29
+    ],
+    "featuredId": 15,
+    "featuredSlug": "trench-coats",
+    "featuredLabel": "Explore trench coats",
+    "detailLine": "A seam. A collar. A different feeling.",
+    "heroAlt": "Campaign inspiration: a woman wearing a camel coat over an ivory knit on a quiet stone street",
+    "campaignNote": "The parent campaign image is illustrative styling inspiration. Subcategory images and product cards use existing WOW Fashion product photography.",
+    "shopUrl": "https://wowfashion.com/coats-jackets/",
+    "editLabel": "outerwear",
+    "plural": "coats and jackets"
+  },
+  "collections": [
+    {
+      "slug": "bomber-jackets",
+      "name": "Bomber Jackets",
+      "match": "Bomber Jackets",
+      "hero": 33,
+      "headline": "A little attitude.<br><em>An easy finish.</em>",
+      "description": "Relaxed shapes, expressive prints and a zip-and-go feeling. Find a bomber jacket that makes the everyday your own.",
+      "style": "Balance the shape",
+      "advice": "Pair a shorter bomber with high-waisted trousers or straight-leg jeans. Let a patterned jacket lead, and keep the layers underneath simple."
+    },
+    {
+      "slug": "casual-coats",
+      "name": "Casual Coats",
+      "match": "Casual Coats",
+      "hero": 0,
+      "headline": "Out the door.<br><em>Into your day.</em>",
+      "description": "Easy outer layers for coffee runs, changing plans and everything in between. Find the coat that fits your everyday rhythm.",
+      "style": "Leave room for real life",
+      "advice": "Choose a shape that works over your usual layers. A defined waist gives a relaxed coat structure, while an open front keeps the outfit underneath in view."
+    },
+    {
+      "slug": "faux-fur-coats",
+      "name": "Faux Fur Coats",
+      "match": "Faux Fur Coats",
+      "hero": 45,
+      "headline": "A softer side.<br><em>A bolder mood.</em>",
+      "description": "Plush-looking textures and expressive silhouettes. Explore faux-fur styles that bring a different feeling to familiar outfits.",
+      "style": "Let texture take the lead",
+      "advice": "Try a textured coat over simple denim or smooth tailoring. Keep accessories understated and check the individual listing for its exact material and care details."
+    },
+    {
+      "slug": "fleece-jackets",
+      "name": "Fleece Jackets",
+      "match": "Fleece Jackets",
+      "hero": 37,
+      "headline": "Soft textures.<br><em>Slow-day energy.</em>",
+      "description": "From relaxed zip fronts to teddy-inspired shapes. Discover fleece-category layers with an off-duty point of view.",
+      "style": "Keep it comfortably balanced",
+      "advice": "A fuller jacket pairs well with a straighter trouser. Leave enough room at the shoulder for a base layer, and check the listing for fabric composition and lining."
+    },
+    {
+      "slug": "jean-and-denim-jackets",
+      "name": "Jean and Denim Jackets",
+      "match": "Jean & Denim Jackets",
+      "hero": 13,
+      "headline": "Familiar denim.<br><em>A fresh direction.</em>",
+      "description": "A cropped shape, a different wash, an unexpected detail. Discover denim jackets with plenty of ways to wear them.",
+      "style": "Find your contrast",
+      "advice": "Wear a denim jacket over a soft dress or with tailored trousers. For double denim, try contrasting washes and keep the rest of the outfit simple."
+    },
+    {
+      "slug": "leather-jackets",
+      "name": "Leather Jackets",
+      "match": "Leather Jackets",
+      "hero": 57,
+      "headline": "An edge.<br><em>Your own way.</em>",
+      "description": "Biker shapes, clean zips and considered details. Explore the leather-look edit, from classic black to softer colours.",
+      "style": "Mix sharp with soft",
+      "advice": "Balance a structured jacket with a fluid skirt or a simple knit. This shop category includes leather-look and faux-leather styles; check each listing for the exact material."
+    },
+    {
+      "slug": "light-jackets",
+      "name": "Light Jackets",
+      "match": "Light Jackets",
+      "hero": 61,
+      "headline": "Just one layer.<br><em>So many plans.</em>",
+      "description": "Easy shapes for the moments between seasons. Find a lighter-looking jacket to keep close when the day changes.",
+      "style": "Think about the layers beneath",
+      "advice": "Choose a jacket that sits comfortably over your everyday top. Check fabric weight, lining and product details rather than relying on the category name alone."
+    },
+    {
+      "slug": "linen-jackets",
+      "name": "Linen Jackets",
+      "match": "Linen Jackets",
+      "hero": 31,
+      "headline": "An easy line.<br><em>A lighter outlook.</em>",
+      "description": "Relaxed silhouettes and understated details from the linen jacket edit. An unhurried approach to getting dressed.",
+      "style": "Let the shape relax",
+      "advice": "Pair a loose jacket with a simple tee and straight trousers, or drape it over a dress. Check the listing for its fibre blend and follow the garment’s care label."
+    },
+    {
+      "slug": "long-parka-coat",
+      "name": "Long Parka Coats",
+      "match": "Long Parka Coats",
+      "hero": 34,
+      "headline": "Go a little<br><em>further.</em>",
+      "description": "Longer layers, useful-looking details and room to move. Find a parka shape that works with the day ahead.",
+      "style": "Make room for movement",
+      "advice": "Check the coat’s length against the layers you usually wear. Try a longer parka with a clean trouser shape and leave enough room through the shoulders for a knit."
+    },
+    {
+      "slug": "military-and-cargo-jackets",
+      "name": "Military and Cargo Jackets",
+      "match": "Military & Cargo Jackets",
+      "hero": 44,
+      "headline": "A useful detail.<br><em>A strong point of view.</em>",
+      "description": "Cargo-inspired pockets, utility shapes and expressive patterns. Explore an everyday layer with a little more character.",
+      "style": "Soften the utility shape",
+      "advice": "Try a cargo-style jacket over a plain tee or a soft dress. Keep the rest of the outfit uncomplicated so the pockets, seams and pattern have room to stand out."
+    },
+    {
+      "slug": "quilted-jackets",
+      "name": "Quilted Jackets",
+      "match": "Quilted Jackets",
+      "hero": 63,
+      "headline": "Stitch by stitch.<br><em>Make it yours.</em>",
+      "description": "Considered quilting, padded shapes and easy silhouettes. Discover a textured finish for your everyday wardrobe.",
+      "style": "Balance volume and line",
+      "advice": "Pair a padded jacket with straight or tapered trousers. For a defined shape, try a belted style. Check the product details for fill, lining and care instructions."
+    },
+    {
+      "slug": "rain-jackets",
+      "name": "Rain Jackets",
+      "match": "Rain Jackets",
+      "hero": 73,
+      "headline": "Clouds ahead.<br><em>Plans still on.</em>",
+      "description": "Hoods, longer shapes and practical-looking layers from the rain jacket edit. Find a style to keep in mind when the forecast changes.",
+      "style": "Look beyond the silhouette",
+      "advice": "Check the individual listing for waterproofing, seams and fastening details before choosing for wet weather. Leave space for the outfit you plan to wear underneath."
+    },
+    {
+      "slug": "trench-coats",
+      "name": "Trench Coats",
+      "match": "Trench Coats",
+      "hero": 15,
+      "headline": "A familiar classic.<br><em>Your next chapter.</em>",
+      "description": "Long lines, a defined waist and a considered finish. Explore trench-style coats for wherever the day leads.",
+      "style": "Tie it your way",
+      "advice": "Leave the coat open to show the outfit beneath, or loosely knot the belt for definition. Try it over denim for an easy day or tailoring for a more polished start."
+    },
+    {
+      "slug": "winter-coats",
+      "name": "Winter Coats",
+      "match": "Winter Coats",
+      "hero": 76,
+      "headline": "Step outside.<br><em>Stay yourself.</em>",
+      "description": "Longer silhouettes, fuller textures and room for a favourite knit. Discover the winter coat edit.",
+      "style": "Build the outfit from the inside",
+      "advice": "Try your coat over the layers you expect to wear. Warmth depends on fabric, lining, fill and fit; check the individual listing to choose for your conditions."
+    },
+    {
+      "slug": "work-and-pea-coats",
+      "name": "Work and Pea Coats",
+      "match": "Work & Pea Coats",
+      "hero": 43,
+      "headline": "A considered start.<br><em>A confident finish.</em>",
+      "description": "Tailored-looking lines, interesting checks and a more composed silhouette. Find a finishing layer for the working week and beyond.",
+      "style": "Keep the layers clean",
+      "advice": "Pair a structured coat or jacket with a simple blouse and straight trousers. Check shoulder fit and sleeve length so the layers underneath sit comfortably."
+    },
+    {
+      "slug": "down-coats",
+      "name": "Down Coats",
+      "match": "Down Coats",
+      "hero": 29,
+      "headline": "Light in spirit.<br><em>Layered for the day.</em>",
+      "description": "Padded shapes and longer options from the down coat edit. Discover a silhouette that works with your winter wardrobe.",
+      "style": "Check what is inside",
+      "advice": "The fill and lining matter as much as the shape. Read the product’s composition and care details, and leave enough room for your chosen base layers."
+    },
+    {
+      "slug": "fall-jackets",
+      "name": "Fall Jackets",
+      "match": "Fall Jackets",
+      "hero": 42,
+      "headline": "Changing leaves.<br><em>A different layer.</em>",
+      "description": "Checks, textured finishes and everyday shapes for the autumn wardrobe. Find a jacket to make familiar outfits feel new.",
+      "style": "Work with the in-between",
+      "advice": "Try a jacket over a light knit and add a scarf when needed. Choose a shape that can accommodate another layer without feeling tight through the shoulder."
+    },
+    {
+      "slug": "spring-jackets",
+      "name": "Spring Jackets",
+      "match": "Spring Jackets",
+      "hero": 22,
+      "headline": "A fresh day.<br><em>A lighter mood.</em>",
+      "description": "Fresh colours, easy cuts and layers for changing plans. Explore the spring jacket edit and find a new starting point.",
+      "style": "Keep your options open",
+      "advice": "A shorter jacket works with a high waist or a flowing dress. Choose layers you can add or remove, and check the product details for weight and fabric."
+    }
+  ]
+}
