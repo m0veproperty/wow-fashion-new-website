@@ -7,11 +7,13 @@ Object.assign(blouseParent,{ids:[79,31,12,5,52,7,28,10,63,19,13,40],featuredId:7
 const departments=[
  {slug:'blouses',singular:'blouse',parent:blouseParent,collections:await json('data/collections.json'),products:await json('data/products.json')},
  {slug:'cardigans',singular:'cardigan',...(await json('data/cardigans.json')),products:await json('data/cardigan-products.json')},
- {slug:'coats-and-jackets',singular:'coat or jacket',...(await json('data/outerwear.json')),products:await json('data/outerwear-products.json')}
+ {slug:'coats-and-jackets',singular:'coat or jacket',...(await json('data/outerwear.json')),products:await json('data/outerwear-products.json')},
+ {slug:'dresses',singular:'dress',...(await json('data/dresses.json')),products:await json('data/dress-products.json')}
 ];
 for(const department of departments){
  const render=createCollectionRenderer(department);
  for(const [c,isParent] of [[department.parent,true],...department.collections.map(c=>[c,false])]){
+  if(c.preserved)continue;
   const dir='dist/'+department.slug+(isParent?'':'/'+c.slug);
   await mkdir(dir,{recursive:true});await writeFile(dir+'/index.html',render(c,isParent));
  }

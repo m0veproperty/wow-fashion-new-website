@@ -40,3 +40,7 @@ The shared renderer is scripts/collection-template.mjs. Department content is in
 ## Coats and Jackets
 
 `/coats-and-jackets/` contains the parent and all 15 editorial subcategories plus Down Coats, Fall Jackets and Spring Jackets. The 77 source listings were read from https://wowfashion.com/coats-jackets/ and its second and third catalogue pages on 7 November 2026. Two retired __trashed links are excluded. Category assignments follow the existing shop taxonomy. Material, filling and weather-protection claims should be checked against individual listings; category membership is not independent product verification. The campaign hero is AI-generated inspiration; product photos are retained from WOW Fashion. Content and provenance live in data/outerwear.json and data/outerwear-products.json. All editorial and shop portal records link to the new pages.
+
+## Completed dress collection
+
+The original animated Dresses parent and Club Dresses page are preserved. The other 15 dress subcategory pages use static product-photo headers, including the five additional shop collections Floral, Maxi, Sequin, Wedding Guest and Work Dresses. The parent carousel and directory link to all 16 subcategories. Catalogue data was read from all four pages of https://wowfashion.com/all-dresses/ on 7 November 2026: 120 source records, with 8 retired __trashed listings excluded. Product assignments follow the source taxonomy. The shared renderer skips preserved pages explicitly.

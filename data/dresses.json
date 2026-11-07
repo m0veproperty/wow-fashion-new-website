@@ -1,0 +1,190 @@
+{
+  "parent": {
+    "name": "Dresses",
+    "preserved": true,
+    "hero": 20,
+    "ids": [
+      20,
+      10,
+      15,
+      31,
+      18,
+      21,
+      7,
+      42,
+      109,
+      55,
+      102,
+      116
+    ],
+    "featuredId": 42,
+    "featuredSlug": "summer-dresses",
+    "featuredLabel": "Explore summer dresses",
+    "detailLine": "A neckline. A hem. A different feeling.",
+    "campaignNote": "The original parent and Club Dresses films are illustrative styling inspiration. These category headers use existing WOW Fashion product photographs.",
+    "shopUrl": "https://wowfashion.com/all-dresses/"
+  },
+  "collections": [
+    {
+      "slug": "boho-dresses",
+      "name": "Boho Dresses",
+      "match": "Boho Dresses",
+      "hero": 20,
+      "headline": "A little freedom.<br><em>A lot of you.</em>",
+      "description": "Expressive prints, easy shapes and room to move. Discover a boho dress for unhurried days and spontaneous plans.",
+      "style": "Let the print breathe",
+      "advice": "Try a printed dress with simple sandals and a soft bag. Keep jewellery understated, or pick out a single colour from the pattern for your accessories."
+    },
+    {
+      "slug": "casual-dresses",
+      "name": "Casual Dresses",
+      "match": "Casual Dresses",
+      "hero": 103,
+      "headline": "No big occasion.<br><em>Just a good day.</em>",
+      "description": "Easy silhouettes and everyday possibility. Find a casual dress that feels right from the first coffee to the last plan.",
+      "style": "Change the finishing touch",
+      "advice": "Start with flats and a denim jacket, then switch to a different shoe when the evening arrives. Choose a length and neckline that work with the layers you already love."
+    },
+    {
+      "slug": "club-dresses",
+      "name": "Club Dresses",
+      "match": "Club Dresses",
+      "hero": 13,
+      "headline": "Lights on.<br><em>Eyes on you.</em>",
+      "description": "The original night-out edit, with its animated campaign header.",
+      "style": "Dress for your evening",
+      "advice": "Choose a silhouette that feels comfortable when you move, and let one detail lead the outfit.",
+      "preserved": true
+    },
+    {
+      "slug": "cocktail-and-evening-dresses",
+      "name": "Cocktail & Evening Dresses",
+      "match": "Cocktail & Evening Dresses",
+      "hero": 10,
+      "headline": "The evening<br><em>starts with you.</em>",
+      "description": "Considered necklines, a little drama and a reason to dress up. Explore cocktail and evening styles for the plans worth making.",
+      "style": "Let one detail shine",
+      "advice": "An expressive neckline or sleeve needs little competition. Keep the accessories simple, check the dress code and choose shoes that suit the evening ahead."
+    },
+    {
+      "slug": "long-dresses",
+      "name": "Long Dresses",
+      "match": "Long Dresses",
+      "hero": 31,
+      "headline": "A longer line.<br><em>A lasting impression.</em>",
+      "description": "Fluid-looking shapes, striking prints and elegant lengths. Discover a long dress with your kind of presence.",
+      "style": "Think about the hem",
+      "advice": "Try the dress with the shoes you plan to wear and check the stated length. A defined waist can balance a flowing skirt; a simpler neckline lets the silhouette lead."
+    },
+    {
+      "slug": "short-dresses",
+      "name": "Short Dresses",
+      "match": "Short Dresses",
+      "hero": 50,
+      "headline": "A shorter hem.<br><em>A fresh feeling.</em>",
+      "description": "Playful shapes and thoughtful details. Find a short dress for everyday moments, evening plans and everything between.",
+      "style": "Find your balance",
+      "advice": "Try a shorter dress with a relaxed jacket or a more covered neckline. Check the garment length and fit measurements to choose the coverage that feels right for you."
+    },
+    {
+      "slug": "spring-dresses",
+      "name": "Spring Dresses",
+      "match": "Spring Dresses",
+      "hero": 52,
+      "headline": "Fresh plans.<br><em>A lighter mood.</em>",
+      "description": "New-season colours, expressive patterns and easy movement. Discover a dress for those first brighter days.",
+      "style": "Keep a layer close",
+      "advice": "A light cardigan or cropped jacket makes a spring dress easier to wear through a changing day. Choose a layer that sits comfortably over the sleeves and neckline."
+    },
+    {
+      "slug": "summer-dresses",
+      "name": "Summer Dresses",
+      "match": "Summer Dresses",
+      "hero": 42,
+      "headline": "Follow the<br><em>sunshine.</em>",
+      "description": "Relaxed silhouettes, open necklines and a warm-weather outlook. Find a summer dress for days with no fixed agenda.",
+      "style": "Leave room to move",
+      "advice": "Choose a fit that feels comfortable in warm weather and check fabric composition and opacity. Finish with simple sandals and a light layer for later."
+    },
+    {
+      "slug": "tea-length-dresses",
+      "name": "Tea Length Dresses",
+      "match": "Tea-Length Dresses",
+      "hero": 15,
+      "headline": "Somewhere between.<br><em>Entirely your own.</em>",
+      "description": "A considered hemline and plenty of personality. Explore tea-length styles, from printed day dresses to occasion-ready shapes.",
+      "style": "Find your own length",
+      "advice": "Tea-length hems sit differently depending on height. Compare the listed length with a dress you own, and try it with the shoes you plan to wear."
+    },
+    {
+      "slug": "two-piece-dresses",
+      "name": "Two Piece Dresses",
+      "match": "Two Piece Dresses",
+      "hero": 109,
+      "headline": "Together today.<br><em>Your way tomorrow.</em>",
+      "description": "Coordinated shapes with room to make them personal. Explore two-piece dress sets and find a pairing you love.",
+      "style": "Work with the waistline",
+      "advice": "Check the measurements for both pieces and how much space sits between them. Wear the set together, or style one piece with a simple wardrobe favourite."
+    },
+    {
+      "slug": "winter-dresses",
+      "name": "Winter Dresses",
+      "match": "Winter Dresses",
+      "hero": 55,
+      "headline": "A little texture.<br><em>A different season.</em>",
+      "description": "Longer sleeves, knit-inspired shapes and winter-ready styling possibilities. Find a dress to build your cooler-day outfit around.",
+      "style": "Layer with the shape",
+      "advice": "Try a fitted dress beneath a relaxed coat, or add a neat cardigan over a fuller skirt. Check fibre composition and garment weight before choosing for colder conditions."
+    },
+    {
+      "slug": "floral-dresses",
+      "name": "Floral Dresses",
+      "match": "Floral Dresses",
+      "hero": 28,
+      "headline": "In full<br><em>expression.</em>",
+      "description": "From a delicate motif to a bolder bloom. Discover floral dresses that bring colour and movement to your plans.",
+      "style": "Pick out a colour",
+      "advice": "Choose one shade from the print for a bag or shoe, and keep the rest of the outfit quiet. A simple jacket can make the same dress feel more everyday."
+    },
+    {
+      "slug": "maxi-dresses",
+      "name": "Maxi Dresses",
+      "match": "Maxi Dresses",
+      "hero": 106,
+      "headline": "Go long.<br><em>Feel effortless.</em>",
+      "description": "Sweeping shapes and a little movement with every step. Find a maxi dress for slow days and standout evenings.",
+      "style": "Give the hem some thought",
+      "advice": "Check the full garment length against your height and chosen shoes. Keep the upper layers simple so the long silhouette has room to do its work."
+    },
+    {
+      "slug": "sequin-dresses",
+      "name": "Sequin Dresses",
+      "match": "Sequin Dresses",
+      "hero": 91,
+      "headline": "Catch the light.<br><em>Keep the moment.</em>",
+      "description": "A little shimmer changes the whole feeling. Explore the sequin edit for evenings that call for something extra.",
+      "style": "Let the sparkle lead",
+      "advice": "Pair a sequin dress with understated shoes and a small bag. Check the lining and care instructions on the product listing, especially around delicate embellishment."
+    },
+    {
+      "slug": "wedding-guest-dresses",
+      "name": "Wedding Guest Dresses",
+      "match": "Wedding Guest Dresses",
+      "hero": 102,
+      "headline": "For their day.<br><em>Your kind of style.</em>",
+      "description": "A considered silhouette for a special invitation. Explore the wedding guest edit and make the finishing touches your own.",
+      "style": "Start with the invitation",
+      "advice": "Check the couple’s dress code, venue and season before choosing. Consider a light layer for the ceremony and shoes that work for the setting."
+    },
+    {
+      "slug": "work-dresses",
+      "name": "Work Dresses",
+      "match": "Work Dresses",
+      "hero": 116,
+      "headline": "A considered<br><em>start.</em>",
+      "description": "Clean-looking lines and thoughtful details from the work dress edit. A starting point for a wardrobe that works your way.",
+      "style": "Choose for your working day",
+      "advice": "Check the length and fit against your workplace dress expectations. A simple jacket and understated shoes help the same dress adapt to different plans."
+    }
+  ]
+}
