@@ -35,3 +35,15 @@ $('#menu-button').onclick=()=>{const open=$('#department-menu').hidden;$('#depar
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!$('#department-menu').hidden){$('#menu-button').click();$('#menu-button').focus();}});
 $('#product-image').addEventListener('error',()=>{$('#product-status').textContent='This image could not load. Please try another view or refresh the page.';});
 renderGallery();
+const film=$('#featured-film');
+if(film){
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)');
+ const playFilm=()=>{if(!reduced.matches&&!document.hidden)film.play().catch(()=>{});};
+ const syncMotion=()=>{if(reduced.matches)film.pause();else playFilm();};
+ reduced.addEventListener('change',syncMotion);
+ const showFilmFallback=()=>{$('#film-error').hidden=false;};
+ film.addEventListener('error',showFilmFallback);
+ film.querySelector('source')?.addEventListener('error',showFilmFallback);
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)film.pause();});
+ playFilm();
+}

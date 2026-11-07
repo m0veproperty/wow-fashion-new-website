@@ -91,6 +91,56 @@
           }
         ]
       }
-    ]
+    ],
+    "related": [
+      {
+        "id": 6,
+        "slug": "cotton-button-down-cardigan",
+        "name": "Cotton Button Down Cardigan",
+        "sourceUrl": "https://wowfashion.com/cotton-button-down-cardigan/",
+        "image": "/assets/cardigans/6.webp",
+        "label": "The everyday layer",
+        "description": "A button-down shape with a simple, familiar finish. Discover another way to build an everyday outfit around a cardigan.",
+        "styling": "Try it over a plain tee with straight-leg denim, or button it with a flowing skirt. Let the texture be the detail."
+      },
+      {
+        "id": 45,
+        "slug": "vintage-buttons-cropped-cardigan",
+        "name": "Vintage Button Through Cropped Cardigan",
+        "sourceUrl": "https://wowfashion.com/vintage-buttons-cropped-cardigan/",
+        "image": "/assets/cardigans/45.webp",
+        "label": "A shorter silhouette",
+        "description": "A cropped cardigan with button-through detailing, chosen for a different balance with high-waisted skirts and trousers.",
+        "styling": "Pair a shorter layer with a higher waist to define the silhouette. A simple vest underneath keeps the outfit easy."
+      },
+      {
+        "id": 29,
+        "slug": "lace-up-wrap-knitted-cashmere-cardigan",
+        "name": "Lace Up Wrap Knitted Cashmere Cardigan",
+        "sourceUrl": "https://wowfashion.com/lace-up-wrap-knitted-cashmere-cardigan/",
+        "image": "/assets/cardigans/29.webp",
+        "label": "The wrap detail",
+        "description": "A wrap-inspired knit with a tie detail, selected from the existing cashmere-labelled cardigan edit.",
+        "styling": "Let the wrap line lead: add plain trousers or a clean-lined skirt. Check the original listing for the exact fibre composition."
+      },
+      {
+        "id": 20,
+        "slug": "hooded-knitted-vest-cardigan",
+        "name": "Hooded Knitted Vest Cardigan",
+        "sourceUrl": "https://wowfashion.com/hooded-knitted-vest-cardigan/",
+        "image": "/assets/cardigans/20.webp",
+        "label": "A different layer",
+        "description": "A hooded knitted vest silhouette for when you want to change the shape of your layers.",
+        "styling": "Wear it over a close-fitting long-sleeved top, then add denim or straight trousers. Keep the layers underneath simple."
+      }
+    ],
+    "featuredVideo": {
+      "src": "/assets/products/everyday-rib-cardigan/oat-film.mp4",
+      "poster": "/assets/products/everyday-rib-cardigan/oat-film-poster.webp",
+      "width": 1920,
+      "height": 1080,
+      "colour": "Oat",
+      "duration": 6
+    }
   }
 ]

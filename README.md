@@ -56,3 +56,7 @@ Skirts contains the parent and 16 subcategories; Sweaters contains the parent an
 ## Product layout reference
 
 The first concept product is /products/everyday-rib-cardigan/, listed in the portal under Products (#/product-pages). Its reusable renderer reads data/product-pages.json. Six original AI-generated photographs show Oat, Sage and Cocoa, each with front and back views. Full images are 900 × 1600 (9:16 portrait); each has a lightweight thumbnail. Colour changes update the whole gallery, zoom and shareable query parameter while retaining the selected view. Size selection and the in-memory preview bag demonstrate the layout without placing orders. Price and product are clearly marked as examples. Private product research and supplier records are unchanged.
+
+## Oat product film and related products
+
+The product page features one six-second 16:9 Higgsfield Seedance 2.5 film of the Oat cardigan above the colour-specific photographs. It has native playback controls, a poster fallback and respects reduced-motion settings. The film remains Oat when photo colours change. Four existing cardigan listings now have local product introduction pages, linked from the related-products section, the cardigan catalogue and the portal. Their original shop links provide current prices, availability and specifications.

@@ -1,0 +1,22 @@
+{
+  "provider": "Higgsfield",
+  "model": "seedance_2_5",
+  "jobId": "dd8ff0ba-df2d-424e-9cce-ce1e51585f18",
+  "requested": {
+    "model": "seedance_2_5",
+    "mode": "omni_reference",
+    "aspect_ratio": "16:9",
+    "duration": 6,
+    "resolution": "1080p",
+    "generate_audio": false,
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "https://wow-fashion-new-website.vercel.app/assets/products/everyday-rib-cardigan/oat-front.webp"
+      }
+    ],
+    "prompt": "Create a refined 16:9 landscape ecommerce fashion film of the exact adult woman and exact OAT beige ribbed cardigan in the reference photograph. Preserve her identity, dark wavy shoulder-length hair, natural face, fine vertical ribbing, V-neck, five tonal buttons, long sleeves and hip-length hem, charcoal trousers. Expand the warm off-white seamless studio environment horizontally; no portrait borders or stretched image. Medium-full framing from above her head to mid-thigh keeps the cardigan large and fully visible. The woman smiles warmly, makes a gentle quarter turn, lightly smooths one sleeve with the other hand, then returns to a relaxed front-facing pose. Slow natural graceful movement, subtle fabric motion, realistic hands. Locked camera, soft daylight, understated premium fashion editorial. One continuous six-second shot, calm start and end, no text, logos, cuts, props, changing garment colours, speech or audio."
+  },
+  "websiteAsset": "/assets/products/everyday-rib-cardigan/oat-film.mp4"
+}

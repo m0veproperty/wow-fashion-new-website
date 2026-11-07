@@ -5,6 +5,13 @@ test('product colour variants have complete distinct portrait galleries',async()
  for(const v of product.variants){assert.equal(v.images.length,2);assert.deepEqual(v.images.map(i=>i.view),['front','back']);for(const img of v.images){assert.equal(img.width/img.height,9/16);assert.ok(img.alt.includes(v.name));assert.ok(!paths.has(img.src));paths.add(img.src);await access('dist'+img.src);await access('dist'+img.thumb);}}
  assert.equal(paths.size,6);
 });
+test('the Oat film is featured before the gallery and related product routes are internal',async()=>{
+ const html=await readFile('dist/products/'+product.slug+'/index.html','utf8');
+ assert.ok(html.indexOf('id="featured-film"')<html.indexOf('class="product-gallery"'));assert.ok(html.includes('Shown in Oat · 16:9'));assert.ok(html.includes('playsinline controls'));assert.ok(!html.includes('autoplay'));
+ assert.equal(product.featuredVideo.width/product.featuredVideo.height,16/9);await access('dist'+product.featuredVideo.src);await access('dist'+product.featuredVideo.poster);
+ assert.equal(product.related.length,4);
+ for(const p of product.related){assert.ok(html.includes('/products/'+p.slug+'/'));const linked=await readFile('dist/products/'+p.slug+'/index.html','utf8');assert.ok(linked.includes(p.sourceUrl));assert.ok(!linked.includes('Example price'));for(const m of linked.matchAll(/(?:src|href)="(\/[^"#?]*)"/g))await access('dist'+m[1]+(m[1].endsWith('/')?'index.html':''));}
+});
 test('variant selection, image wraparound and size validation handle edge cases',()=>{
  assert.equal(resolveVariant(product,'sage').name,'Sage');assert.equal(resolveVariant(product,'missing').id,'oat');
  for(const id of ['oat','sage','cocoa','oat']){const v=resolveVariant(product,id);assert.ok(resolveImage(v,1).src.includes(id+'-back'));assert.equal(resolveImage(v,-1),v.images[1]);assert.equal(resolveImage(v,2),v.images[0]);}
