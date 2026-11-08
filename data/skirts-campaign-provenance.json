@@ -1,0 +1,110 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "16 new bespoke Skirts subcategory photographs with the shared atmosphere treatment. The existing parent Skirts campaign image is retained. All 17 Skirts pages use bespoke campaign hero imagery. Existing product photography and all other page content outside the campaign note are unchanged.",
+  "artDirection": "Use case: photorealistic-natural. Asset type: one bespoke wide photographic hero for the WOW Fashion women's Skirts collection website, matching its premium warm editorial campaign. Create ONE finished photograph, horizontal 16:9 landscape, ideally 1672 by 941 pixels. Authentic natural fashion photography, lifelike skin, refined lens quality, realistic fabric texture, anatomically correct hands and believable garment construction. Show one adult woman on the RIGHT side, centred near 77 percent of the image width. Frame her complete figure, entire head with comfortable space above, and shoes with space beneath. Clearly show the skirt's waistband, complete silhouette and full hem; tops must be neatly tucked so the skirt shape remains visible. The LEFT 55 percent is quiet low-contrast warm pale limestone or plaster, unobstructed and ready for dark website headlines. Architecture, foliage and props stay mostly at the far right. Warm cream and pale stone surroundings, gentle flattering light, natural posture and realistic fabric movement. No text, letters, typography, logos, watermarks, UI, product labels, graphic gradients, smoke or artificial fog. The website adds its animated bottom blend later. Make this an original fashion campaign in a real setting, not an isolated catalogue cutout. Specific garment and scene: ",
+  "retainedCampaignHeroes": [
+    {
+      "route": "/skirts/",
+      "asset": "/assets/skirts/hero.webp"
+    }
+  ],
+  "assets": [
+    {
+      "route": "/skirts/casual-skirts/",
+      "asset": "/assets/campaigns/skirts/casual-skirts.webp",
+      "subject": "An adult Black woman with loose natural curls wearing a soft sage-green cotton midi skirt with a comfortable gathered waistband, gentle A-line shape and easy mid-calf hem. A plain ivory short-sleeve cotton tee is tucked at the waist and white minimal trainers complete the outfit. She takes an unhurried step beside a pale limestone café terrace, natural cotton folds and relaxed everyday styling, the complete skirt and shoes visible.",
+      "alt": "Campaign inspiration: a woman wearing a sage casual midi skirt on a limestone café terrace"
+    },
+    {
+      "route": "/skirts/corduroy-skirts/",
+      "asset": "/assets/campaigns/skirts/corduroy-skirts.webp",
+      "subject": "An adult East Asian woman with a softly waved dark bob wearing a chestnut-brown corduroy skirt with a visible fine ribbed texture, a neat button front, a defined waistband and a gently flared knee-length hem. An ivory fine-knit crewneck sweater is tucked in, simple dark brown loafers. She stands naturally beside a pale plaster townhouse entrance in soft autumn light, realistic corduroy pile and entire skirt silhouette clearly shown.",
+      "alt": "Campaign inspiration: a woman in a chestnut corduroy skirt outside a pale plaster townhouse"
+    },
+    {
+      "route": "/skirts/denim-skirts/",
+      "asset": "/assets/campaigns/skirts/denim-skirts.webp",
+      "subject": "An adult woman with olive skin and loose chestnut waves wearing an authentic medium-blue denim midi skirt with a neat high waistband, front patch pockets, fine contrast stitching and a straight gently flared silhouette ending at mid-calf. A small practical front walking split begins below the knee. A white cotton shirt with elbow-length rolled sleeves is tucked in, tan flat sandals. She stands in a pale limestone courtyard in warm morning light, whole denim skirt and hem visible.",
+      "alt": "Campaign inspiration: a woman wearing a blue denim midi skirt in a limestone courtyard"
+    },
+    {
+      "route": "/skirts/gypsy-skirts/",
+      "asset": "/assets/campaigns/skirts/gypsy-skirts.webp",
+      "subject": "An adult South Asian woman with long loosely tied dark hair wearing a flowing bohemian tiered maxi skirt in an expressive small botanical print of terracotta, muted navy and cream. The skirt has a comfortable defined waistband, softly gathered tiers and an ankle-length hem with graceful natural movement. A simple modest ivory short-sleeve blouse is tucked in, tan flat sandals. Contemporary relaxed fashion with no costume or ethnic props. She walks lightly beside a pale plaster garden wall, complete long silhouette visible.",
+      "alt": "Campaign inspiration: a woman in a flowing botanical tiered maxi skirt beside a pale garden wall"
+    },
+    {
+      "route": "/skirts/high-waisted-skirts/",
+      "asset": "/assets/campaigns/skirts/high-waisted-skirts.webp",
+      "subject": "An adult Black woman in her thirties with a sleek shoulder-length bob wearing a camel tailored midi skirt with an unmistakably high structured waistband at the natural waist, a narrow matching belt, gentle front shaping and an elegant A-line silhouette ending just below the knee. An ivory sleeveless fine-knit top is fully tucked in to emphasize the high rise, simple dark brown low-heeled shoes. She stands beside a pale travertine townhouse doorway, natural front three-quarter posture showing the whole waistband and hem.",
+      "alt": "Campaign inspiration: a woman in a camel high-waisted skirt by a travertine townhouse doorway"
+    },
+    {
+      "route": "/skirts/knee-length-skirt/",
+      "asset": "/assets/campaigns/skirts/knee-length-skirt.webp",
+      "subject": "An adult white woman in her forties with a softly waved auburn bob wearing a refined deep navy knee-length skirt whose straight lightly shaped hem clearly falls at the kneecaps, not at mid-calf. A cream short-sleeve fine-knit top is tucked into the neat waistband, tan ballet flats. She pauses on a pale limestone café terrace in soft daylight, full figure showing the exact knee-skimming skirt length, composed everyday styling.",
+      "alt": "Campaign inspiration: a woman wearing a navy knee-length skirt on a limestone café terrace"
+    },
+    {
+      "route": "/skirts/leather-skirts/",
+      "asset": "/assets/campaigns/skirts/leather-skirts.webp",
+      "subject": "An adult woman with medium brown skin and dark hair in a soft low bun wearing a black faux-leather skirt with a clean high waistband, authentic panel seams and a gently flared A-line hem just below the knee. A softly reflective leather-look finish rather than glossy latex. An oatmeal fine-knit long-sleeve top is tucked at the waist, simple black loafers. She stands beside a pale stone restaurant entrance in diffuse warm light, complete skirt shape and believable material texture visible.",
+      "alt": "Campaign inspiration: a woman in a black leather-look skirt beside a pale stone restaurant entrance"
+    },
+    {
+      "route": "/skirts/long-skirts/",
+      "asset": "/assets/campaigns/skirts/long-skirts.webp",
+      "subject": "An adult East Asian woman with loose shoulder-length dark waves wearing a fluid burgundy long skirt with a clean fitted waistband and softly sweeping full-length silhouette reaching the ankles. Opaque matte woven fabric with natural weight and folds, no tiers and no print. A simple ivory short-sleeve knit is tucked in, low tan shoes visible below the hem. She takes a gentle step beneath a pale limestone arcade in soft afternoon light, entire long skirt and hem clearly visible.",
+      "alt": "Campaign inspiration: a woman in a flowing burgundy long skirt beneath a limestone arcade"
+    },
+    {
+      "route": "/skirts/pleated-skirts/",
+      "asset": "/assets/campaigns/skirts/pleated-skirts.webp",
+      "subject": "An adult South Asian woman with dark hair in an elegant loose bun wearing a muted eucalyptus-green pleated midi skirt with fine regular accordion pleats from the clean high waistband to the mid-calf hem. A soft ivory short-sleeve fine-knit top is tucked in, understated tan low-heeled shoes. She turns gently on a pale travertine garden terrace so the pleats open naturally in movement. Refined opaque fabric, clear pleat rhythm and full skirt silhouette visible in warm morning light.",
+      "alt": "Campaign inspiration: a woman wearing a eucalyptus-green pleated midi skirt on a travertine terrace"
+    },
+    {
+      "route": "/skirts/short-skirts/",
+      "asset": "/assets/campaigns/skirts/short-skirts.webp",
+      "subject": "An adult Black woman with a neat natural curly bob wearing a chocolate-brown structured short A-line skirt with a neat high waistband and a tasteful hem several inches above the knees, comfortably at lower mid-thigh. An ivory long-sleeve fine knit is tucked into the waistband, simple dark brown loafers. She stands naturally beside a pale limestone café doorway, refined everyday styling, full adult figure and the exact short skirt length visible.",
+      "alt": "Campaign inspiration: a woman in a chocolate-brown short skirt beside a limestone café doorway"
+    },
+    {
+      "route": "/skirts/slit-skirts/",
+      "asset": "/assets/campaigns/skirts/slit-skirts.webp",
+      "subject": "An adult woman with olive skin and loose dark shoulder-length waves wearing a slate-blue midi skirt with a clean high waist and a clear off-centre front slit opening from the mid-calf hem to just above the knee. Opaque softly structured fabric and tasteful walking movement make the split detail visible without excessive exposure. A simple ivory short-sleeve blouse is tucked in, tan low-heeled sandals. She takes one easy step beside a pale limestone townhouse wall, complete skirt and slit visible.",
+      "alt": "Campaign inspiration: a woman wearing a slate-blue midi skirt with a front slit beside a limestone wall"
+    },
+    {
+      "route": "/skirts/suede-skirts/",
+      "asset": "/assets/campaigns/skirts/suede-skirts.webp",
+      "subject": "An adult white woman with warm freckles and softly waved chestnut hair wearing a warm camel suede-look A-line skirt with a fine soft brushed nap, clean waistband, subtle panel seams and a hem a little above the knees. The matte material should read as faux suede with gentle tonal texture, not shiny leather. A fine ivory roll-neck knit is tucked in, simple dark brown flat ankle boots. She stands at a pale plaster courtyard entrance in diffuse autumn light, full skirt silhouette and tactile texture visible.",
+      "alt": "Campaign inspiration: a woman in a camel suede-look skirt at a pale plaster courtyard entrance"
+    },
+    {
+      "route": "/skirts/summer-and-beach-skirts/",
+      "asset": "/assets/campaigns/skirts/summer-and-beach-skirts.webp",
+      "subject": "An adult Black woman with loosely tied braids wearing an airy opaque ivory summer midi skirt with a delicate blue botanical print, a softly gathered high waistband and a flowing mid-calf hem. A modest white sleeveless cotton top is tucked neatly at the waist, flat tan sandals and a small natural woven tote held at her side without obscuring the skirt. She stands on a pale limestone seaside terrace, with only a subtle glimpse of muted sea blue far right and a quiet pale wall on the left. Gentle summer daylight and natural fabric movement.",
+      "alt": "Campaign inspiration: a woman wearing an ivory and blue summer skirt on a limestone seaside terrace"
+    },
+    {
+      "route": "/skirts/work-and-business-skirts/",
+      "asset": "/assets/campaigns/skirts/work-and-business-skirts.webp",
+      "subject": "An adult East Asian woman in her forties with a sleek dark bob wearing a sharply tailored charcoal-grey pencil skirt with a defined waistband, realistic darts and seams and a clean professional hem just below the knees. A crisp ivory cotton button shirt is tucked in, simple dark low-heeled shoes and a small structured tan work bag held at her side. She stands confidently at a pale limestone office townhouse entrance in soft morning light, entire skirt visible and believable comfortable tailoring.",
+      "alt": "Campaign inspiration: a woman in a charcoal pencil skirt outside a limestone office entrance"
+    },
+    {
+      "route": "/skirts/wrap-skirts/",
+      "asset": "/assets/campaigns/skirts/wrap-skirts.webp",
+      "subject": "An adult South Asian woman with loose dark waves wearing a muted olive-green wrap midi skirt with clearly visible overlapping front panels, a modest asymmetric mid-calf hem and a neat fabric tie fastening at one side of the high waist. Opaque softly woven fabric, graceful folds and secure overlap. A plain ivory short-sleeve tee is tucked neatly in, simple tan sandals. She stands naturally beside a pale travertine garden wall, the complete wrap construction and full skirt silhouette visible.",
+      "alt": "Campaign inspiration: a woman wearing an olive wrap midi skirt beside a travertine garden wall"
+    },
+    {
+      "route": "/skirts/a-line-skirts/",
+      "asset": "/assets/campaigns/skirts/a-line-skirts.webp",
+      "subject": "An adult woman with medium brown skin and loose natural curls wearing a dusty-rose cotton A-line skirt with a smooth fitted waistband and clearly defined gentle triangular flare opening evenly toward a knee-length hem. Structured matte fabric with subtle natural folds, no pleats, no tiers. An ivory sleeveless fine-knit top is tucked neatly into the waist, tan ballet flats. She stands on a pale limestone courtyard terrace in soft warm daylight, complete clean A-line silhouette shown clearly.",
+      "alt": "Campaign inspiration: a woman in a dusty-rose A-line skirt on a limestone courtyard terrace"
+    }
+  ]
+}

@@ -483,5 +483,85 @@
     "src": "/assets/pants/corduroy-hero.webp",
     "alt": "Illustrative campaign styling: caramel corduroy trousers with an ivory knit",
     "position": "72% 42%"
+  },
+  "/skirts/casual-skirts/": {
+    "src": "/assets/campaigns/skirts/casual-skirts.webp",
+    "alt": "Campaign inspiration: a woman wearing a sage casual midi skirt on a limestone café terrace",
+    "position": "77% 42%"
+  },
+  "/skirts/corduroy-skirts/": {
+    "src": "/assets/campaigns/skirts/corduroy-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a chestnut corduroy skirt outside a pale plaster townhouse",
+    "position": "77% 42%"
+  },
+  "/skirts/denim-skirts/": {
+    "src": "/assets/campaigns/skirts/denim-skirts.webp",
+    "alt": "Campaign inspiration: a woman wearing a blue denim midi skirt in a limestone courtyard",
+    "position": "77% 42%"
+  },
+  "/skirts/gypsy-skirts/": {
+    "src": "/assets/campaigns/skirts/gypsy-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a flowing botanical tiered maxi skirt beside a pale garden wall",
+    "position": "77% 42%"
+  },
+  "/skirts/high-waisted-skirts/": {
+    "src": "/assets/campaigns/skirts/high-waisted-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a camel high-waisted skirt by a travertine townhouse doorway",
+    "position": "77% 42%"
+  },
+  "/skirts/knee-length-skirt/": {
+    "src": "/assets/campaigns/skirts/knee-length-skirt.webp",
+    "alt": "Campaign inspiration: a woman wearing a navy knee-length skirt on a limestone café terrace",
+    "position": "77% 42%"
+  },
+  "/skirts/leather-skirts/": {
+    "src": "/assets/campaigns/skirts/leather-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a black leather-look skirt beside a pale stone restaurant entrance",
+    "position": "77% 42%"
+  },
+  "/skirts/long-skirts/": {
+    "src": "/assets/campaigns/skirts/long-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a flowing burgundy long skirt beneath a limestone arcade",
+    "position": "77% 42%"
+  },
+  "/skirts/pleated-skirts/": {
+    "src": "/assets/campaigns/skirts/pleated-skirts.webp",
+    "alt": "Campaign inspiration: a woman wearing a eucalyptus-green pleated midi skirt on a travertine terrace",
+    "position": "77% 42%"
+  },
+  "/skirts/short-skirts/": {
+    "src": "/assets/campaigns/skirts/short-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a chocolate-brown short skirt beside a limestone café doorway",
+    "position": "77% 42%"
+  },
+  "/skirts/slit-skirts/": {
+    "src": "/assets/campaigns/skirts/slit-skirts.webp",
+    "alt": "Campaign inspiration: a woman wearing a slate-blue midi skirt with a front slit beside a limestone wall",
+    "position": "77% 42%"
+  },
+  "/skirts/suede-skirts/": {
+    "src": "/assets/campaigns/skirts/suede-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a camel suede-look skirt at a pale plaster courtyard entrance",
+    "position": "77% 42%"
+  },
+  "/skirts/summer-and-beach-skirts/": {
+    "src": "/assets/campaigns/skirts/summer-and-beach-skirts.webp",
+    "alt": "Campaign inspiration: a woman wearing an ivory and blue summer skirt on a limestone seaside terrace",
+    "position": "77% 42%"
+  },
+  "/skirts/work-and-business-skirts/": {
+    "src": "/assets/campaigns/skirts/work-and-business-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a charcoal pencil skirt outside a limestone office entrance",
+    "position": "77% 42%"
+  },
+  "/skirts/wrap-skirts/": {
+    "src": "/assets/campaigns/skirts/wrap-skirts.webp",
+    "alt": "Campaign inspiration: a woman wearing an olive wrap midi skirt beside a travertine garden wall",
+    "position": "77% 42%"
+  },
+  "/skirts/a-line-skirts/": {
+    "src": "/assets/campaigns/skirts/a-line-skirts.webp",
+    "alt": "Campaign inspiration: a woman in a dusty-rose A-line skirt on a limestone courtyard terrace",
+    "position": "77% 42%"
   }
 }
