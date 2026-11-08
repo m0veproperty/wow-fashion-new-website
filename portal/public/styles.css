@@ -56,7 +56,7 @@ dialog{border:0;border-radius:14px;padding:0;width:min(760px,calc(100vw - 36px))
 
 
 /* Full-width workspace and compact metadata columns. */
-.menu-toggle{display:inline-flex;flex-shrink:0}
+.topbar .menu-toggle{display:inline-flex;flex-shrink:0}
 .shell.sidebar-collapsed{grid-template-columns:minmax(0,1fr)}
 .shell.sidebar-collapsed .sidebar{display:none}
 .shell.sidebar-collapsed .workarea{grid-column:1}
