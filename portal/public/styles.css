@@ -53,3 +53,16 @@ dialog{border:0;border-radius:14px;padding:0;width:min(760px,calc(100vw - 36px))
 .table-scroll-track::-webkit-scrollbar-thumb{background:#8d7160;border-radius:8px;border:2px solid #e9dfd4}
 .sale-price{color:var(--green,#356048);font-weight:600}
 @media(max-width:720px){.table-wrap col.table-col-name{width:260px}.table-wrap col.table-col-description{width:310px}.table-scroll-dock{bottom:6px}}
+
+
+/* Full-width workspace and compact metadata columns. */
+.menu-toggle{display:inline-flex;flex-shrink:0}
+.shell.sidebar-collapsed{grid-template-columns:minmax(0,1fr)}
+.shell.sidebar-collapsed .sidebar{display:none}
+.shell.sidebar-collapsed .workarea{grid-column:1}
+.shell.sidebar-collapsed .content{max-width:none;width:100%}
+.table-wrap col.table-col-parent{width:140px}
+.table-wrap col.table-col-flag{width:94px}
+.table-wrap col.table-col-standard{width:170px}
+.table-wrap .table-parent{min-width:0}
+@media(max-width:720px){.shell.sidebar-collapsed .sidebar{display:flex}.topbar{gap:10px}}

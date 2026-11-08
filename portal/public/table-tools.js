@@ -18,9 +18,9 @@ function enhance(){document.querySelectorAll('table').forEach(table=>{
  if(!headings.length)return;
  const group=document.createElement('colgroup');
  headings.forEach((th,i)=>{const text=th.textContent.trim().toLowerCase();let kind=i===0?'name':'standard';
- if(/^(weight|page built|has the page been built|does the page feature an animated|animated header|indexing|dummy product|dummy review|sample rating|item rating|store rating|price|sale price|price range|uk searches|linked products|action|listing|preview)/.test(text))kind='compact';
+ if(/^(parent|page type|products$|publish date|weight|page built|has the page been built|does the page feature an animated|animated header|indexing|dummy product|dummy review|sample rating|item rating|store rating|price|sale price|price range|uk searches|linked products|action|listing|preview)/.test(text))kind='compact';
  if(/^(purpose|how to assess|interpretation|records sharing|review \/ customer)/.test(text))kind='description';
- if(!text)kind='action';const col=document.createElement('col');col.className='table-col-'+kind;group.append(col);th.classList.add('table-heading-'+kind);});
+ if(/^(parent|parent \/ system)$/.test(text))kind='parent';if(/^(page type|page built|animated header|products)$/.test(text))kind='flag';if(!text)kind='action';const col=document.createElement('col');col.className='table-col-'+kind;group.append(col);th.classList.add('table-heading-'+kind);});
  table.prepend(group);resize.observe(table);const wrapper=table.closest('.table-wrap');if(wrapper){resize.observe(wrapper);wrapper.tabIndex=0;wrapper.setAttribute('role','region');wrapper.setAttribute('aria-label',(document.querySelector('h1')?.textContent||'Workspace')+' table');}
  });schedule();}
 function init(){document.body.append(bar);enhance();new MutationObserver(enhance).observe(document.getElementById('app'),{childList:true,subtree:true});}
@@ -29,3 +29,4 @@ track.addEventListener('keydown',e=>{if(!active)return;const offsets={ArrowLeft:
 document.addEventListener('scroll',e=>{if(e.target===active&&Math.abs(track.scrollLeft-active.scrollLeft)>1)track.scrollLeft=active.scrollLeft;schedule();},true);
 window.addEventListener('resize',schedule);window.addEventListener('hashchange',schedule);
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
+
