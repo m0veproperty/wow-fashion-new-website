@@ -1,0 +1,186 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "28 new bespoke Pants and Leggings subcategory photographs with the shared atmosphere treatment. The existing parent and Corduroy Pants campaign images are retained. All 30 Pants and Leggings pages use bespoke campaign hero imagery. Existing product photography, Corduroy availability disclosure and all other page content outside the campaign note are unchanged.",
+  "artDirection": "Use case: photorealistic-natural. Asset type: one bespoke wide photographic hero for the WOW Fashion women's Pants and Leggings collection website, matching its premium warm editorial campaign. Create ONE finished photograph, horizontal 16:9 landscape, ideally 1672 by 941 pixels. Authentic natural fashion photography, lifelike skin, refined lens quality, realistic fabric texture, anatomically correct hands and believable garment construction. Show one adult woman on the RIGHT side, centred near 77 percent of the image width. Frame her complete figure, entire head with comfortable space above, and shoes with space beneath. Clearly show the entire waistband, leg shape and hem of the featured trousers or leggings; tops must be tucked or short enough that the rise remains visible. The LEFT 55 percent is quiet low-contrast warm pale limestone or plaster, unobstructed and ready for dark website headlines. Architecture, foliage and props stay mostly at the far right. Warm cream and pale stone surroundings, gentle flattering light, natural posture and realistic fabric movement. No text, letters, typography, logos, watermarks, UI, product labels, graphic gradients, smoke or artificial fog. The website adds its animated bottom blend later. Make this an original fashion campaign in a real setting, not an isolated catalogue cutout. Specific garment and scene: ",
+  "retainedCampaignHeroes": [
+    {
+      "route": "/pants/",
+      "asset": "/assets/pants/hero.webp"
+    },
+    {
+      "route": "/pants/corduroy-pants/",
+      "asset": "/assets/pants/corduroy-hero.webp"
+    }
+  ],
+  "assets": [
+    {
+      "route": "/pants/black-leggings/",
+      "asset": "/assets/campaigns/pants/black-leggings.webp",
+      "subject": "An adult Black woman with natural shoulder-length curls wearing plain opaque matte black ankle-length leggings with a smooth high waistband, a softly fitted ivory short-sleeve tee tucked neatly at the waist and white minimal trainers. Her stance is relaxed, one foot gently forward, both legs and the ankle hems clearly visible. She stands on a pale stone café terrace in diffuse morning light, understated everyday styling.",
+      "alt": "Campaign inspiration: a woman wearing black leggings and an ivory tee on a pale stone terrace"
+    },
+    {
+      "route": "/pants/bootcut-jeans/",
+      "asset": "/assets/campaigns/pants/bootcut-jeans.webp",
+      "subject": "An adult woman with olive skin and loose chestnut waves wearing dark indigo bootcut jeans, fitted comfortably through the hips and thighs with a subtle widening from the knee over low tan ankle boots. Distinct bootcut silhouette, not exaggerated bell-bottoms. A fine cream V-neck knit is tucked at the waistband, a slim brown belt and simple small earrings. She walks gently beside a pale limestone townhouse wall, both complete trouser legs and boot tips visible.",
+      "alt": "Campaign inspiration: a woman in dark indigo bootcut jeans beside a limestone townhouse"
+    },
+    {
+      "route": "/pants/boyfriend-jeans/",
+      "asset": "/assets/campaigns/pants/boyfriend-jeans.webp",
+      "subject": "An adult East Asian woman with a softly waved dark bob wearing relaxed light-wash boyfriend jeans, roomy through the hips and thighs with a gently tapered leg and casually rolled ankle cuffs. A clean ivory cotton shirt with sleeves rolled to the elbow is tucked at the front, with simple white trainers. She pauses beside a pale plaster café doorway with a natural easy posture, hands resting casually, full loose denim silhouette visible.",
+      "alt": "Campaign inspiration: a woman in relaxed cuffed boyfriend jeans outside a pale plaster café"
+    },
+    {
+      "route": "/pants/capri-leggings/",
+      "asset": "/assets/campaigns/pants/capri-leggings.webp",
+      "subject": "An adult South Asian woman with dark hair in a low ponytail wearing opaque deep navy capri leggings that end cleanly at mid-calf, clearly several inches above the ankles. A modest fitted cream short-sleeve top tucked into the waistband and white trainers. She stands naturally beside a warm pale stone garden wall in soft morning light, bare lower calves and the exact capri length clearly visible, tasteful everyday active styling.",
+      "alt": "Campaign inspiration: a woman in navy capri leggings beside a pale stone garden wall"
+    },
+    {
+      "route": "/pants/cargo-khaki-pants/",
+      "asset": "/assets/campaigns/pants/cargo-khaki-pants.webp",
+      "subject": "An adult woman with medium brown skin and loosely tied dark curls wearing olive-khaki straight-leg cargo trousers with authentic side thigh flap pockets, a defined mid-high waistband and ankle-length hems. A fine white cotton tee is tucked in and simple tan flat sandals complete the look. She takes an easy step through a pale limestone courtyard, utility details and natural cotton folds visible, practical refined everyday styling.",
+      "alt": "Campaign inspiration: a woman wearing olive cargo trousers in a limestone courtyard"
+    },
+    {
+      "route": "/pants/casual-pants/",
+      "asset": "/assets/campaigns/pants/casual-pants.webp",
+      "subject": "An adult white woman in her forties with shoulder-length honey-brown hair wearing soft stone-beige casual trousers with a gathered elastic waist, a small self-fabric drawstring and relaxed straight legs ending at the ankle. A muted sage short-sleeve knit is tucked lightly into the waistband, white low-profile trainers. She pauses beside a pale stone café entrance in soft afternoon light, comfortable fluid fabric and easy drape clearly visible.",
+      "alt": "Campaign inspiration: a woman in stone-beige drawstring trousers outside a stone café"
+    },
+    {
+      "route": "/pants/colored-patterned-leggings/",
+      "asset": "/assets/campaigns/pants/colored-patterned-leggings.webp",
+      "subject": "An adult Black woman with dark hair in a neat low bun wearing opaque ankle-length leggings with a tasteful small-scale botanical pattern in muted terracotta, sage and charcoal on a warm cream base. A plain fitted charcoal short-sleeve tee is tucked into the smooth waistband, cream trainers. The print follows realistic fabric contours without distortion. She stands casually beside a pale plaster courtyard wall, both complete patterned legs visible.",
+      "alt": "Campaign inspiration: a woman wearing botanical patterned leggings in a pale plaster courtyard"
+    },
+    {
+      "route": "/pants/cropped-jeans/",
+      "asset": "/assets/campaigns/pants/cropped-jeans.webp",
+      "subject": "An adult East Asian woman with a straight shoulder-length dark bob wearing medium-blue straight-leg cropped jeans with clean finished hems ending a few inches above the ankles, no turn-ups and no rips. An ivory short-sleeve linen shirt is tucked at the waist, simple tan ballet flats. She stands beside a warm pale limestone arcade in morning light, clear space between jean hems and shoes to emphasize the cropped length.",
+      "alt": "Campaign inspiration: a woman in cropped blue jeans beneath a limestone arcade"
+    },
+    {
+      "route": "/pants/cropped-pants/",
+      "asset": "/assets/campaigns/pants/cropped-pants.webp",
+      "subject": "An adult South Asian woman with loose shoulder-length dark waves wearing soft slate-blue tailored cropped trousers with a high waist, subtle front pleats and a gently tapered leg ending just above the ankles. A cream sleeveless fine-knit top is tucked in, simple dark low-heeled loafers. She stands naturally at a pale travertine townhouse entrance, refined urban styling, cropped hems and entire waistband clearly shown.",
+      "alt": "Campaign inspiration: a woman in slate-blue cropped trousers by a travertine townhouse"
+    },
+    {
+      "route": "/pants/denim-shorts/",
+      "asset": "/assets/campaigns/pants/denim-shorts.webp",
+      "subject": "An adult woman with olive skin and loose dark waves wearing mid-blue denim shorts with a comfortable high waist, a straight relaxed leg ending at mid-thigh and clean subtly frayed hems. An ivory cotton button shirt with elbow-length rolled sleeves is tucked in, tan leather-look flat sandals. She stands on a sunny pale limestone terrace, natural believable denim texture, tasteful relaxed summer fashion and both shorts hems fully visible.",
+      "alt": "Campaign inspiration: a woman wearing blue denim shorts on a sunny limestone terrace"
+    },
+    {
+      "route": "/pants/flared-pants/",
+      "asset": "/assets/campaigns/pants/flared-pants.webp",
+      "subject": "An adult Black woman with loose natural curls wearing rich chocolate-brown tailored flared trousers, close but comfortable through the upper leg and sweeping visibly wider from the knee toward the floor. A simple ivory long-sleeve fine knit is neatly tucked into the high waist, low brown heeled shoes visible beneath the hem. She stands beside a pale limestone wall in warm afternoon light, the full elegant flare clearly readable in both legs.",
+      "alt": "Campaign inspiration: a woman in chocolate-brown flared trousers beside a limestone wall"
+    },
+    {
+      "route": "/pants/fleece-lined-thermal-leggings/",
+      "asset": "/assets/campaigns/pants/fleece-lined-thermal-leggings.webp",
+      "subject": "An adult East Asian woman with dark hair softly tied back wearing substantial opaque charcoal ankle-length winter leggings with a smooth wide waistband and softly brushed matte texture. A cream wool-look roll-neck sweater is lightly tucked at the front so the waistband remains visible, with dark brown flat ankle boots. A folded camel scarf rests over one forearm. She stands beside a pale stone doorway in cool diffuse winter daylight, cozy believable everyday styling, no snow or exaggerated effects.",
+      "alt": "Campaign inspiration: a woman in charcoal winter leggings and a cream knit outside a stone doorway"
+    },
+    {
+      "route": "/pants/harem-pants/",
+      "asset": "/assets/campaigns/pants/harem-pants.webp",
+      "subject": "An adult woman with warm brown skin and dark hair in a loose bun wearing muted cinnamon-brown harem trousers with a comfortable gathered waist, a distinctly lowered dropped-crotch drape, roomy curved legs and softly gathered tapered ankle cuffs. Plain matte woven fabric with elegant realistic folds, a modest ivory sleeveless top tucked at the waist and simple tan flat sandals. Contemporary everyday styling, no costume or ethnic props, beside a pale plaster garden wall.",
+      "alt": "Campaign inspiration: a woman in cinnamon harem trousers beside a pale plaster garden wall"
+    },
+    {
+      "route": "/pants/high-waisted-jeans/",
+      "asset": "/assets/campaigns/pants/high-waisted-jeans.webp",
+      "subject": "An adult white woman with softly waved auburn hair wearing authentic mid-blue high-waisted jeans with the waistband clearly at the natural waist above the navel, a neat button fly and relaxed straight full-length legs. A fitted ivory short-sleeve cotton tee is fully tucked in to reveal the high rise, a narrow tan belt and low tan loafers. She pauses in a pale limestone courtyard, natural front three-quarter stance showing the waistband and full denim silhouette.",
+      "alt": "Campaign inspiration: a woman in high-waisted blue jeans in a limestone courtyard"
+    },
+    {
+      "route": "/pants/high-waisted-leggings/",
+      "asset": "/assets/campaigns/pants/high-waisted-leggings.webp",
+      "subject": "An adult South Asian woman with dark hair in a low ponytail wearing opaque deep forest-green ankle-length leggings with an unmistakably broad high-rise waistband reaching the natural waist. A modest fitted ivory short-sleeve top is tucked cleanly into the waistband, off-white minimal trainers. She stands confidently yet naturally beside a pale travertine garden terrace, both legs and the high waist clear, tasteful non-athletic everyday styling.",
+      "alt": "Campaign inspiration: a woman wearing high-waisted forest-green leggings on a travertine terrace"
+    },
+    {
+      "route": "/pants/high-waisted-pants/",
+      "asset": "/assets/campaigns/pants/high-waisted-pants.webp",
+      "subject": "An adult Black woman in her thirties with a neat dark bob wearing camel high-waisted tailored trousers with a defined natural-waist waistband, fine front pleats, a narrow self-fabric belt and elegant straight wide legs. An ivory sleeveless blouse is tucked neatly into the waist, dark brown low heels. She stands outside a pale limestone townhouse, polished effortless styling with the high waist, pleats and entire leg length visible.",
+      "alt": "Campaign inspiration: a woman in camel high-waisted trousers outside a limestone townhouse"
+    },
+    {
+      "route": "/pants/leather-pants/",
+      "asset": "/assets/campaigns/pants/leather-pants.webp",
+      "subject": "An adult woman with olive skin and dark shoulder-length waves wearing black faux-leather straight-leg trousers with a clean high waistband, realistic seam construction and a subtle softly reflective leather-look finish rather than latex shine. A fine oatmeal crewneck knit is tucked in at the front, simple black loafers. She pauses beside a pale stone restaurant entrance, quietly polished evening styling in diffuse warm light, complete trousers visible.",
+      "alt": "Campaign inspiration: a woman in black leather-look trousers beside a pale stone restaurant entrance"
+    },
+    {
+      "route": "/pants/linen-pants/",
+      "asset": "/assets/campaigns/pants/linen-pants.webp",
+      "subject": "An adult East Asian woman with a softly waved dark bob wearing natural oatmeal linen trousers with a relaxed high waist and flowing straight wide legs, authentic softly rumpled linen weave and visible airy texture. A white sleeveless cotton top is tucked at the waist, flat woven tan sandals. She walks lightly across a pale limestone courtyard in soft summer light, entire waistband, textured legs and sandals clearly visible.",
+      "alt": "Campaign inspiration: a woman wearing oatmeal linen trousers in a sunlit limestone courtyard"
+    },
+    {
+      "route": "/pants/ripped-jeans/",
+      "asset": "/assets/campaigns/pants/ripped-jeans.webp",
+      "subject": "An adult Black woman with loosely tied natural curls wearing authentic mid-blue relaxed straight jeans with a few tasteful worn frayed openings at the knees and subtle abrasion at the upper thigh, realistic denim edges, not excessive destruction. An ivory short-sleeve tee is tucked into the waistband, white minimal trainers. She stands casually against a pale plaster wall by a small café, the complete jean legs and distressed details clearly visible.",
+      "alt": "Campaign inspiration: a woman in distressed blue jeans beside a pale plaster café wall"
+    },
+    {
+      "route": "/pants/short-pants/",
+      "asset": "/assets/campaigns/pants/short-pants.webp",
+      "subject": "An adult white woman in her forties with a softly waved chestnut bob wearing warm sand tailored Bermuda short trousers ending just above the knee, with gentle front pleats, a defined high waist and relaxed straight legs. A fine ivory short-sleeve knit is tucked at the waistband, tan flat loafers. She stands on a pale travertine terrace in soft afternoon light, refined practical summer styling, the knee-length silhouette clearly visible.",
+      "alt": "Campaign inspiration: a woman wearing sand Bermuda shorts on a travertine terrace"
+    },
+    {
+      "route": "/pants/skinny-jeans/",
+      "asset": "/assets/campaigns/pants/skinny-jeans.webp",
+      "subject": "An adult South Asian woman with loose long dark hair wearing dark indigo skinny jeans with a comfortable close fit from the hips to the ankles, authentic denim grain and fine contrast stitching. A pale blue cotton shirt is tucked into the waist with sleeves rolled to the elbow, simple tan ballet flats. She pauses beside a limestone townhouse doorway, both slender jean legs and hems fully visible in a natural relaxed stance.",
+      "alt": "Campaign inspiration: a woman in dark indigo skinny jeans by a limestone townhouse doorway"
+    },
+    {
+      "route": "/pants/skinny-pants/",
+      "asset": "/assets/campaigns/pants/skinny-pants.webp",
+      "subject": "An adult Black woman with a neat natural curly bob wearing deep burgundy slim skinny trousers in matte stretch-woven fabric, close fitted through the leg and ending neatly at the ankle, no denim texture or patch pockets. An ivory long-sleeve blouse is tucked into the clean high waistband, dark low-heeled loafers. She stands beside a pale plaster courtyard entrance, full tailored silhouette clearly visible, calm smart casual styling.",
+      "alt": "Campaign inspiration: a woman wearing burgundy skinny trousers at a pale courtyard entrance"
+    },
+    {
+      "route": "/pants/velvet-leggings/",
+      "asset": "/assets/campaigns/pants/velvet-leggings.webp",
+      "subject": "An adult woman with olive skin and chestnut hair in a soft low bun wearing opaque deep plum ankle-length velvet leggings with a rich fine pile and subtle directional sheen that clearly reads as velvet. A modest ivory short-sleeve silky blouse is tucked into the smooth high waist, simple black low-heeled shoes. She stands beside a pale travertine restaurant entrance at early evening; warm lamps only at far right and the left wall stays pale. Both complete velvet legs clearly shown.",
+      "alt": "Campaign inspiration: a woman in deep plum velvet leggings outside a softly lit restaurant"
+    },
+    {
+      "route": "/pants/wide-leg-pants/",
+      "asset": "/assets/campaigns/pants/wide-leg-pants.webp",
+      "subject": "An adult South Asian woman with long softly waved dark hair wearing fluid navy wide-leg trousers with a high pleated waist and generous straight legs falling gracefully to the tops of tan shoes. An ivory short-sleeve fine-knit top is tucked into the waist. She takes a gentle step beneath a pale limestone arcade so the broad trouser drape and complete hems are clearly visible, refined natural movement and warm afternoon light.",
+      "alt": "Campaign inspiration: a woman in flowing navy wide-leg trousers beneath a limestone arcade"
+    },
+    {
+      "route": "/pants/work-pants/",
+      "asset": "/assets/campaigns/pants/work-pants.webp",
+      "subject": "An adult Black woman in her forties with a sleek shoulder-length bob wearing charcoal-grey tailored work trousers with a high waistband, fine pressed front creases and straight ankle-length legs. A crisp white cotton shirt is neatly tucked in, simple dark loafers and a small structured tan work bag held at her side without obscuring the trousers. She stands at a pale limestone office townhouse entrance in morning light, confident professional posture and believable tailoring.",
+      "alt": "Campaign inspiration: a woman in charcoal tailored work trousers outside a limestone office entrance"
+    },
+    {
+      "route": "/pants/jeans/",
+      "asset": "/assets/campaigns/pants/jeans.webp",
+      "subject": "An adult East Asian woman with loose dark shoulder-length waves wearing classic medium-blue straight-leg jeans with a comfortable mid-high rise, authentic five-pocket construction and clean full-length hems. A simple ivory cotton shirt is tucked at the waist, a narrow brown belt and tan loafers. She stands naturally beside a pale stone café terrace in soft afternoon light, timeless everyday denim with the whole fit and hem visible.",
+      "alt": "Campaign inspiration: a woman wearing classic straight-leg blue jeans on a stone café terrace"
+    },
+    {
+      "route": "/pants/joggers/",
+      "asset": "/assets/campaigns/pants/joggers.webp",
+      "subject": "An adult woman with medium brown skin and dark curls in a loose ponytail wearing warm grey cotton jersey joggers with a softly gathered drawstring waistband, relaxed tapered legs and ribbed elastic ankle cuffs. A cream short-sleeve cotton tee is tucked lightly into the waist, clean white trainers. She takes an easy step beside a pale plaster garden wall, realistic soft jersey folds, refined comfortable everyday styling and both cuffs visible.",
+      "alt": "Campaign inspiration: a woman in warm grey joggers beside a pale plaster garden wall"
+    },
+    {
+      "route": "/pants/shorts/",
+      "asset": "/assets/campaigns/pants/shorts.webp",
+      "subject": "An adult white woman with warm freckles and loosely tied auburn hair wearing muted sage-green linen-blend summer shorts with a clean high waist and relaxed softly pleated legs ending at mid-thigh. An ivory short-sleeve cotton blouse is tucked neatly in, simple flat tan sandals. She stands beside a warm pale limestone garden terrace with a little olive foliage far right, airy natural fabric, relaxed summer styling and the entire shorts silhouette clearly visible.",
+      "alt": "Campaign inspiration: a woman wearing sage-green summer shorts on a limestone garden terrace"
+    }
+  ]
+}

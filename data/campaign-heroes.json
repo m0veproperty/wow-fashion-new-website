@@ -338,5 +338,150 @@
     "src": "/assets/campaigns/dresses/work-dresses.webp",
     "alt": "Campaign inspiration: a woman in a tailored navy work dress outside a limestone townhouse",
     "position": "74% 42%"
+  },
+  "/pants/black-leggings/": {
+    "src": "/assets/campaigns/pants/black-leggings.webp",
+    "alt": "Campaign inspiration: a woman wearing black leggings and an ivory tee on a pale stone terrace",
+    "position": "77% 42%"
+  },
+  "/pants/bootcut-jeans/": {
+    "src": "/assets/campaigns/pants/bootcut-jeans.webp",
+    "alt": "Campaign inspiration: a woman in dark indigo bootcut jeans beside a limestone townhouse",
+    "position": "77% 42%"
+  },
+  "/pants/boyfriend-jeans/": {
+    "src": "/assets/campaigns/pants/boyfriend-jeans.webp",
+    "alt": "Campaign inspiration: a woman in relaxed cuffed boyfriend jeans outside a pale plaster café",
+    "position": "77% 42%"
+  },
+  "/pants/capri-leggings/": {
+    "src": "/assets/campaigns/pants/capri-leggings.webp",
+    "alt": "Campaign inspiration: a woman in navy capri leggings beside a pale stone garden wall",
+    "position": "77% 42%"
+  },
+  "/pants/cargo-khaki-pants/": {
+    "src": "/assets/campaigns/pants/cargo-khaki-pants.webp",
+    "alt": "Campaign inspiration: a woman wearing olive cargo trousers in a limestone courtyard",
+    "position": "77% 42%"
+  },
+  "/pants/casual-pants/": {
+    "src": "/assets/campaigns/pants/casual-pants.webp",
+    "alt": "Campaign inspiration: a woman in stone-beige drawstring trousers outside a stone café",
+    "position": "77% 42%"
+  },
+  "/pants/colored-patterned-leggings/": {
+    "src": "/assets/campaigns/pants/colored-patterned-leggings.webp",
+    "alt": "Campaign inspiration: a woman wearing botanical patterned leggings in a pale plaster courtyard",
+    "position": "77% 42%"
+  },
+  "/pants/cropped-jeans/": {
+    "src": "/assets/campaigns/pants/cropped-jeans.webp",
+    "alt": "Campaign inspiration: a woman in cropped blue jeans beneath a limestone arcade",
+    "position": "77% 42%"
+  },
+  "/pants/cropped-pants/": {
+    "src": "/assets/campaigns/pants/cropped-pants.webp",
+    "alt": "Campaign inspiration: a woman in slate-blue cropped trousers by a travertine townhouse",
+    "position": "77% 42%"
+  },
+  "/pants/denim-shorts/": {
+    "src": "/assets/campaigns/pants/denim-shorts.webp",
+    "alt": "Campaign inspiration: a woman wearing blue denim shorts on a sunny limestone terrace",
+    "position": "77% 42%"
+  },
+  "/pants/flared-pants/": {
+    "src": "/assets/campaigns/pants/flared-pants.webp",
+    "alt": "Campaign inspiration: a woman in chocolate-brown flared trousers beside a limestone wall",
+    "position": "77% 42%"
+  },
+  "/pants/fleece-lined-thermal-leggings/": {
+    "src": "/assets/campaigns/pants/fleece-lined-thermal-leggings.webp",
+    "alt": "Campaign inspiration: a woman in charcoal winter leggings and a cream knit outside a stone doorway",
+    "position": "77% 42%"
+  },
+  "/pants/harem-pants/": {
+    "src": "/assets/campaigns/pants/harem-pants.webp",
+    "alt": "Campaign inspiration: a woman in cinnamon harem trousers beside a pale plaster garden wall",
+    "position": "77% 42%"
+  },
+  "/pants/high-waisted-jeans/": {
+    "src": "/assets/campaigns/pants/high-waisted-jeans.webp",
+    "alt": "Campaign inspiration: a woman in high-waisted blue jeans in a limestone courtyard",
+    "position": "77% 42%"
+  },
+  "/pants/high-waisted-leggings/": {
+    "src": "/assets/campaigns/pants/high-waisted-leggings.webp",
+    "alt": "Campaign inspiration: a woman wearing high-waisted forest-green leggings on a travertine terrace",
+    "position": "77% 42%"
+  },
+  "/pants/high-waisted-pants/": {
+    "src": "/assets/campaigns/pants/high-waisted-pants.webp",
+    "alt": "Campaign inspiration: a woman in camel high-waisted trousers outside a limestone townhouse",
+    "position": "77% 42%"
+  },
+  "/pants/leather-pants/": {
+    "src": "/assets/campaigns/pants/leather-pants.webp",
+    "alt": "Campaign inspiration: a woman in black leather-look trousers beside a pale stone restaurant entrance",
+    "position": "77% 42%"
+  },
+  "/pants/linen-pants/": {
+    "src": "/assets/campaigns/pants/linen-pants.webp",
+    "alt": "Campaign inspiration: a woman wearing oatmeal linen trousers in a sunlit limestone courtyard",
+    "position": "77% 42%"
+  },
+  "/pants/ripped-jeans/": {
+    "src": "/assets/campaigns/pants/ripped-jeans.webp",
+    "alt": "Campaign inspiration: a woman in distressed blue jeans beside a pale plaster café wall",
+    "position": "77% 42%"
+  },
+  "/pants/short-pants/": {
+    "src": "/assets/campaigns/pants/short-pants.webp",
+    "alt": "Campaign inspiration: a woman wearing sand Bermuda shorts on a travertine terrace",
+    "position": "77% 42%"
+  },
+  "/pants/skinny-jeans/": {
+    "src": "/assets/campaigns/pants/skinny-jeans.webp",
+    "alt": "Campaign inspiration: a woman in dark indigo skinny jeans by a limestone townhouse doorway",
+    "position": "77% 42%"
+  },
+  "/pants/skinny-pants/": {
+    "src": "/assets/campaigns/pants/skinny-pants.webp",
+    "alt": "Campaign inspiration: a woman wearing burgundy skinny trousers at a pale courtyard entrance",
+    "position": "77% 42%"
+  },
+  "/pants/velvet-leggings/": {
+    "src": "/assets/campaigns/pants/velvet-leggings.webp",
+    "alt": "Campaign inspiration: a woman in deep plum velvet leggings outside a softly lit restaurant",
+    "position": "77% 42%"
+  },
+  "/pants/wide-leg-pants/": {
+    "src": "/assets/campaigns/pants/wide-leg-pants.webp",
+    "alt": "Campaign inspiration: a woman in flowing navy wide-leg trousers beneath a limestone arcade",
+    "position": "77% 42%"
+  },
+  "/pants/work-pants/": {
+    "src": "/assets/campaigns/pants/work-pants.webp",
+    "alt": "Campaign inspiration: a woman in charcoal tailored work trousers outside a limestone office entrance",
+    "position": "77% 42%"
+  },
+  "/pants/jeans/": {
+    "src": "/assets/campaigns/pants/jeans.webp",
+    "alt": "Campaign inspiration: a woman wearing classic straight-leg blue jeans on a stone café terrace",
+    "position": "77% 42%"
+  },
+  "/pants/joggers/": {
+    "src": "/assets/campaigns/pants/joggers.webp",
+    "alt": "Campaign inspiration: a woman in warm grey joggers beside a pale plaster garden wall",
+    "position": "77% 42%"
+  },
+  "/pants/shorts/": {
+    "src": "/assets/campaigns/pants/shorts.webp",
+    "alt": "Campaign inspiration: a woman wearing sage-green summer shorts on a limestone garden terrace",
+    "position": "77% 42%"
+  },
+  "/pants/corduroy-pants/": {
+    "src": "/assets/pants/corduroy-hero.webp",
+    "alt": "Illustrative campaign styling: caramel corduroy trousers with an ivory knit",
+    "position": "72% 42%"
   }
 }
