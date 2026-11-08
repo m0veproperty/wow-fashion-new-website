@@ -1,0 +1,2040 @@
+{
+  "audit": {
+    "source": "portal/public/data/taxonomy.json and portal/public/data/build-status.json",
+    "auditedAt": "2026-11-07",
+    "shoppingRecords": 248,
+    "mappedRecords": 248,
+    "mappedToBuiltCollections": 236,
+    "mappedToBrowseFilters": 12,
+    "builtCollectionDestinations": 129,
+    "additionalBrowseFilters": 12,
+    "primaryDepartments": 7,
+    "additionalMapRoots": 3,
+    "sourceProductRecords": 527,
+    "nonRetiredProductRecords": 501,
+    "uniqueProducts": 499,
+    "duplicateRecords": 2,
+    "retiredRecordsExcluded": 26,
+    "blogTermsExcludedFromShopping": 2,
+    "emptyFilters": [
+      {
+        "name": "Denim Blouses",
+        "path": "/blouses/denim-blouses/"
+      },
+      {
+        "name": "Corduroy Pants",
+        "path": "/pants/corduroy-pants/"
+      },
+      {
+        "name": "Pajama Sets",
+        "path": "/shop/?collection=shop-2767"
+      },
+      {
+        "name": "Sporty",
+        "path": "/shop/?collection=shop-2758"
+      },
+      {
+        "name": "Plus size outfits",
+        "path": "/shop/?collection=shop-2760"
+      }
+    ],
+    "notes": [
+      "Every editorial and shop record in the website map resolves to a built collection or an explicit Shop All filter.",
+      "Equivalent editorial and shop terms share their existing collection route.",
+      "Repeated product URLs are combined across departments; alternate record IDs remain available as aliases.",
+      "Collection membership follows explicit editorial IDs or the existing product category tags. Related alternatives on empty category pages are not treated as matches.",
+      "The catalogue is the existing seven-department product snapshot. Product availability, current prices, arrival dates, sales rankings and promotions require a verified commerce feed.",
+      "Plus-size child filters require an explicit Plus size source category as well as the matching department; shared category names alone are not enough."
+    ]
+  },
+  "idAliases": {
+    "pants-27": "blouses-23",
+    "sweaters-18": "cardigans-34"
+  },
+  "mappings": [
+    {
+      "sourceId": "editorial-46521",
+      "sourceName": "Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/",
+      "path": "/blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46528",
+      "sourceName": "Chiffon Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/chiffon-blouses/",
+      "path": "/blouses/chiffon-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46527",
+      "sourceName": "Cotton Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/cotton-blouses/",
+      "path": "/blouses/cotton-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46526",
+      "sourceName": "Denim Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/denim-blouses/",
+      "path": "/blouses/denim-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46532",
+      "sourceName": "Dressy Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/dressy-blouses/",
+      "path": "/blouses/dressy-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46529",
+      "sourceName": "Lace Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/lace-blouses/",
+      "path": "/blouses/lace-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46541",
+      "sourceName": "Long Sleeved Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/long-sleeved-blouses/",
+      "path": "/blouses/long-sleeved-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46540",
+      "sourceName": "Peasant Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/peasant-blouses/",
+      "path": "/blouses/peasant-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46547",
+      "sourceName": "Pussy Bow Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/pussy-bow-blouse/",
+      "path": "/blouses/pussy-bow-blouse/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46542",
+      "sourceName": "Ruffled Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/ruffled-blouses/",
+      "path": "/blouses/ruffled-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46512",
+      "sourceName": "Satin Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/satin-blouses/",
+      "path": "/blouses/satin-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46546",
+      "sourceName": "Short Sleeved Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/short-sleeved-blouses/",
+      "path": "/blouses/short-sleeved-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46511",
+      "sourceName": "Silk Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/silk-blouses/",
+      "path": "/blouses/silk-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46530",
+      "sourceName": "Summer Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/summer-blouses/",
+      "path": "/blouses/summer-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46531",
+      "sourceName": "Work and Formal Blouses",
+      "system": "editorial",
+      "sourcePath": "/blouses/work-and-formal-blouses/",
+      "path": "/blouses/work-and-formal-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46491",
+      "sourceName": "Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/",
+      "path": "/cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46508",
+      "sourceName": "Animal Print Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/animal-print-cardigans/",
+      "path": "/cardigans/animal-print-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46509",
+      "sourceName": "Cardigan Vests",
+      "system": "editorial",
+      "sourcePath": "/cardigans/cardigan-vests/",
+      "path": "/cardigans/cardigan-vests/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46496",
+      "sourceName": "Cashmere Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/cashmere-cardigans/",
+      "path": "/cardigans/cashmere-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46749",
+      "sourceName": "Cropped and Dressy Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/cropped-dressy-cardigans/",
+      "path": "/cardigans/cropped-dressy-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46510",
+      "sourceName": "Kimono Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/kimono-cardigans/",
+      "path": "/cardigans/kimono-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46495",
+      "sourceName": "Lace Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/lace-cardigans/",
+      "path": "/cardigans/lace-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46497",
+      "sourceName": "Lightweight Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/lightweight-cardigans/",
+      "path": "/cardigans/lightweight-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46499",
+      "sourceName": "Long Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/long-cardigans/",
+      "path": "/cardigans/long-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46500",
+      "sourceName": "Short Sleeved Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/short-sleeved-cardigans/",
+      "path": "/cardigans/short-sleeved-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46472",
+      "sourceName": "Silk Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/silk-cardigans/",
+      "path": "/cardigans/silk-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46498",
+      "sourceName": "Summer and Spring Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/summer-spring-cardigans/",
+      "path": "/cardigans/summer-spring-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46494",
+      "sourceName": "Wool Cardigans",
+      "system": "editorial",
+      "sourcePath": "/cardigans/wool-cardigans/",
+      "path": "/cardigans/wool-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46552",
+      "sourceName": "Coats and Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/",
+      "path": "/coats-and-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46573",
+      "sourceName": "Bomber Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/bomber-jackets/",
+      "path": "/coats-and-jackets/bomber-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46785",
+      "sourceName": "Casual Coats",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/casual-coats/",
+      "path": "/coats-and-jackets/casual-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46564",
+      "sourceName": "Faux Fur Coats",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/faux-fur-coats/",
+      "path": "/coats-and-jackets/faux-fur-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46557",
+      "sourceName": "Fleece Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/fleece-jackets/",
+      "path": "/coats-and-jackets/fleece-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46549",
+      "sourceName": "Jean and Denim Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/jean-and-denim-jackets/",
+      "path": "/coats-and-jackets/jean-and-denim-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46548",
+      "sourceName": "Leather Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/leather-jackets/",
+      "path": "/coats-and-jackets/leather-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46567",
+      "sourceName": "Light Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/light-jackets/",
+      "path": "/coats-and-jackets/light-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46556",
+      "sourceName": "Linen Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/linen-jackets/",
+      "path": "/coats-and-jackets/linen-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46565",
+      "sourceName": "Long Parka Coat",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/long-parka-coat/",
+      "path": "/coats-and-jackets/long-parka-coat/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46574",
+      "sourceName": "Military and Cargo Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/military-and-cargo-jackets/",
+      "path": "/coats-and-jackets/military-and-cargo-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46558",
+      "sourceName": "Quilted Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/quilted-jackets/",
+      "path": "/coats-and-jackets/quilted-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46575",
+      "sourceName": "Rain Jackets",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/rain-jackets/",
+      "path": "/coats-and-jackets/rain-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46559",
+      "sourceName": "Trench Coats",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/trench-coats/",
+      "path": "/coats-and-jackets/trench-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46566",
+      "sourceName": "Winter Coats",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/winter-coats/",
+      "path": "/coats-and-jackets/winter-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46786",
+      "sourceName": "Work and Pea Coats",
+      "system": "editorial",
+      "sourcePath": "/coats-and-jackets/work-and-pea-coats/",
+      "path": "/coats-and-jackets/work-and-pea-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-3071",
+      "sourceName": "Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/",
+      "path": "/dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46392",
+      "sourceName": "Boho Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/boho-dresses/",
+      "path": "/dresses/boho-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46391",
+      "sourceName": "Casual Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/casual-dresses/",
+      "path": "/dresses/casual-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46394",
+      "sourceName": "Club Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/club-dresses/",
+      "path": "/dresses/club-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46389",
+      "sourceName": "Cocktail & Evening Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/cocktail-and-evening-dresses/",
+      "path": "/dresses/cocktail-and-evening-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-10986",
+      "sourceName": "Long Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/long-dresses/",
+      "path": "/dresses/long-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46507",
+      "sourceName": "Short Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/short-dresses/",
+      "path": "/dresses/short-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46393",
+      "sourceName": "Spring Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/spring-dresses/",
+      "path": "/dresses/spring-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46417",
+      "sourceName": "Summer Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/summer-dresses/",
+      "path": "/dresses/summer-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46415",
+      "sourceName": "Tea Length Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/tea-length-dresses/",
+      "path": "/dresses/tea-length-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46395",
+      "sourceName": "Two Piece Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/two-piece-dresses/",
+      "path": "/dresses/two-piece-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46409",
+      "sourceName": "Winter Dresses",
+      "system": "editorial",
+      "sourcePath": "/dresses/winter-dresses/",
+      "path": "/dresses/winter-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46581",
+      "sourceName": "Pants and Leggings",
+      "system": "editorial",
+      "sourcePath": "/pants/",
+      "path": "/pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46635",
+      "sourceName": "Black Leggings",
+      "system": "editorial",
+      "sourcePath": "/pants/black-leggings/",
+      "path": "/pants/black-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46626",
+      "sourceName": "Bootcut Jeans",
+      "system": "editorial",
+      "sourcePath": "/pants/bootcut-jeans/",
+      "path": "/pants/bootcut-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46609",
+      "sourceName": "Boyfriend Jeans",
+      "system": "editorial",
+      "sourcePath": "/pants/boyfriend-jeans/",
+      "path": "/pants/boyfriend-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46637",
+      "sourceName": "Capri Leggings",
+      "system": "editorial",
+      "sourcePath": "/pants/capri-leggings/",
+      "path": "/pants/capri-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46594",
+      "sourceName": "Cargo / Khaki Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/cargo-khaki-pants/",
+      "path": "/pants/cargo-khaki-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46605",
+      "sourceName": "Casual Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/casual-pants/",
+      "path": "/pants/casual-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46636",
+      "sourceName": "Colored / Patterned Leggings",
+      "system": "editorial",
+      "sourcePath": "/pants/colored-patterned-leggings/",
+      "path": "/pants/colored-patterned-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46606",
+      "sourceName": "Corduroy Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/corduroy-pants/",
+      "path": "/pants/corduroy-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46611",
+      "sourceName": "Cropped Jeans",
+      "system": "editorial",
+      "sourcePath": "/pants/cropped-jeans/",
+      "path": "/pants/cropped-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46586",
+      "sourceName": "Cropped Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/cropped-pants/",
+      "path": "/pants/cropped-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46625",
+      "sourceName": "Denim Shorts",
+      "system": "editorial",
+      "sourcePath": "/pants/denim-shorts/",
+      "path": "/pants/denim-shorts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46585",
+      "sourceName": "Flared Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/flared-pants/",
+      "path": "/pants/flared-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46628",
+      "sourceName": "Fleece Lined / Thermal Leggings",
+      "system": "editorial",
+      "sourcePath": "/pants/fleece-lined-thermal-leggings/",
+      "path": "/pants/fleece-lined-thermal-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46595",
+      "sourceName": "Harem Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/harem-pants/",
+      "path": "/pants/harem-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46624",
+      "sourceName": "High Waisted Jeans",
+      "system": "editorial",
+      "sourcePath": "/pants/high-waisted-jeans/",
+      "path": "/pants/high-waisted-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46638",
+      "sourceName": "High Waisted Leggings",
+      "system": "editorial",
+      "sourcePath": "/pants/high-waisted-leggings/",
+      "path": "/pants/high-waisted-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46584",
+      "sourceName": "High Waisted Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/high-waisted-pants/",
+      "path": "/pants/high-waisted-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46593",
+      "sourceName": "Leather Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/leather-pants/",
+      "path": "/pants/leather-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46591",
+      "sourceName": "Linen Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/linen-pants/",
+      "path": "/pants/linen-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46610",
+      "sourceName": "Ripped Jeans",
+      "system": "editorial",
+      "sourcePath": "/pants/ripped-jeans/",
+      "path": "/pants/ripped-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46627",
+      "sourceName": "Short Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/short-pants/",
+      "path": "/pants/short-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46608",
+      "sourceName": "Skinny Jeans",
+      "system": "editorial",
+      "sourcePath": "/pants/skinny-jeans/",
+      "path": "/pants/skinny-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46592",
+      "sourceName": "Skinny Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/skinny-pants/",
+      "path": "/pants/skinny-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46639",
+      "sourceName": "Velvet Leggings",
+      "system": "editorial",
+      "sourcePath": "/pants/velvet-leggings/",
+      "path": "/pants/velvet-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46576",
+      "sourceName": "Wide Leg Trousers",
+      "system": "editorial",
+      "sourcePath": "/pants/wide-leg-pants/",
+      "path": "/pants/wide-leg-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46607",
+      "sourceName": "Work Pants",
+      "system": "editorial",
+      "sourcePath": "/pants/work-pants/",
+      "path": "/pants/work-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46430",
+      "sourceName": "Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/",
+      "path": "/skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46426",
+      "sourceName": "Casual Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/casual-skirts/",
+      "path": "/skirts/casual-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46427",
+      "sourceName": "Corduroy Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/corduroy-skirts/",
+      "path": "/skirts/corduroy-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46423",
+      "sourceName": "Denim Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/denim-skirts/",
+      "path": "/skirts/denim-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46439",
+      "sourceName": "Gypsy Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/gypsy-skirts/",
+      "path": "/skirts/gypsy-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46446",
+      "sourceName": "High Waisted Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/high-waisted-skirts/",
+      "path": "/skirts/high-waisted-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46454",
+      "sourceName": "Knee Length Skirt",
+      "system": "editorial",
+      "sourcePath": "/skirts/knee-length-skirt/",
+      "path": "/skirts/knee-length-skirt/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46425",
+      "sourceName": "Leather Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/leather-skirts/",
+      "path": "/skirts/leather-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46453",
+      "sourceName": "Long Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/long-skirts/",
+      "path": "/skirts/long-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46448",
+      "sourceName": "Pleated Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/pleated-skirts/",
+      "path": "/skirts/pleated-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46455",
+      "sourceName": "Short Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/short-skirts/",
+      "path": "/skirts/short-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46441",
+      "sourceName": "Slit Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/slit-skirts/",
+      "path": "/skirts/slit-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46438",
+      "sourceName": "Suede Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/suede-skirts/",
+      "path": "/skirts/suede-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46447",
+      "sourceName": "Summer and Beach Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/summer-and-beach-skirts/",
+      "path": "/skirts/summer-and-beach-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46440",
+      "sourceName": "Work and Business Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/work-and-business-skirts/",
+      "path": "/skirts/work-and-business-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46452",
+      "sourceName": "Wrap Skirts",
+      "system": "editorial",
+      "sourcePath": "/skirts/wrap-skirts/",
+      "path": "/skirts/wrap-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46461",
+      "sourceName": "Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/",
+      "path": "/sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46469",
+      "sourceName": "Cardigan Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/cardigan-sweaters/",
+      "path": "/sweaters/cardigan-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46456",
+      "sourceName": "Cashmere Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/cashmere-sweaters/",
+      "path": "/sweaters/cashmere-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46467",
+      "sourceName": "Cotton Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/cotton-sweaters/",
+      "path": "/sweaters/cotton-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46479",
+      "sourceName": "Cropped Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/cropped-sweaters/",
+      "path": "/sweaters/cropped-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46482",
+      "sourceName": "Long Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/long-sweaters/",
+      "path": "/sweaters/long-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46484",
+      "sourceName": "Off the Shoulder Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/off-the-shoulder-sweaters/",
+      "path": "/sweaters/off-the-shoulder-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46468",
+      "sourceName": "Oversized and Baggy sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/oversized-and-baggy-sweaters/",
+      "path": "/sweaters/oversized-and-baggy-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46480",
+      "sourceName": "Spring Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/spring-sweaters/",
+      "path": "/sweaters/spring-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46483",
+      "sourceName": "Summer Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/summer-sweaters/",
+      "path": "/sweaters/summer-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46470",
+      "sourceName": "Tunic Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/tunic-sweaters/",
+      "path": "/sweaters/tunic-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46471",
+      "sourceName": "Turtle Neck Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/turtle-neck-sweaters/",
+      "path": "/sweaters/turtle-neck-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46481",
+      "sourceName": "Winter Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/winter-sweaters/",
+      "path": "/sweaters/winter-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "editorial-46466",
+      "sourceName": "Wool and Knitted Sweaters",
+      "system": "editorial",
+      "sourcePath": "/sweaters/wool-and-knitted-sweaters/",
+      "path": "/sweaters/wool-and-knitted-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-514",
+      "sourceName": "Blouses",
+      "system": "shop",
+      "sourcePath": "/blouses/",
+      "path": "/blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-677",
+      "sourceName": "Chiffon Blouses",
+      "system": "shop",
+      "sourcePath": "/chiffon-blouses/",
+      "path": "/blouses/chiffon-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-676",
+      "sourceName": "Cotton Blouses",
+      "system": "shop",
+      "sourcePath": "/cotton-blouses/",
+      "path": "/blouses/cotton-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3074",
+      "sourceName": "Dressy Blouses",
+      "system": "shop",
+      "sourcePath": "/dressy-blouses/",
+      "path": "/blouses/dressy-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-678",
+      "sourceName": "Lace Blouses",
+      "system": "shop",
+      "sourcePath": "/lace-blouses/",
+      "path": "/blouses/lace-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-683",
+      "sourceName": "Long Sleeved Blouses",
+      "system": "shop",
+      "sourcePath": "/long-sleeved-blouses/",
+      "path": "/blouses/long-sleeved-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3080",
+      "sourceName": "Pussy Bow Blouses",
+      "system": "shop",
+      "sourcePath": "/pussy-bow-blouses-blouses/",
+      "path": "/blouses/pussy-bow-blouse/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-684",
+      "sourceName": "Ruffled Blouses",
+      "system": "shop",
+      "sourcePath": "/ruffled-blouses/",
+      "path": "/blouses/ruffled-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-674",
+      "sourceName": "Satin Blouses",
+      "system": "shop",
+      "sourcePath": "/satin-blouses/",
+      "path": "/blouses/satin-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-685",
+      "sourceName": "Short Sleeved Blouses",
+      "system": "shop",
+      "sourcePath": "/short-sleeved-blouses/",
+      "path": "/blouses/short-sleeved-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-673",
+      "sourceName": "Silk Blouses",
+      "system": "shop",
+      "sourcePath": "/silk-blouses/",
+      "path": "/blouses/silk-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-681",
+      "sourceName": "Summer Blouses",
+      "system": "shop",
+      "sourcePath": "/summer-blouses/",
+      "path": "/blouses/summer-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-679",
+      "sourceName": "Work & Formal Blouses",
+      "system": "shop",
+      "sourcePath": "/work-formal-blouses/",
+      "path": "/blouses/work-and-formal-blouses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-518",
+      "sourceName": "Cardigans",
+      "system": "shop",
+      "sourcePath": "/cardigans/",
+      "path": "/cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-653",
+      "sourceName": "Animal Print Cardigans",
+      "system": "shop",
+      "sourcePath": "/animal-print-cardigans/",
+      "path": "/cardigans/animal-print-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3075",
+      "sourceName": "Cardigan Vests",
+      "system": "shop",
+      "sourcePath": "/cardigan-vests-cardigans/",
+      "path": "/cardigans/cardigan-vests/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-648",
+      "sourceName": "Cashmere Cardigans",
+      "system": "shop",
+      "sourcePath": "/cashmere-cardigans/",
+      "path": "/cardigans/cashmere-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-663",
+      "sourceName": "Cropped & Dressy Cardigans",
+      "system": "shop",
+      "sourcePath": "/cropped-dressy-cardigans/",
+      "path": "/cardigans/cropped-dressy-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2698",
+      "sourceName": "Hooded cardigans",
+      "system": "shop",
+      "sourcePath": "/hooded-cardigans/",
+      "path": "/cardigans/hooded-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-662",
+      "sourceName": "Kimono Cardigans",
+      "system": "shop",
+      "sourcePath": "/kimono-cardigans/",
+      "path": "/cardigans/kimono-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-647",
+      "sourceName": "Lace Cardigans",
+      "system": "shop",
+      "sourcePath": "/lace-cardigans/",
+      "path": "/cardigans/lace-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-649",
+      "sourceName": "Lightweight Cardigans",
+      "system": "shop",
+      "sourcePath": "/lightweight-cardigans/",
+      "path": "/cardigans/lightweight-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-651",
+      "sourceName": "Long Cardigans",
+      "system": "shop",
+      "sourcePath": "/long-cardigans/",
+      "path": "/cardigans/long-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-652",
+      "sourceName": "Short Sleeved Cardigans",
+      "system": "shop",
+      "sourcePath": "/short-sleeved-cardigans/",
+      "path": "/cardigans/short-sleeved-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-645",
+      "sourceName": "Silk Cardigans",
+      "system": "shop",
+      "sourcePath": "/silk-cardigans/",
+      "path": "/cardigans/silk-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-650",
+      "sourceName": "Summer & Spring Cardigans",
+      "system": "shop",
+      "sourcePath": "/summer-spring-cardigans/",
+      "path": "/cardigans/summer-spring-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-656",
+      "sourceName": "Warm Cardigans",
+      "system": "shop",
+      "sourcePath": "/warm-cardigans/",
+      "path": "/cardigans/warm-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-646",
+      "sourceName": "Wool Cardigans",
+      "system": "shop",
+      "sourcePath": "/wool-cardigans/",
+      "path": "/cardigans/wool-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-657",
+      "sourceName": "Zipped Cardigans",
+      "system": "shop",
+      "sourcePath": "/zipped-cardigans/",
+      "path": "/cardigans/zipped-cardigans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-515",
+      "sourceName": "Coats & Jackets",
+      "system": "shop",
+      "sourcePath": "/coats-jackets/",
+      "path": "/coats-and-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3092",
+      "sourceName": "Bomber Jackets",
+      "system": "shop",
+      "sourcePath": "/bomber-jackets/",
+      "path": "/coats-and-jackets/bomber-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-700",
+      "sourceName": "Casual Coats",
+      "system": "shop",
+      "sourcePath": "/casual-coats/",
+      "path": "/coats-and-jackets/casual-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-701",
+      "sourceName": "Down Coats",
+      "system": "shop",
+      "sourcePath": "/down-coats/",
+      "path": "/coats-and-jackets/down-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-712",
+      "sourceName": "Fall Jackets",
+      "system": "shop",
+      "sourcePath": "/fall-jackets/",
+      "path": "/coats-and-jackets/fall-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-703",
+      "sourceName": "Faux Fur Coats",
+      "system": "shop",
+      "sourcePath": "/faux-fur-coats/",
+      "path": "/coats-and-jackets/faux-fur-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-697",
+      "sourceName": "Fleece Jackets",
+      "system": "shop",
+      "sourcePath": "/fleece-jackets/",
+      "path": "/coats-and-jackets/fleece-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-694",
+      "sourceName": "Jean & Denim Jackets",
+      "system": "shop",
+      "sourcePath": "/jean-denim-jackets/",
+      "path": "/coats-and-jackets/jean-and-denim-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-693",
+      "sourceName": "Leather Jackets",
+      "system": "shop",
+      "sourcePath": "/leather-jackets/",
+      "path": "/coats-and-jackets/leather-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-709",
+      "sourceName": "Light Jackets",
+      "system": "shop",
+      "sourcePath": "/light-jackets/",
+      "path": "/coats-and-jackets/light-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-695",
+      "sourceName": "Linen Jackets",
+      "system": "shop",
+      "sourcePath": "/linen-jackets/",
+      "path": "/coats-and-jackets/linen-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3093",
+      "sourceName": "Long Parka Coats",
+      "system": "shop",
+      "sourcePath": "/long-parka-coats-coats-jackets/",
+      "path": "/coats-and-jackets/long-parka-coat/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3073",
+      "sourceName": "Military & Cargo Jackets",
+      "system": "shop",
+      "sourcePath": "/military-cargo-jackets-coats-jackets/",
+      "path": "/coats-and-jackets/military-and-cargo-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-698",
+      "sourceName": "Quilted Jackets",
+      "system": "shop",
+      "sourcePath": "/quilted-jackets/",
+      "path": "/coats-and-jackets/quilted-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-711",
+      "sourceName": "Rain Jackets",
+      "system": "shop",
+      "sourcePath": "/rain-jackets/",
+      "path": "/coats-and-jackets/rain-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-707",
+      "sourceName": "Spring Jackets",
+      "system": "shop",
+      "sourcePath": "/spring-jackets/",
+      "path": "/coats-and-jackets/spring-jackets/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-702",
+      "sourceName": "Trench Coats",
+      "system": "shop",
+      "sourcePath": "/trench-coats/",
+      "path": "/coats-and-jackets/trench-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-705",
+      "sourceName": "Winter Coats",
+      "system": "shop",
+      "sourcePath": "/winter-coats/",
+      "path": "/coats-and-jackets/winter-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-706",
+      "sourceName": "Work & Pea Coats",
+      "system": "shop",
+      "sourcePath": "/work-pea-coats/",
+      "path": "/coats-and-jackets/work-and-pea-coats/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-511",
+      "sourceName": "Dresses",
+      "system": "shop",
+      "sourcePath": "/all-dresses/",
+      "path": "/dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-532",
+      "sourceName": "Boho Dresses",
+      "system": "shop",
+      "sourcePath": "/boho-dresses/",
+      "path": "/dresses/boho-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-524",
+      "sourceName": "Casual Dresses",
+      "system": "shop",
+      "sourcePath": "/casual-dresses/",
+      "path": "/dresses/casual-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-559",
+      "sourceName": "Club Dresses",
+      "system": "shop",
+      "sourcePath": "/club-dresses/",
+      "path": "/dresses/club-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-569",
+      "sourceName": "Cocktail & Evening Dresses",
+      "system": "shop",
+      "sourcePath": "/cocktail-evening-dresses/",
+      "path": "/dresses/cocktail-and-evening-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3070",
+      "sourceName": "Floral Dresses",
+      "system": "shop",
+      "sourcePath": "/floral-dresses/",
+      "path": "/dresses/floral-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-571",
+      "sourceName": "Long Dresses",
+      "system": "shop",
+      "sourcePath": "/long-dresses/",
+      "path": "/dresses/long-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2683",
+      "sourceName": "Maxi Dresses",
+      "system": "shop",
+      "sourcePath": "/maxi-dresses/",
+      "path": "/dresses/maxi-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3081",
+      "sourceName": "Sequin Dresses",
+      "system": "shop",
+      "sourcePath": "/sequin-dresses/",
+      "path": "/dresses/sequin-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2325",
+      "sourceName": "Short Dresses",
+      "system": "shop",
+      "sourcePath": "/short-dresses/",
+      "path": "/dresses/short-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-572",
+      "sourceName": "Spring Dresses",
+      "system": "shop",
+      "sourcePath": "/spring-dresses/",
+      "path": "/dresses/spring-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-519",
+      "sourceName": "Summer Dresses",
+      "system": "shop",
+      "sourcePath": "/summer-dresses/",
+      "path": "/dresses/summer-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-575",
+      "sourceName": "Tea-Length Dresses",
+      "system": "shop",
+      "sourcePath": "/tea-length-dresses/",
+      "path": "/dresses/tea-length-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-529",
+      "sourceName": "Two Piece Dresses",
+      "system": "shop",
+      "sourcePath": "/two-piece-dresses/",
+      "path": "/dresses/two-piece-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3099",
+      "sourceName": "Wedding Guest Dresses",
+      "system": "shop",
+      "sourcePath": "/wedding-guest-dresses/",
+      "path": "/dresses/wedding-guest-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-576",
+      "sourceName": "Winter Dresses",
+      "system": "shop",
+      "sourcePath": "/winter-dresses/",
+      "path": "/dresses/winter-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2749",
+      "sourceName": "Work Dresses",
+      "system": "shop",
+      "sourcePath": "/work-dresses/",
+      "path": "/dresses/work-dresses/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-716",
+      "sourceName": "Pants and Leggings",
+      "system": "shop",
+      "sourcePath": "/trousers-and-leggings/",
+      "path": "/pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2967",
+      "sourceName": "Black Leggings",
+      "system": "shop",
+      "sourcePath": "/black-leggings/",
+      "path": "/pants/black-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3072",
+      "sourceName": "Black Leggings",
+      "system": "shop",
+      "sourcePath": "/black-leggings-trousers-and-leggings/",
+      "path": "/pants/black-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3095",
+      "sourceName": "Bootcut Jeans",
+      "system": "shop",
+      "sourcePath": "/bootcut-jeans-trousers-and-leggings/",
+      "path": "/pants/bootcut-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-738",
+      "sourceName": "Capri Leggings",
+      "system": "shop",
+      "sourcePath": "/capri-leggings/",
+      "path": "/pants/capri-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-730",
+      "sourceName": "Cargo / Khaki Trousers",
+      "system": "shop",
+      "sourcePath": "/cargo-khaki-trousers/",
+      "path": "/pants/cargo-khaki-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2330",
+      "sourceName": "Casual Pants",
+      "system": "shop",
+      "sourcePath": "/casual-pants/",
+      "path": "/pants/casual-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-741",
+      "sourceName": "Colored & Patterned Leggings",
+      "system": "shop",
+      "sourcePath": "/coloured-patterned-leggings/",
+      "path": "/pants/colored-patterned-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-722",
+      "sourceName": "Cropped Trousers",
+      "system": "shop",
+      "sourcePath": "/cropped-trousers/",
+      "path": "/pants/cropped-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-721",
+      "sourceName": "Flared Trousers",
+      "system": "shop",
+      "sourcePath": "/flared-trousers/",
+      "path": "/pants/flared-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-735",
+      "sourceName": "Fleece Lined / Thermal Leggings",
+      "system": "shop",
+      "sourcePath": "/fleece-lined-thermal-leggings/",
+      "path": "/pants/fleece-lined-thermal-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-731",
+      "sourceName": "Harem Trousers",
+      "system": "shop",
+      "sourcePath": "/harem-trousers/",
+      "path": "/pants/harem-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2345",
+      "sourceName": "High Waisted Jeans",
+      "system": "shop",
+      "sourcePath": "/high-waisted-jeans/",
+      "path": "/pants/high-waisted-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-739",
+      "sourceName": "High Waisted Leggings",
+      "system": "shop",
+      "sourcePath": "/high-waisted-leggings/",
+      "path": "/pants/high-waisted-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-719",
+      "sourceName": "High Waisted Trousers",
+      "system": "shop",
+      "sourcePath": "/high-waisted-trousers/",
+      "path": "/pants/high-waisted-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2732",
+      "sourceName": "Jeans",
+      "system": "shop",
+      "sourcePath": "/jeans/",
+      "path": "/pants/jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2733",
+      "sourceName": "Joggers",
+      "system": "shop",
+      "sourcePath": "/joggers/",
+      "path": "/pants/joggers/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-727",
+      "sourceName": "Leather Trousers",
+      "system": "shop",
+      "sourcePath": "/leather-trousers/",
+      "path": "/pants/leather-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-723",
+      "sourceName": "Linen Trousers",
+      "system": "shop",
+      "sourcePath": "/linen-trousers/",
+      "path": "/pants/linen-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2723",
+      "sourceName": "ripped jeans",
+      "system": "shop",
+      "sourcePath": "/ripped-jeans/",
+      "path": "/pants/ripped-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2331",
+      "sourceName": "Shorts",
+      "system": "shop",
+      "sourcePath": "/shorts/",
+      "path": "/pants/shorts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2340",
+      "sourceName": "Skinny Jeans",
+      "system": "shop",
+      "sourcePath": "/skinny-jeans/",
+      "path": "/pants/skinny-jeans/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3098",
+      "sourceName": "Skinny Trousers",
+      "system": "shop",
+      "sourcePath": "/skinny-trousers-trousers-and-leggings/",
+      "path": "/pants/skinny-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-743",
+      "sourceName": "Velvet Leggings",
+      "system": "shop",
+      "sourcePath": "/velvet-leggings/",
+      "path": "/pants/velvet-leggings/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-718",
+      "sourceName": "Wide Leg Trousers",
+      "system": "shop",
+      "sourcePath": "/wide-leg-trousers/",
+      "path": "/pants/wide-leg-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2965",
+      "sourceName": "Work Trousers",
+      "system": "shop",
+      "sourcePath": "/work-trousers/",
+      "path": "/pants/work-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2332",
+      "sourceName": "Denim Shorts",
+      "system": "shop",
+      "sourcePath": "/denim-shorts/",
+      "path": "/pants/denim-shorts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2333",
+      "sourceName": "Short Pants",
+      "system": "shop",
+      "sourcePath": "/short_pants/",
+      "path": "/pants/short-pants/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-512",
+      "sourceName": "Skirts",
+      "system": "shop",
+      "sourcePath": "/skirts/",
+      "path": "/skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3071",
+      "sourceName": "A-Line Skirts",
+      "system": "shop",
+      "sourcePath": "/a-line-skirts/",
+      "path": "/skirts/a-line-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-602",
+      "sourceName": "Casual Skirts",
+      "system": "shop",
+      "sourcePath": "/casual-skirts/",
+      "path": "/skirts/casual-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-586",
+      "sourceName": "Corduroy Skirts",
+      "system": "shop",
+      "sourcePath": "/corduroy-skirts/",
+      "path": "/skirts/corduroy-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-516",
+      "sourceName": "Denim Skirts",
+      "system": "shop",
+      "sourcePath": "/denim-skirts/",
+      "path": "/skirts/denim-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-594",
+      "sourceName": "Gypsy Skirts",
+      "system": "shop",
+      "sourcePath": "/gypsy-skirts/",
+      "path": "/skirts/gypsy-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-604",
+      "sourceName": "High Waisted Skirts",
+      "system": "shop",
+      "sourcePath": "/high-waisted-skirts/",
+      "path": "/skirts/high-waisted-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-583",
+      "sourceName": "Leather Skirts",
+      "system": "shop",
+      "sourcePath": "/leather-skirts/",
+      "path": "/skirts/leather-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-614",
+      "sourceName": "Long Skirts",
+      "system": "shop",
+      "sourcePath": "/long-skirts/",
+      "path": "/skirts/long-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-605",
+      "sourceName": "Pleated Skirts",
+      "system": "shop",
+      "sourcePath": "/pleated-skirts/",
+      "path": "/skirts/pleated-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-612",
+      "sourceName": "Short Skirts",
+      "system": "shop",
+      "sourcePath": "/short-skirts/",
+      "path": "/skirts/short-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-598",
+      "sourceName": "Slit Skirts",
+      "system": "shop",
+      "sourcePath": "/slit-skirts/",
+      "path": "/skirts/slit-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-589",
+      "sourceName": "Suede Skirts",
+      "system": "shop",
+      "sourcePath": "/suede-skirts/",
+      "path": "/skirts/suede-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-599",
+      "sourceName": "Summer & Beach Skirts",
+      "system": "shop",
+      "sourcePath": "/summer-beach-skirts/",
+      "path": "/skirts/summer-and-beach-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-595",
+      "sourceName": "Work & Business Skirts",
+      "system": "shop",
+      "sourcePath": "/work-business-skirts/",
+      "path": "/skirts/work-and-business-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-606",
+      "sourceName": "Wrap Skirts",
+      "system": "shop",
+      "sourcePath": "/wrap-skirts/",
+      "path": "/skirts/wrap-skirts/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-513",
+      "sourceName": "Sweaters",
+      "system": "shop",
+      "sourcePath": "/sweaters/",
+      "path": "/sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-626",
+      "sourceName": "Cardigan Sweaters",
+      "system": "shop",
+      "sourcePath": "/cardigan-sweaters/",
+      "path": "/sweaters/cardigan-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-621",
+      "sourceName": "Cashmere Sweaters",
+      "system": "shop",
+      "sourcePath": "/cashmere-sweaters/",
+      "path": "/sweaters/cashmere-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-623",
+      "sourceName": "Cotton Sweaters",
+      "system": "shop",
+      "sourcePath": "/cotton-sweaters/",
+      "path": "/sweaters/cotton-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-631",
+      "sourceName": "Cropped Sweaters",
+      "system": "shop",
+      "sourcePath": "/cropped-sweaters/",
+      "path": "/sweaters/cropped-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3094",
+      "sourceName": "Fall Sweaters",
+      "system": "shop",
+      "sourcePath": "/fall-sweaters/",
+      "path": "/sweaters/fall-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-634",
+      "sourceName": "Long Sweaters",
+      "system": "shop",
+      "sourcePath": "/long-sweaters/",
+      "path": "/sweaters/long-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-637",
+      "sourceName": "Off The Shoulder Sweaters",
+      "system": "shop",
+      "sourcePath": "/off-the-shoulder-sweaters/",
+      "path": "/sweaters/off-the-shoulder-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-625",
+      "sourceName": "Oversized & Baggy Sweaters",
+      "system": "shop",
+      "sourcePath": "/oversized-baggy-sweaters/",
+      "path": "/sweaters/oversized-and-baggy-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-632",
+      "sourceName": "Spring Sweaters",
+      "system": "shop",
+      "sourcePath": "/spring-sweaters/",
+      "path": "/sweaters/spring-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-635",
+      "sourceName": "Summer Sweaters",
+      "system": "shop",
+      "sourcePath": "/summer-sweaters/",
+      "path": "/sweaters/summer-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-3097",
+      "sourceName": "Tunic Sweaters",
+      "system": "shop",
+      "sourcePath": "/tunic-sweaters-sweaters/",
+      "path": "/sweaters/tunic-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-629",
+      "sourceName": "Turtleneck Sweaters",
+      "system": "shop",
+      "sourcePath": "/turtleneck-sweaters/",
+      "path": "/sweaters/turtle-neck-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-620",
+      "sourceName": "Wool & Knitted Sweaters",
+      "system": "shop",
+      "sourcePath": "/wool-knitted-sweaters/",
+      "path": "/sweaters/wool-and-knitted-sweaters/",
+      "kind": "collection"
+    },
+    {
+      "sourceId": "shop-2748",
+      "sourceName": "Casual Blouses",
+      "system": "shop",
+      "sourcePath": "/casual-blouses/",
+      "path": "/shop/?collection=shop-2748",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2747",
+      "sourceName": "T-shirt",
+      "system": "shop",
+      "sourcePath": "/t-shirt/",
+      "path": "/shop/?collection=shop-2747",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-15",
+      "sourceName": "Fashion",
+      "system": "shop",
+      "sourcePath": "/fashion/",
+      "path": "/shop/?collection=shop-15",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2755",
+      "sourceName": "Outfits & Sets",
+      "system": "shop",
+      "sourcePath": "/outfits-sets/",
+      "path": "/shop/?collection=shop-2755",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2759",
+      "sourceName": "Casual",
+      "system": "shop",
+      "sourcePath": "/casual/",
+      "path": "/shop/?collection=shop-2759",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2757",
+      "sourceName": "Going out",
+      "system": "shop",
+      "sourcePath": "/going-out/",
+      "path": "/shop/?collection=shop-2757",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2767",
+      "sourceName": "Pajama Sets",
+      "system": "shop",
+      "sourcePath": "/pajama-sets/",
+      "path": "/shop/?collection=shop-2767",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2758",
+      "sourceName": "Sporty",
+      "system": "shop",
+      "sourcePath": "/sporty/",
+      "path": "/shop/?collection=shop-2758",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2746",
+      "sourceName": "Plus size",
+      "system": "shop",
+      "sourcePath": "/plus-size/",
+      "path": "/shop/?collection=shop-2746",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2763",
+      "sourceName": "Blouses",
+      "system": "shop",
+      "sourcePath": "/blouses-plus-size/",
+      "path": "/shop/?collection=shop-2763",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2761",
+      "sourceName": "Dresses",
+      "system": "shop",
+      "sourcePath": "/dresses/",
+      "path": "/shop/?collection=shop-2761",
+      "kind": "mapped-filter"
+    },
+    {
+      "sourceId": "shop-2760",
+      "sourceName": "Outfits",
+      "system": "shop",
+      "sourcePath": "/outfits/",
+      "path": "/shop/?collection=shop-2760",
+      "kind": "mapped-filter"
+    }
+  ]
+}

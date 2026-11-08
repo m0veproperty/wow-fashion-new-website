@@ -253,3 +253,6 @@ em{font-weight:400}
 }
 @media(max-width:370px){:root{--gutter:18px}.site-header{padding-inline:18px}.header-actions{gap:11px}.home-hero{min-height:720px}.hero-copy{padding-top:310px}.hero-copy h1{font-size:51px}.collection-track{grid-auto-columns:calc((100% - 36px)/2.1)}.edit-filters{gap:20px}.edit-foot p{max-width:180px}.everyday-copy h2{font-size:46px}.night-copy h2{font-size:40px}.dialog-heading h2{font-size:28px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.motion-ready .reveal{opacity:1;transform:none}.hero-photo{transform:none!important}}
+
+/* The homepage shares the site-wide shopping and help navigation. */
+.home-page .core-footer{margin-top:0}

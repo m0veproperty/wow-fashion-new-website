@@ -1,1 +1,37 @@
-{"$schema":"https://openapi.vercel.sh/vercel.json","framework":null,"buildCommand":"npm run build","outputDirectory":"dist","trailingSlash":true,"headers":[{"source":"/(.*)","headers":[{"key":"X-Robots-Tag","value":"noindex, nofollow"},{"key":"X-Content-Type-Options","value":"nosniff"}]}]}
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "api/system-page.js": {
+      "includeFiles": "dist/{404,service-unavailable}/index.html"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/404/",
+      "destination": "/api/system-page?code=404"
+    },
+    {
+      "source": "/service-unavailable/",
+      "destination": "/api/system-page?code=503"
+    }
+  ]
+}

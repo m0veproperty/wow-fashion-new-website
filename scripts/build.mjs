@@ -1,6 +1,7 @@
 import {readFile,writeFile,mkdir,cp} from 'node:fs/promises';
 import {createCollectionRenderer} from './collection-template.mjs';
 import {renderHomepage} from './homepage-template.mjs';
+import {buildCorePages} from './build-core.mjs';
 const json=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
 await mkdir('dist',{recursive:true});await cp('public','dist',{recursive:true});
 const blouseParent=await json('data/blouse-parent.json');
@@ -31,3 +32,4 @@ console.log('Built the WOW Fashion homepage.');
 
 
 await import('./build-products.mjs');
+await buildCorePages({departments,campaignHeroes});

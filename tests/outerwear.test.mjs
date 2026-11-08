@@ -7,7 +7,8 @@ test('all 19 outerwear routes render real category products, static headers and 
   assert.ok(html.includes('<title>'+c.name.replaceAll('&','&amp;')+' |'));
   assert.ok(html.includes('class="product-card"'));assert.ok(html.includes('Filter preview'));
   assert.ok(!/<video|undefined|__trashed|Discover the coats-and-jackets|buy the coats-and-jackets/.test(html));
-  assert.ok(html.includes('href="https://wowfashion.com/coats-jackets/"'));
+  assert.ok(html.includes('href="/shop/"'),'The department links to the complete built catalogue');
+  assert.ok(products.some(product=>html.includes('href="'+product.url+'"')),'Real product listings remain available');
   for(const m of html.matchAll(/(?:src|href)="(\/[^"#?]*)"/g))await access('dist'+m[1]+(m[1].endsWith('/')?'index.html':''));
   if(c.slug){const ps=products.filter(p=>p.categories.includes(c.match));assert.ok(ps.length>0,c.slug);assert.ok(ps.some(p=>p.id===c.hero),c.slug+' hero belongs to category');}
  }

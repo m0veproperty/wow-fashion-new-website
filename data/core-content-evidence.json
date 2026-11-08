@@ -1,0 +1,145 @@
+{
+  "reviewedAt": "2026-11-08",
+  "scope": "Content, editorial, help and policy pages for the WOW Fashion website preview",
+  "interpretation": "Existing public material is evidence of what the previous website published, not approval of future business terms. New operational claims require current business confirmation.",
+  "sourceReview": [
+    {
+      "url": "https://wowfashion.com/contact-us/",
+      "retrieval": "Search-service cached primary page; direct request returned HTTP 403",
+      "finding": "The retrieved contact page exposed an unresolved form shortcode. No usable support email, postal address or response commitment was verified.",
+      "implementation": "Contact prepares a local text draft, provides copy/edit actions and links to the existing contact page as a handoff. It does not submit an enquiry or invent a contact address."
+    },
+    {
+      "url": "https://wowfashion.com/returns-warranty-policy/",
+      "retrieval": "Search-service cached primary page; direct request returned HTTP 403",
+      "finding": "Historical return, warranty and refund wording exists but the operating model and current supplier commitments for the rebuilt shop are unconfirmed.",
+      "implementation": "Historical deadlines, free-return claims, return addresses and warranty promises were not carried into the rebuilt pages. The pages explain how to prepare a request and clearly identify policy review requirements."
+    },
+    {
+      "url": "https://wowfashion.com/shipping-delivery/",
+      "retrieval": "Search-service cached primary page; direct request returned HTTP 403",
+      "finding": "Historical delivery fees and estimates are published. Their applicability to the rebuilt shop has not been established.",
+      "implementation": "No delivery fee, minimum spend, destination commitment or arrival-time promise was invented or migrated. The page guides visitors to check destination, dispatch and delivery details before a real purchase."
+    },
+    {
+      "url": "https://wowfashion.com/size-guide/",
+      "retrieval": "Search-service cached primary page; direct and open requests returned HTTP 403",
+      "finding": "The original guide describes size differences between suppliers and advises checking the chart for the specific product.",
+      "implementation": "The size guide provides measuring notes and a real centimetre/inch converter, while making clear that the item-specific chart determines size. No universal body-to-size chart is asserted."
+    },
+    {
+      "url": "https://wowfashion.com/privacy-policy/",
+      "retrieval": "Search-service cached primary page; direct request returned HTTP 403",
+      "finding": "The retrieved historical policy includes an unresolved payment-method placeholder and an obfuscated contact address. It cannot establish the new operator, providers or processing practices.",
+      "implementation": "The privacy page describes the implemented preview only, documents actual local/session storage, and identifies the legal identity, contact, processor, retention and deployment review still required."
+    },
+    {
+      "url": "https://wowfashion.com/who-we-are/",
+      "retrieval": "Search-service cached primary page; direct request returned HTTP 403",
+      "finding": "Historical team and experience statements were found but were not established as current business facts for this build.",
+      "implementation": "About uses collection positioning without a founder story, team count, trading history, qualifications or testing claims. The author page transparently identifies a house editorial byline."
+    },
+    {
+      "url": "https://wowfashion.com/",
+      "retrieval": "Search-service cached primary website",
+      "finding": "Primary destination for existing catalogue listings and the current shop.",
+      "implementation": "Existing-shop links are general handoffs. The rebuilt preview does not claim to access existing accounts, orders or payments."
+    }
+  ],
+  "localEvidence": [
+    {
+      "path": "portal/public/core-pages.js",
+      "purpose": "Authoritative requested core-page inventory, routes, purposes and pre-launch requirements."
+    },
+    {
+      "path": "portal/docs/editorial-and-sourcing-standards.md",
+      "purpose": "Proposed standards for separating styling preferences from product facts, avoiding unsupported testing and sourcing claims, and confirming commercial disclosures. These are not treated as already approved business policies."
+    },
+    {
+      "path": "data/homepage-campaign-provenance.json",
+      "purpose": "Generated campaign source descriptions and image purpose. Campaign imagery is identified as illustrative styling rather than product evidence."
+    },
+    {
+      "path": "data/dresses-campaign-provenance.json",
+      "purpose": "Existing evening campaign route, asset and description reused by the original day-to-evening journal guide."
+    },
+    {
+      "path": "public/core-commerce.js",
+      "purpose": "Reviewed sample session-storage keys and data structures. No personal, address, password or card data is persisted by these demo records."
+    },
+    {
+      "path": "public/core.js",
+      "purpose": "Shared wishlist key and event contract. Clearing saved pieces dispatches wow:request-saved with detail.clear=true."
+    },
+    {
+      "path": "public/core-content.js",
+      "purpose": "Actual client behaviour: no external API requests; local enquiry preparation, in-memory measuring notes, exact preference/storage controls and no installed optional tracker."
+    },
+    {
+      "path": "public/wishlist-bridge.js",
+      "purpose": "Migration bridge for the two preserved dress-page wishlists; legacy keys can remain before migration or after storage/catalogue failure."
+    }
+  ],
+  "browserRecords": [
+    {
+      "key": "wow-homepage-saved-v1",
+      "storage": "localStorage",
+      "data": "Product identifiers for the wishlist",
+      "control": "Clear saved pieces; dispatches wow:request-saved with detail.clear=true for memory fallback consistency"
+    },
+    {
+      "key": "wow-cookie-preferences-v1",
+      "storage": "localStorage",
+      "data": "version=1, necessary=true, optional=false and savedAt ISO date",
+      "control": "Explicit save essential-only preference and reset saved preference; unavailable services cannot be enabled"
+    },
+    {
+      "key": "wow-commerce-preview-v1",
+      "storage": "sessionStorage",
+      "data": "version, sample items with colour/size/quantity and orderPreview boolean",
+      "control": "Clear sample shopping data; dispatches wow:bag-changed"
+    },
+    {
+      "key": "wow-return-preview-v1",
+      "storage": "sessionStorage",
+      "data": "version, fixed sample reason/resolution/quantity and optional fixed exchange size",
+      "control": "Clear sample shopping data; dispatches wow:bag-changed"
+    },
+    {
+      "keys": [
+        "wow-dress-edit",
+        "wow-club-edit"
+      ],
+      "storage": "localStorage",
+      "data": "Earlier numeric product identifiers from the two preserved dress pages",
+      "control": "The wishlist bridge migrates mapped records into the shared wishlist and removes old keys after successful writes. Clear saved pieces removes these legacy keys as well."
+    },
+    {
+      "key": "wow-order-preview-v1",
+      "storage": "sessionStorage",
+      "data": "version=1 and a snapshot of sample items with colour, size and quantity. No name, email, address, password or payment data.",
+      "control": "Clear sample shopping data; dispatches wow:bag-changed"
+    }
+  ],
+  "originalJournal": {
+    "byline": "WOW Fashion editorial",
+    "bylineType": "Explicit house byline; no fictitious person or expert credentials",
+    "publicationDate": "2026-11-08",
+    "articles": [
+      "/journal/how-to-build-an-everyday-wardrobe/",
+      "/journal/how-to-layer-cardigans/",
+      "/journal/from-day-to-evening/"
+    ],
+    "scope": "Original general styling suggestions; no product review, physical test, sales ranking or environmental assertion"
+  },
+  "unresolvedDependencies": [
+    "Legal business identity, actual operating model and approved legal/customer policies",
+    "Verified support and privacy contact channels; enquiry delivery and response workflow",
+    "Item-specific return eligibility, costs, address, refund handling, cancellation process and warranty terms",
+    "Verified fulfilment, destination, delivery cost/time and duty arrangements",
+    "Connected payment provider, accepted methods, real prices, availability and totals",
+    "Hosting/provider data audit, retention, transfers and live cookie inventory",
+    "Approved editorial owner, correction process and factual product/sourcing evidence",
+    "Accessibility audit with assistive technologies before production launch"
+  ]
+}
