@@ -31,6 +31,28 @@
     linear-gradient(90deg, #f2e7d8e8 0%, #f2e7d8c4 28%, #f2e7d852 49%, transparent 66%);
 }
 
+/* Keep the menu legible over campaign photography without bleaching the hero.
+   A separate layer also leaves the dress films' existing smoke masks intact. */
+.hero-navigation-wash {
+  position: absolute;
+  inset: 0 0 auto;
+  height: clamp(245px, 20vw, 300px);
+  z-index: 1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 94% 100% at 88% 0%,
+      #f8f5efb8 0%, #f8f5ef80 40%, #f8f5ef2e 72%, #f8f5ef00 100%),
+    linear-gradient(180deg, #f8f5ef26 0%, #f8f5ef14 48%, #f8f5ef00 100%);
+}
+
+/* The after-dark film keeps its pale navigation and its original night palette. */
+.hero-navigation-wash--dark {
+  background:
+    radial-gradient(ellipse 105% 100% at 78% 0%,
+      #15151f9e 0%, #15151f70 42%, #15151f26 74%, #15151f00 100%),
+    linear-gradient(180deg, #15151f38 0%, #15151f14 45%, #15151f00 100%);
+}
+
 .campaign-hero .hero-copy {
   z-index: 4;
 }
@@ -134,6 +156,10 @@
 }
 
 @media (max-width: 760px) {
+  .hero-navigation-wash {
+    height: 180px;
+  }
+
   .blouse-hero.campaign-hero,
   .blouse-hero.campaign-hero.sub-hero {
     height: auto;

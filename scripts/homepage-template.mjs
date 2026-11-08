@@ -1,4 +1,5 @@
 import {coreHeader,coreFooter} from './core-shell.mjs';
+import {siteNavigationAssets} from './site-navigation.mjs';
 const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const icon = name => `<svg aria-hidden="true" viewBox="0 0 24 24"><use href="#core-icon-${name}"></use></svg>`;
 const arrow = '<span aria-hidden="true">↗</span>';
@@ -44,7 +45,7 @@ export function renderHomepage({home, departments, campaign}) {
   <meta property="og:type" content="website"><meta property="og:title" content="${escape(home.title)}"><meta property="og:description" content="${escape(home.description)}"><meta property="og:image" content="https://wow-fashion-new-website.vercel.app${hero.src}">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2348342d'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Georgia' font-size='43' fill='%23f7f0e9'%3EW%3C/text%3E%3C/svg%3E">
   <link rel="preload" href="/dresses/assets/sans.ttf" as="font" type="font/ttf" crossorigin><link rel="preload" href="/dresses/assets/editorial.ttf" as="font" type="font/ttf" crossorigin><link rel="preload" href="/dresses/assets/editorial-italic.ttf" as="font" type="font/ttf" crossorigin><link rel="preload" href="${hero.src}" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="/core-pages.css"><link rel="stylesheet" href="/homepage.css"><script type="module" src="/core.js"></script><script type="module" src="/homepage.js"></script>
+  <link rel="stylesheet" href="/core-pages.css"><link rel="stylesheet" href="/homepage.css">${siteNavigationAssets}<script type="module" src="/core.js"></script><script type="module" src="/homepage.js"></script>
 </head>
 <body id="top" class="home-page">
 ${coreHeader('/')}

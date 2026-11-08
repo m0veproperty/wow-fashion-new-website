@@ -40,7 +40,7 @@ window.addEventListener('wow:request-saved',event=>{saved=event?.detail?.clear?[
 for(const trigger of document.querySelectorAll('[data-dialog-open]'))trigger.addEventListener('click',()=>{
   const dialog=document.getElementById(trigger.dataset.dialogOpen);if(!dialog)return;dialog.showModal();document.body.classList.add('dialog-open');
 });
-for(const dialog of document.querySelectorAll('dialog')){
+for(const dialog of document.querySelectorAll('dialog:not(.site-menu)')){
   dialog.querySelectorAll('[data-dialog-close]').forEach(button=>button.addEventListener('click',()=>dialog.close()));
   dialog.addEventListener('close',()=>{if(!document.querySelector('dialog[open]'))document.body.classList.remove('dialog-open');});
   dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();});

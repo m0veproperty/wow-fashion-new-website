@@ -2,6 +2,7 @@ import {readFile,writeFile,mkdir,cp} from 'node:fs/promises';
 import {createCollectionRenderer} from './collection-template.mjs';
 import {renderHomepage} from './homepage-template.mjs';
 import {buildCorePages} from './build-core.mjs';
+import {buildPreservedNavigation} from './build-navigation.mjs';
 const json=async p=>JSON.parse(await readFile(new URL('../'+p,import.meta.url),'utf8'));
 await mkdir('dist',{recursive:true});await cp('public','dist',{recursive:true});
 const blouseParent=await json('data/blouse-parent.json');
@@ -26,6 +27,7 @@ for(const department of departments){
  }
  console.log('Built '+department.parent.name+' and '+department.collections.length+' subcategories.');
 }
+await buildPreservedNavigation();
 console.log('Preserved both animated dress pages.');
 await writeFile('dist/index.html',renderHomepage({home:await json('data/homepage.json'),departments,campaign:await json('data/homepage-campaign-provenance.json')}));
 console.log('Built the WOW Fashion homepage.');

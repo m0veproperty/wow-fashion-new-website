@@ -67,7 +67,7 @@ test('system pages return real error status codes and cannot be cached as custom
     assert.equal(response.statusCode,code);
     assert.equal(response.headers['Cache-Control'],'no-store');
     assert.equal(response.headers['X-Robots-Tag'],'noindex, nofollow');
-    assert.match(response.body,/class="core-header"/);
+    assert.match(response.body,/\bdata-site-navigation(?:\s|>)/);
     assert.match(response.body,/<h1/);
     if(code===503)assert.equal(response.headers['Retry-After'],'120');
   }
