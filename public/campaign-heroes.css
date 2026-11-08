@@ -4,6 +4,8 @@
 #opening.hero,
 #top.hero {
   --hero-navigation-clearance: 64px;
+  --hero-top-fade: clamp(112px, 9vw, 160px);
+  --hero-atmosphere-position: center top;
 }
 
 .blouse-hero.campaign-hero,
@@ -13,6 +15,8 @@
 }
 
 #top.hero {
+  --hero-scene-height: clamp(650px, 69.3vw, 1120px);
+  --hero-atmosphere-position: center center;
   height: calc(69.3vw + var(--hero-navigation-clearance));
   min-height: calc(650px + var(--hero-navigation-clearance));
   max-height: calc(1120px + var(--hero-navigation-clearance));
@@ -23,9 +27,37 @@
 #top.hero > .hero-video {
   inset: var(--hero-navigation-clearance) 0 0;
   height: calc(100% - var(--hero-navigation-clearance));
-  -webkit-mask-image: linear-gradient(180deg, transparent, #000 48px);
-  mask-image: linear-gradient(180deg, transparent, #000 48px);
+  -webkit-mask-image: linear-gradient(180deg, transparent, #000 var(--hero-top-fade));
+  mask-image: linear-gradient(180deg, transparent, #000 var(--hero-top-fade));
   transform-origin: center top;
+}
+
+/* Extend the scene's own colours into the space above it. The original-sized
+   canvas preserves the crop; strong blur turns only its upper strip into colour.
+   It sits behind the sharp media, so no second model overlays the photograph. */
+.hero-top-blend {
+  position: absolute;
+  inset: 0 0 auto;
+  height: calc(var(--hero-navigation-clearance) + var(--hero-top-fade) + 80px);
+  overflow: clip;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 55%, transparent 100%);
+  mask-image: linear-gradient(180deg, #000 0%, #000 55%, transparent 100%);
+}
+
+.hero-top-blend::before {
+  content: "";
+  position: absolute;
+  top: -64px;
+  left: -64px;
+  width: calc(100% + 128px);
+  height: var(--hero-atmosphere-height, var(--hero-scene-height));
+  background: var(--hero-image) var(--hero-atmosphere-position) / cover no-repeat;
+  filter: blur(64px) saturate(.78);
+}
+
+#opening.hero {
+  --hero-atmosphere-position: center 45%;
 }
 
 .campaign-hero {
@@ -53,31 +85,36 @@
 .blouse-hero.campaign-hero .hero-shade {
   z-index: 1;
   pointer-events: none;
-  background:
-    linear-gradient(180deg, #f2e7d8cc 0%, #f2e7d875 85px, transparent 150px),
-    linear-gradient(90deg, #f2e7d8e8 0%, #f2e7d8c4 28%, #f2e7d852 49%, transparent 66%);
+  background: linear-gradient(90deg, #f2e7d8e8 0%, #f2e7d8c4 28%, #f2e7d852 49%, transparent 66%);
 }
 
-/* Keep the menu legible over campaign photography without bleaching the hero.
-   A separate layer also leaves the dress films' existing smoke masks intact. */
+.blouse-hero.campaign-hero .hero-shade,
+#opening.hero .hero-shade {
+  -webkit-mask-image: linear-gradient(180deg, transparent, #000 calc(var(--hero-navigation-clearance) + var(--hero-top-fade)));
+  mask-image: linear-gradient(180deg, transparent, #000 calc(var(--hero-navigation-clearance) + var(--hero-top-fade)));
+}
+
+/* One translucent veil protects menu contrast while the image beneath supplies
+   the gradient colours. Keeping it separate preserves the films' smoke masks. */
 .hero-navigation-wash {
+  --hero-menu-height: 150px;
   position: absolute;
   inset: 0 0 auto;
-  height: clamp(245px, 20vw, 300px);
+  height: clamp(280px, 23vw, 340px);
   z-index: 1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 94% 100% at 88% 0%,
-      #f8f5efb8 0%, #f8f5ef80 40%, #f8f5ef2e 72%, #f8f5ef00 100%),
-    linear-gradient(180deg, #f8f5ef26 0%, #f8f5ef14 48%, #f8f5ef00 100%);
+    linear-gradient(180deg,
+      #f8f5efad 0%, #f8f5efa8 var(--hero-menu-height),
+      #f8f5ef33 calc(var(--hero-menu-height) + 80px), #f8f5ef00 100%);
 }
 
 /* The after-dark film keeps its pale navigation and its original night palette. */
 .hero-navigation-wash--dark {
   background:
-    radial-gradient(ellipse 105% 100% at 78% 0%,
-      #15151f9e 0%, #15151f70 42%, #15151f26 74%, #15151f00 100%),
-    linear-gradient(180deg, #15151f38 0%, #15151f14 45%, #15151f00 100%);
+    linear-gradient(180deg,
+      #15151fad 0%, #15151fa8 var(--hero-menu-height),
+      #15151f33 calc(var(--hero-menu-height) + 80px), #15151f00 100%);
 }
 
 .campaign-hero .hero-copy {
@@ -191,11 +228,16 @@
   }
 
   #top.hero {
+    --hero-scene-height: 69.3vw;
     min-height: 0;
   }
 }
 
 @media (max-width: 1080px) {
+  .hero-navigation-wash {
+    --hero-menu-height: 102px;
+  }
+
   .campaign-hero,
   #opening.hero,
   #top.hero {
@@ -213,14 +255,17 @@
   #opening.hero,
   #top.hero {
     --hero-navigation-clearance: 36px;
+    --hero-top-fade: 80px;
   }
 
   .hero-navigation-wash {
-    height: 180px;
+    height: 210px;
   }
 
   .blouse-hero.campaign-hero,
   .blouse-hero.campaign-hero.sub-hero {
+    --hero-atmosphere-height: 470px;
+    --hero-atmosphere-position: 88% top;
     height: auto;
     min-height: 0;
     max-height: none;
@@ -229,8 +274,8 @@
   .blouse-hero.campaign-hero .hero-media {
     inset: var(--hero-navigation-clearance) 0 auto;
     height: 470px;
-    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 32px, #000 61%, transparent 100%);
-    mask-image: linear-gradient(to bottom, transparent, #000 32px, #000 61%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 var(--hero-top-fade), #000 61%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent, #000 var(--hero-top-fade), #000 61%, transparent 100%);
   }
 
   .blouse-hero.campaign-hero .hero-poster {
@@ -238,7 +283,7 @@
   }
 
   .blouse-hero.campaign-hero .hero-shade {
-    background: linear-gradient(180deg, #f2e7d8ad 0%, #f2e7d840 75px, transparent 130px);
+    background: none;
   }
 
   .blouse-hero.campaign-hero .hero-copy,
@@ -285,6 +330,8 @@
 
   #opening.hero {
     --hero-scene-height: 720px;
+    --hero-atmosphere-height: 465px;
+    --hero-atmosphere-position: 70% center;
   }
 
   #opening.hero .hero-media {
@@ -300,6 +347,8 @@
 /* The club film switches to its portrait composition at its own breakpoint. */
 @media (max-width: 700px) {
   #top.hero {
+    --hero-atmosphere-height: 670px;
+    --hero-atmosphere-position: 72% center;
     height: calc(850px + var(--hero-navigation-clearance));
     max-height: none;
   }
@@ -307,6 +356,12 @@
   #top.hero > .hero-video {
     inset: var(--hero-navigation-clearance) 0 auto;
     height: 670px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-navigation-wash {
+    --hero-menu-height: 94px;
   }
 }
 
