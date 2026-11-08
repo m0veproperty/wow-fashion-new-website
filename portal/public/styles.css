@@ -66,3 +66,5 @@ dialog{border:0;border-radius:14px;padding:0;width:min(760px,calc(100vw - 36px))
 .table-wrap col.table-col-standard{width:170px}
 .table-wrap .table-parent{min-width:0}
 @media(max-width:720px){.shell.sidebar-collapsed .sidebar{display:flex}.topbar{gap:10px}}
+
+.topbar .menu-toggle{display:inline-flex;gap:7px;padding:7px 9px;border:1px solid var(--line);background:white;white-space:nowrap}.sidebar-toggle-label{font-size:11px}.menu-toggle svg{width:17px;height:17px}@media(max-width:720px){.sidebar-toggle-label{display:none}}
