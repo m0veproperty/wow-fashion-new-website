@@ -1,0 +1,68 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "Four original editorial campaign images for the WOW Fashion homepage. Campaign outfits are illustrative styling inspiration; product cards retain actual catalogue photography.",
+  "artDirection": "Use case: photorealistic-natural. Create one original premium fashion campaign photograph for WOW Fashion. Refined, warm editorial photography with authentic skin texture, anatomically correct hands, believable garment construction and beautifully rendered fabric. The colour world is pale limestone, soft ivory, dusty rose, muted olive and cocoa. Natural light with subtle photographic contrast; contemporary understated styling. Real location depth, elegant but unforced posture, no catalogue cutouts. No text, letters, logos, typography, watermarks, UI, graphic borders, artificial smoke or fog; the website adds its own atmospheric blend. ",
+  "assets": [
+    {
+      "name": "home-hero",
+      "path": "public/assets/homepage/home-hero.webp",
+      "width": 1672,
+      "height": 941,
+      "prompt": "Horizontal 16:9 landscape campaign photograph, ideally 2048x1152. Two adult women in their early thirties stroll together across a beautiful pale limestone courtyard with an elegant wide arch and quiet late-afternoon sunlight. Both models are grouped on the RIGHT, one centred near 68 percent and the other near 84 percent of image width. The entire LEFT 50 percent is calm pale sunlit stone with very low visual contrast, completely free of people and plants for a large dark headline. Show both women's complete heads with breathing room above and their full figures nearly to their shoes. An adult woman with olive skin and softly waved chestnut hair wears a fluid muted dusty-rose midi dress with a natural waist, elegant long sleeves and a flowing skirt moving gently as she walks. Beside her, an adult Black woman with soft natural curls wears an ivory silk-look relaxed blouse tucked into cocoa wide-leg tailored trousers. They share a relaxed spontaneous smile, contemporary attainable fashion, no ceremonial gown or wedding styling. Soft architectural shadows and a single olive tree stay at the far right, refined warm light, plausible fabric movement. The models must remain a clear group occupying only the right half, not scattered across the frame.",
+      "alt": "Two women wearing a dusty-rose dress and an ivory blouse with cocoa trousers in a sunlit limestone courtyard",
+      "originalDimensions": [
+        1672,
+        941
+      ],
+      "bytes": 153598,
+      "gitBlobSha": "0ae13103b926c32fa539ea995a1190bc1476ff44",
+      "originalGenerationFile": "exec-bf18390e-f783-451c-8a9a-b49c35aebb6b.png"
+    },
+    {
+      "name": "everyday-editorial",
+      "path": "public/assets/homepage/everyday-editorial.webp",
+      "width": 1024,
+      "height": 1280,
+      "prompt": "Vertical 4:5 portrait editorial fashion photograph, ideally 1024x1280. An adult East Asian woman in her thirties with softly waved shoulder-length dark hair, wearing an elegant relaxed ivory blouse with an open modest collar and lightly rolled sleeves, tucked into camel wide-leg tailored trousers. A slim dark-brown belt and simple tan flat shoes. She steps down one shallow pale travertine step outside a beautiful sunlit townhouse, relaxed confident natural expression. Frame her whole figure with breathing room above her head and below her feet; clear blouse fabric and trouser silhouette. A tall doorway and soft diagonal shadows create architectural depth, olive leaves in one far corner only. Composition fills the portrait naturally, model centred just right of centre; no large blank text area is needed.",
+      "alt": "A woman wearing an ivory blouse and camel wide-leg trousers on sunlit travertine steps",
+      "originalDimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 167578,
+      "gitBlobSha": "235aec5a249029f4f34c52ba477799c8845f3924",
+      "originalGenerationFile": "exec-6dd2d448-bc94-4dfd-886f-efb637ee7243.png"
+    },
+    {
+      "name": "layers-editorial",
+      "path": "public/assets/homepage/layers-editorial.webp",
+      "width": 1024,
+      "height": 1280,
+      "prompt": "Vertical 4:5 portrait editorial fashion photograph, ideally 1024x1280. An adult Black woman in her thirties with a softly shaped natural afro wearing a beautiful muted olive cable-knit cardigan over a simple ivory vest, with cream relaxed straight-leg trousers and understated tan loafers. The textured cardigan is partly buttoned with small tonal buttons, long sleeves and a neat hip-length hem. She leans lightly against a pale stone terrace balustrade, hands relaxed so the knit texture remains visible, looking into the gentle daylight with a warm natural smile. Frame from comfortably above her head to just below the knees, showing the entire cardigan hem. Pale plaster architecture and a softly out-of-focus garden at the far edge, tactile fine yarn, unforced premium magazine photography. No bag, coat or scarf hiding the garment.",
+      "alt": "A woman in an olive cable-knit cardigan and cream trousers beside a pale stone terrace",
+      "originalDimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 186624,
+      "gitBlobSha": "71b9af1a6b57ec7e0c74cde990ad82c7e7744997",
+      "originalGenerationFile": "exec-f2c7f100-4c07-42c1-85bc-c8bea2ee5ec5.png"
+    },
+    {
+      "name": "details-still-life",
+      "path": "public/assets/homepage/details-still-life.webp",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Horizontal 3:2 editorial still-life photograph, ideally 1536x1024. An art-directed close study of a folded oatmeal cable-knit sweater, a softly draped ivory blouse sleeve with a small mother-of-pearl button, and a folded dusty-rose woven fabric on a pale travertine table. A small plain brushed-gold hoop earring rests naturally at one edge. Beautiful visible cable stitches, delicate fabric folds, tactile natural materials and softly angled late-afternoon light from the upper left. The arrangement sits mostly in the right two-thirds, leaving quieter pale stone in the upper left. Sophisticated tonal still life, cropped closely enough to feel textural and intimate, no human, no product packaging, no text or logos, no impossible floating fabric, no excessive props.",
+      "alt": "An editorial still life of oatmeal knitwear, ivory fabric and dusty-rose cloth on pale travertine",
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 404140,
+      "gitBlobSha": "26ea0289dd3822fcc60a7b2add9c471a3c6181f2",
+      "originalGenerationFile": "exec-3a8de556-26d9-4a65-9395-4a9262772e3a.png"
+    }
+  ]
+}

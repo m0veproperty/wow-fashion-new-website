@@ -1,0 +1,23 @@
+{
+  "title": "WOW Fashion | Find your kind of WOW",
+  "description": "A wardrobe for every version of you. Discover dresses, beautiful blouses, easy separates and thoughtful layers at WOW Fashion.",
+  "collections": [
+    {"slug":"dresses","name":"Dresses","description":"A little occasion","image":"/dresses/assets/hero-poster.webp","position":"76% 44%"},
+    {"slug":"blouses","name":"Blouses","description":"Everyday, elevated","image":"/assets/blouses/hero.webp","position":"77% 42%"},
+    {"slug":"cardigans","name":"Cardigans","description":"The finishing layer","image":"/assets/cardigans/hero.webp","position":"75% 42%"},
+    {"slug":"coats-and-jackets","name":"Coats & Jackets","description":"Make an entrance","image":"/assets/coats-and-jackets/hero.webp","position":"77% 42%"},
+    {"slug":"pants","name":"Pants & Leggings","description":"Room to move","image":"/assets/pants/hero.webp","position":"76% 45%"},
+    {"slug":"skirts","name":"Skirts","description":"A different silhouette","image":"/assets/skirts/hero.webp","position":"76% 45%"},
+    {"slug":"sweaters","name":"Sweaters","description":"A softer feeling","image":"/assets/sweaters/hero.webp","position":"77% 42%"}
+  ],
+  "products": [
+    {"department":"blouses","id":31,"group":"everyday"},
+    {"department":"cardigans","id":6,"group":"layers"},
+    {"department":"dresses","id":20,"group":"dresses"},
+    {"department":"pants","id":95,"group":"everyday"},
+    {"department":"skirts","id":34,"group":"everyday"},
+    {"department":"sweaters","id":2,"group":"layers"},
+    {"department":"dresses","id":31,"group":"dresses"},
+    {"department":"coats-and-jackets","id":15,"group":"layers"}
+  ]
+}
