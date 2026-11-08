@@ -100,13 +100,13 @@
   --hero-menu-height: 150px;
   position: absolute;
   inset: 0 0 auto;
-  height: clamp(280px, 23vw, 340px);
+  height: calc(var(--hero-menu-height) + 120px);
   z-index: 1;
   pointer-events: none;
   background:
     linear-gradient(180deg,
       #f8f5efad 0%, #f8f5efa8 var(--hero-menu-height),
-      #f8f5ef33 calc(var(--hero-menu-height) + 80px), #f8f5ef00 100%);
+      #f8f5ef1f calc(var(--hero-menu-height) + 48px), #f8f5ef00 100%);
 }
 
 /* The after-dark film keeps its pale navigation and its original night palette. */
@@ -114,7 +114,7 @@
   background:
     linear-gradient(180deg,
       #15151fad 0%, #15151fa8 var(--hero-menu-height),
-      #15151f33 calc(var(--hero-menu-height) + 80px), #15151f00 100%);
+      #15151f1f calc(var(--hero-menu-height) + 48px), #15151f00 100%);
 }
 
 .campaign-hero .hero-copy {
