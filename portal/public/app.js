@@ -33,7 +33,7 @@ const productStatuses=['Researching','Shortlisted','Sample requested','Approved'
 const supplierStatuses=['Researching','Contacted','Sample requested','Approved','Paused','Rejected'];
 const navItems=[['overview','Overview','grid'],['map','Website map','map'],['core-pages','Core Pages','source'],['keywords','Keyword Research','search'],['product-pages','Products','layers'],['reviews','Reviews','heart'],['products','Product research','bag'],['suppliers','Suppliers','users'],['prompts','Writing prompts','pen'],['guidelines','Editorial standards','book'],['roadmap','Build roadmap','road']];
 const roadPhases=[
- {id:'keyword-research',title:'Section 1 — Keyword Research',desc:'',tasks:[['keyword-subcategories','Keyword research for subcategories','',false],['keyword-sub-subcategories','Keyword research for sub-subcategories','',false]]}
+ {id:'keyword-research',title:'Section 1 — Keyword Research',desc:'',tasks:[['determine-subcategory-count','Determine how many subcategories are required for each category to avoid having a website that has so much selection','',false],['determine-featured-subcategories','Determine which subcategories to feature','',false],['keyword-subcategories','Keyword research for subcategories','',false],['keyword-sub-subcategories','Keyword research for sub-subcategories','',false]]}
 ];
 function safeDecode(value){try{return decodeURIComponent(value);}catch{return value;}}
 function route(){const h=location.hash.replace(/^#\/?/,'')||'overview';const [path,q]=h.split('?');const [page,id]=path.split('/');return {page,id:safeDecode(id||''),params:new URLSearchParams(q||'')};}
