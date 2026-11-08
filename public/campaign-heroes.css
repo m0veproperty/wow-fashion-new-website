@@ -1,4 +1,33 @@
-/* Campaign treatment is opt-in; product-led categories and dress films retain their layouts. */
+/* Keep category scenes below the navigation without changing their crop.
+   The extra hero height matches the media offset, including both dress films. */
+.campaign-hero,
+#opening.hero,
+#top.hero {
+  --hero-navigation-clearance: 64px;
+}
+
+.blouse-hero.campaign-hero,
+#opening.hero {
+  --hero-scene-height: 650px;
+  height: calc(var(--hero-scene-height) + var(--hero-navigation-clearance));
+}
+
+#top.hero {
+  height: calc(69.3vw + var(--hero-navigation-clearance));
+  min-height: calc(650px + var(--hero-navigation-clearance));
+  max-height: calc(1120px + var(--hero-navigation-clearance));
+}
+
+.blouse-hero.campaign-hero .hero-media,
+#opening.hero .hero-media,
+#top.hero > .hero-video {
+  inset: var(--hero-navigation-clearance) 0 0;
+  height: calc(100% - var(--hero-navigation-clearance));
+  -webkit-mask-image: linear-gradient(180deg, transparent, #000 48px);
+  mask-image: linear-gradient(180deg, transparent, #000 48px);
+  transform-origin: center top;
+}
+
 .campaign-hero {
   --campaign-end: var(--opening-blush, #e7d6c3);
   isolation: isolate;
@@ -12,9 +41,7 @@
 }
 
 .blouse-hero.campaign-hero .hero-media {
-  inset: 0;
   width: 100%;
-  height: 100%;
   will-change: auto;
 }
 
@@ -150,12 +177,44 @@
   to { transform: translate3d(3%, -9%, 0) scale(1.06); }
 }
 
+@media (min-width: 1600px) {
+  .blouse-hero.campaign-hero,
+  #opening.hero {
+    --hero-scene-height: 700px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .blouse-hero.campaign-hero,
+  #opening.hero {
+    --hero-scene-height: 620px;
+  }
+
+  #top.hero {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 1080px) {
+  .campaign-hero,
+  #opening.hero,
+  #top.hero {
+    --hero-navigation-clearance: 48px;
+  }
+}
+
 @media (min-width: 761px) and (max-width: 1000px) {
   .campaign-hero.sub-hero .hero-copy { width: 65%; }
   .campaign-hero.sub-hero h1 { font-size: clamp(43px, 5.9vw, 59px); }
 }
 
 @media (max-width: 760px) {
+  .campaign-hero,
+  #opening.hero,
+  #top.hero {
+    --hero-navigation-clearance: 36px;
+  }
+
   .hero-navigation-wash {
     height: 180px;
   }
@@ -168,10 +227,10 @@
   }
 
   .blouse-hero.campaign-hero .hero-media {
-    inset: 0 0 auto;
+    inset: var(--hero-navigation-clearance) 0 auto;
     height: 470px;
-    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 61%, transparent 100%);
-    mask-image: linear-gradient(to bottom, #000 0%, #000 61%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 32px, #000 61%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent, #000 32px, #000 61%, transparent 100%);
   }
 
   .blouse-hero.campaign-hero .hero-poster {
@@ -185,11 +244,11 @@
   .blouse-hero.campaign-hero .hero-copy,
   .blouse-hero.campaign-hero.sub-hero .hero-copy {
     width: 100%;
-    padding: 362px 6% 77px;
+    padding: calc(362px + var(--hero-navigation-clearance)) 6% 77px;
   }
 
   .campaign-hero .hero-smoke {
-    top: 304px;
+    top: calc(304px + var(--hero-navigation-clearance));
     bottom: auto;
     height: 172px;
     opacity: .54;
@@ -197,12 +256,12 @@
   }
 
   .campaign-hero .hero-smoke-two {
-    top: 326px;
+    top: calc(326px + var(--hero-navigation-clearance));
     opacity: .32;
   }
 
   .campaign-hero .hero-fade {
-    top: 405px;
+    top: calc(405px + var(--hero-navigation-clearance));
     bottom: auto;
     height: 72px;
   }
@@ -222,6 +281,42 @@
     right: 6%;
     bottom: 18px;
     min-height: 40px;
+  }
+
+  #opening.hero {
+    --hero-scene-height: 720px;
+  }
+
+  #opening.hero .hero-media {
+    inset: var(--hero-navigation-clearance) 0 auto;
+    height: 465px;
+  }
+
+  #opening.hero .hero-copy {
+    padding-top: calc(350px + var(--hero-navigation-clearance));
+  }
+}
+
+/* The club film switches to its portrait composition at its own breakpoint. */
+@media (max-width: 700px) {
+  #top.hero {
+    height: calc(850px + var(--hero-navigation-clearance));
+    max-height: none;
+  }
+
+  #top.hero > .hero-video {
+    inset: var(--hero-navigation-clearance) 0 auto;
+    height: 670px;
+  }
+}
+
+@media (max-width: 370px) {
+  #opening.hero {
+    --hero-scene-height: 700px;
+  }
+
+  #opening.hero .hero-copy {
+    padding-top: calc(342px + var(--hero-navigation-clearance));
   }
 }
 
