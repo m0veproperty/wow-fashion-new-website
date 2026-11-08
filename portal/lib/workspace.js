@@ -7,8 +7,8 @@ export const MAX_WORKSPACE_BYTES = 2 * 1024 * 1024;
 const ROOT_KEYS = ['schemaVersion', 'revision', 'updatedAt', 'products', 'suppliers', 'pagePlans', 'promptOverrides', 'roadmap', 'settings', 'activity'];
 const FORBIDDEN_KEYS = new Set(['__proto__', 'prototype', 'constructor']);
 const ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9_.:-]{0,119}$/;
-const PRODUCT_KEYS = ['id', 'name', 'sourceUrl', 'categoryId', 'supplierId', 'rating', 'reviews', 'sold', 'recentReviewScore', 'sellerScore', 'specificationScore', 'valueScore', 'deliveryScore', 'evidenceDate', 'destination', 'price', 'shipping', 'currency', 'hardGate', 'gateNotes', 'notes', 'status', 'createdAt', 'updatedAt'];
-const SUPPLIER_KEYS = ['id', 'name', 'url', 'type', 'country', 'status', 'categories', 'storeSince', 'rating', 'contact', 'evidenceUrl', 'checkedAt', 'notes', 'sampleStatus', 'manufacturingEvidence', 'createdAt', 'updatedAt'];
+const PRODUCT_KEYS = ['id', 'name', 'sourceUrl', 'categoryId', 'supplierId', 'rating', 'reviews', 'sold', 'recentReviewScore', 'sellerScore', 'specificationScore', 'valueScore', 'deliveryScore', 'evidenceDate', 'destination', 'price', 'shipping', 'currency', 'hardGate', 'gateNotes', 'notes', 'status', 'createdAt', 'updatedAt', 'categoryIds', 'keywordTargets', 'variants'];
+const SUPPLIER_KEYS = ['id', 'name', 'url', 'type', 'country', 'status', 'categories', 'storeSince', 'rating', 'contact', 'evidenceUrl', 'checkedAt', 'notes', 'sampleStatus', 'manufacturingEvidence', 'createdAt', 'updatedAt', 'leadTime', 'shippingDestinations', 'orderTerms', 'returnsPolicy'];
 const PRODUCT_NUMBERS = ['rating', 'reviews', 'sold', 'recentReviewScore', 'sellerScore', 'specificationScore', 'valueScore', 'deliveryScore', 'price', 'shipping'];
 const PRODUCT_STATUSES = ['Researching', 'Shortlisted', 'Sample requested', 'Approved', 'Rejected'];
 const SUPPLIER_STATUSES = ['Researching', 'Contacted', 'Sample requested', 'Approved', 'Paused', 'Rejected'];
@@ -88,7 +88,34 @@ function validateRecords(records, name, limit) {
     ids.add(record.id);
     if (typeof record.name !== 'string' || !record.name.trim() || record.name.length > 300) invalid(`Every ${name} record needs a name of no more than 300 characters.`);
     const product = name === 'products';
-    validateFields(record, product ? PRODUCT_KEYS : SUPPLIER_KEYS, product ? PRODUCT_NUMBERS : ['rating'], name);
+    if (product) {
+      allowedKeys(record, PRODUCT_KEYS, name);
+      const { categoryIds, keywordTargets, variants, ...legacy } = record;
+      validateFields(legacy, PRODUCT_KEYS, PRODUCT_NUMBERS, name);
+      if (categoryIds !== undefined && (!Array.isArray(categoryIds) || categoryIds.length > 250 || categoryIds.some(id => typeof id !== 'string' || !ID_PATTERN.test(id)) || new Set(categoryIds).size !== categoryIds.length)) invalid('Product categories must contain unique valid category IDs.');
+      if (keywordTargets !== undefined) {
+        if (!Array.isArray(keywordTargets) || keywordTargets.length > 100) invalid('Choose at most 100 keyword-led pages per product.');
+        const seen = new Set();
+        for (const target of keywordTargets) {
+          validateFields(target, ['slug', 'keyword', 'categoryId'], [], 'Keyword page');
+          if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(target.slug || '') || target.slug.length > 300 || !target.keyword?.trim() || target.keyword.length > 300 || !ID_PATTERN.test(target.categoryId || '') || seen.has(target.slug)) invalid('Keyword page mappings must be unique and include a keyword, slug and parent category.');
+          seen.add(target.slug);
+        }
+      }
+      if (variants !== undefined) {
+        if (!Array.isArray(variants) || variants.length > 250) invalid('A product can contain at most 250 variation combinations.');
+        const ids = new Set();
+        for (const variant of variants) {
+          validateFields(variant, ['id', 'colour', 'style', 'size', 'option', 'sku', 'price', 'availability'], ['price'], 'Variation');
+          if (!ID_PATTERN.test(variant.id || '') || ids.has(variant.id)) invalid('Every variation needs a unique valid ID.');
+          ids.add(variant.id);
+          for (const key of ['colour','style','size','option','sku']) if (variant[key] !== undefined && variant[key].length > 200) invalid('Variation descriptions must be at most 200 characters.');
+          if (![variant.colour,variant.style,variant.size,variant.option,variant.sku].some(x=>x?.trim())) invalid('Describe each variation using colour, style, size, another option or SKU.');
+          if (variant.price !== undefined && variant.price !== null && (variant.price < 0 || !Number.isFinite(variant.price))) invalid('Variation prices must be non-negative numbers or unknown.');
+          if (variant.availability !== undefined && !['Unknown','Available','Out of stock','Discontinued'].includes(variant.availability)) invalid('Variation availability is invalid.');
+        }
+      }
+    } else validateFields(record, SUPPLIER_KEYS, ['rating'], name);
     if (record.status !== undefined && !(product ? PRODUCT_STATUSES : SUPPLIER_STATUSES).includes(record.status)) invalid(`${name} has an unsupported status.`);
     if (product && record.hardGate !== undefined && !['clear', 'review', 'reject'].includes(record.hardGate)) invalid('Product review status is invalid.');
     if (!product && record.type !== undefined && !['Marketplace seller', 'Brand', 'Wholesaler', 'Manufacturer claimed', 'Manufacturer verified'].includes(record.type)) invalid('Supplier type is invalid.');
@@ -264,4 +291,5 @@ export function createWorkspaceStore({ blob = { get, put }, env = process.env, n
 
   return { read, write, configured };
 }
+
 

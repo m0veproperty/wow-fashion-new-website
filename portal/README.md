@@ -7,7 +7,8 @@ A working website-build portal for Wow Fashion, combining the current website in
 - **Website map:** 113 editorial category records (7 parent pages, 106 children), 135 shop-category records (10 roots, 125 descendants), and 2 separate blog categories. Full source URLs, parent relationships, verification detail and migration findings are retained.
 - **Page planning:** Editable status, priority, owner, target product count, keywords, proposed URLs and brief notes for every mapped category.
 - **Product research:** Evidence-led AliExpress scorecard, selected-variant costs, destination, current review evidence, seller checks, shortlist status and supplier/category links.
-- **Supplier directory:** Seller/manufacturer distinction, evidence, sample outcome, due diligence, status and linked product records.
+- **Product catalogue:** Multiple category and keyword-page mappings, colour/style/size combinations with individual prices and availability, category coverage and product/variation CSV exports.
+- **Supplier directory:** Seller/manufacturer distinction, evidence, sample outcome, due diligence, status, linked product totals, review-weighted product ratings, separate store ratings and sourcing terms.
 - **Writing prompts:** 20 complete templates with contextual inputs, editable text, copy/download controls and saved custom versions.
 - **Editorial standards:** 10 groups of proposed rules, provenance, source links and business-model distinctions.
 - **Build roadmap:** Shared completion records, export and practical migration/launch milestones.
@@ -75,4 +76,5 @@ The new operating model remains undecided (affiliate, direct retail or hybrid). 
 Repository: https://github.com/m0veproperty/wow-fashion-portal
 
 Vercel project: `wow-fashion-portal`, under WiWy. The source repository is connected to Vercel, with `main` as the intended production branch. `vercel.json` declares the static output, function settings and response headers. No custom-domain or live wowfashion.com changes are included.
+
 

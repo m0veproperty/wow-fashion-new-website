@@ -7,7 +7,7 @@
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check public/app.js && node --check api/workspace.js && node --check api/session.js"
+    "check": "node --check public/app.js && node --check api/workspace.js && node --check api/session.js && node --check public/inventory.js && node --check public/keyword-research.js && node --check lib/workspace.js"
   },
   "dependencies": {
     "@vercel/blob": "2.8.2"
@@ -20,4 +20,3 @@
     "@fontsource/instrument-serif": "5.3.0"
   }
 }
-
