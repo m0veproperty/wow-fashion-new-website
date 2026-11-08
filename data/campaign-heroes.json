@@ -173,5 +173,95 @@
     "src": "/assets/campaigns/cardigans/zipped-cardigans.webp",
     "alt": "Campaign inspiration: a woman wearing a charcoal zipped knit cardigan outside a limestone townhouse",
     "position": "74% 42%"
+  },
+  "/coats-and-jackets/bomber-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/bomber-jackets.webp",
+    "alt": "Campaign inspiration: a woman wearing an olive bomber jacket outside a limestone doorway",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/casual-coats/": {
+    "src": "/assets/campaigns/coats-and-jackets/casual-coats.webp",
+    "alt": "Campaign inspiration: a woman in a relaxed stone-coloured casual coat on a quiet limestone street",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/faux-fur-coats/": {
+    "src": "/assets/campaigns/coats-and-jackets/faux-fur-coats.webp",
+    "alt": "Campaign inspiration: a woman wearing a plush taupe faux-fur coat by a pale stone townhouse",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/fleece-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/fleece-jackets.webp",
+    "alt": "Campaign inspiration: a woman in an ivory fleece jacket with green trim in a pale plaster courtyard",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/jean-and-denim-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/jean-and-denim-jackets.webp",
+    "alt": "Campaign inspiration: a woman wearing a blue denim jacket and cream trousers in a sunlit courtyard",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/leather-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/leather-jackets.webp",
+    "alt": "Campaign inspiration: a woman in a chocolate biker jacket beside a warm limestone wall",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/light-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/light-jackets.webp",
+    "alt": "Campaign inspiration: a woman in a lightweight sand-coloured jacket on a travertine terrace",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/linen-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/linen-jackets.webp",
+    "alt": "Campaign inspiration: a woman wearing an ivory linen jacket on a warm limestone terrace",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/long-parka-coat/": {
+    "src": "/assets/campaigns/coats-and-jackets/long-parka-coat.webp",
+    "alt": "Campaign inspiration: a woman in a long olive parka with a generous hood by a limestone doorway",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/military-and-cargo-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/military-and-cargo-jackets.webp",
+    "alt": "Campaign inspiration: a woman wearing an olive cargo jacket with flap pockets in a stone courtyard",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/quilted-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/quilted-jackets.webp",
+    "alt": "Campaign inspiration: a woman in a sage diamond-quilted jacket beside a warm plaster doorway",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/rain-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/rain-jackets.webp",
+    "alt": "Campaign inspiration: a woman in a clay-coloured hooded rain jacket beneath a limestone arcade",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/trench-coats/": {
+    "src": "/assets/campaigns/coats-and-jackets/trench-coats.webp",
+    "alt": "Campaign inspiration: a woman wearing a belted beige trench coat on a quiet limestone street",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/winter-coats/": {
+    "src": "/assets/campaigns/coats-and-jackets/winter-coats.webp",
+    "alt": "Campaign inspiration: a woman in an ink-blue winter coat and oatmeal scarf outside a stone doorway",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/work-and-pea-coats/": {
+    "src": "/assets/campaigns/coats-and-jackets/work-and-pea-coats.webp",
+    "alt": "Campaign inspiration: a woman wearing a tailored navy pea coat outside a limestone townhouse",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/down-coats/": {
+    "src": "/assets/campaigns/coats-and-jackets/down-coats.webp",
+    "alt": "Campaign inspiration: a woman in a forest-green padded down-style coat in a limestone courtyard",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/fall-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/fall-jackets.webp",
+    "alt": "Campaign inspiration: a woman wearing a rust-and-oat checked autumn jacket beside a pale stone wall",
+    "position": "74% 42%"
+  },
+  "/coats-and-jackets/spring-jackets/": {
+    "src": "/assets/campaigns/coats-and-jackets/spring-jackets.webp",
+    "alt": "Campaign inspiration: a woman in a powder-blue spring jacket on a limestone garden terrace",
+    "position": "74% 42%"
   }
 }

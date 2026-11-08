@@ -1,0 +1,120 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "18 new bespoke Coats & Jackets subcategory photographs. The existing bespoke top-level Coats & Jackets campaign photograph and shared atmosphere treatment are retained. Existing product photography and all video assets are unchanged.",
+  "artDirection": "Use case: photorealistic-natural. Asset type: one bespoke wide photographic hero for the WOW Fashion women's Coats & Jackets collection website, matching its premium warm editorial campaign. Create ONE finished photograph, horizontal 16:9 landscape, ideally 1672 by 941 pixels. Authentic natural fashion photography, lifelike skin, high-end lens quality, beautiful true fabric texture, anatomically correct hands and believable garment construction. The adult woman is on the RIGHT side, centred near 77 percent of the image width, with her entire head comfortably inside the frame and clear space above it. Keep the garment silhouette visible as specified. The LEFT 55 percent is quiet photographic negative space of low-contrast warm pale limestone or plaster, unobstructed, ready for dark website headlines. Architectural detail, foliage and props stay mostly on the far right. A calm warm cream, pale stone and soft brown overall grade complements the specific coat colour. Gentle natural light, composed but candid fashion styling, realistic folds and texture. No text, letters, typography, logos, watermarks, UI, product labels, graphic gradients, smoke or artificial fog. The website adds its own animated bottom blend later. It should look like an original fashion campaign in a real setting, not a cutout catalogue photo. Specific garment and scene: ",
+  "retainedParent": {
+    "route": "/coats-and-jackets/",
+    "asset": "/assets/coats-and-jackets/hero.webp"
+  },
+  "assets": [
+    {
+      "route": "/coats-and-jackets/bomber-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/bomber-jackets.webp",
+      "subject": "An adult Black woman with short natural curls wearing a muted olive satin bomber jacket with a clear silver centre zipper, knitted ribbed collar, cuffs and waistband, over an opaque ivory tee and dark indigo straight-leg jeans. The bomber has a relaxed rounded shape and ends at the hip. She pauses beside a pale limestone doorway, hands natural, easy confident expression. Frame from head to mid-thigh with the entire jacket visible.",
+      "alt": "Campaign inspiration: a woman wearing an olive bomber jacket outside a limestone doorway"
+    },
+    {
+      "route": "/coats-and-jackets/casual-coats/",
+      "asset": "/assets/campaigns/coats-and-jackets/casual-coats.webp",
+      "subject": "An adult woman with warm olive skin and a loose chestnut bob wearing a relaxed stone-coloured cotton twill casual coat, with simple large patch pockets and a soft open collar, over a fine ivory knit and blue straight-leg jeans. The coat falls to just above the knee, softly unstructured, with understated buttons and no formal tailoring. She takes an easy step along a quiet warm limestone street, framed from head to below the coat hem.",
+      "alt": "Campaign inspiration: a woman in a relaxed stone-coloured casual coat on a quiet limestone street"
+    },
+    {
+      "route": "/coats-and-jackets/faux-fur-coats/",
+      "asset": "/assets/campaigns/coats-and-jackets/faux-fur-coats.webp",
+      "subject": "An adult woman with medium brown skin and dark hair in a low bun wearing a plush taupe faux-fur coat with a generous soft collar and a relaxed mid-thigh silhouette, over a black fine-knit top and cream tailored trousers. The faux fur has beautifully detailed soft synthetic fibres, rich and tactile without shine. She stands beside an elegant pale stone townhouse entrance in gentle late-afternoon light. Frame the full coat and her entire head.",
+      "alt": "Campaign inspiration: a woman wearing a plush taupe faux-fur coat by a pale stone townhouse"
+    },
+    {
+      "route": "/coats-and-jackets/fleece-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/fleece-jackets.webp",
+      "subject": "An adult East Asian woman with a dark softly textured pixie cut wearing an ivory teddy-fleece jacket with a forest-green centre zipper, subtle green piping, a small contrasting chest pocket and a neat stand collar, paired with a cream tee and sand trousers. The fleece has clearly visible soft curled pile, a relaxed hip-length fit and natural cuffs. She stands in a warm pale plaster courtyard in diffused morning light. Three-quarter fashion portrait.",
+      "alt": "Campaign inspiration: a woman in an ivory fleece jacket with green trim in a pale plaster courtyard"
+    },
+    {
+      "route": "/coats-and-jackets/jean-and-denim-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/jean-and-denim-jackets.webp",
+      "subject": "An adult East Asian woman with shoulder-length dark waves wearing a classic mid-blue denim jacket with a pointed collar, natural metal buttons, shaped seams and two buttoned chest pockets, over an ivory top and cream straight-leg trousers. Authentic blue denim weave and softly worn edges, not heavily distressed. She leans lightly beside a pale limestone doorway in a sunlit courtyard. Frame from head to mid-thigh so the denim jacket's whole shape is clear.",
+      "alt": "Campaign inspiration: a woman wearing a blue denim jacket and cream trousers in a sunlit courtyard"
+    },
+    {
+      "route": "/coats-and-jackets/leather-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/leather-jackets.webp",
+      "subject": "An adult Black woman with a softly shaped dark bob wearing a deep chocolate leather-look biker jacket with asymmetric silver zip, clean lapels and restrained silver hardware, over a soft grey knit and ivory trousers. Realistic supple leather-look grain, a softly structured waist-length silhouette, no logos or studs. She stands beside a quiet warm limestone townhouse wall with a natural confident expression. Three-quarter portrait, hands relaxed.",
+      "alt": "Campaign inspiration: a woman in a chocolate biker jacket beside a warm limestone wall"
+    },
+    {
+      "route": "/coats-and-jackets/light-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/light-jackets.webp",
+      "subject": "An adult woman with fair freckled skin and loosely tied auburn hair wearing a lightweight pale sand cotton jacket with a relaxed open collar, discreet buttons and easy unlined-looking drape, over an opaque ivory tee and soft olive trousers. Thin fabric and an easy hip-length cut, clearly a light jacket rather than a coat. She stands on a sheltered pale travertine terrace, a gentle spring breeze moving the jacket edge. Three-quarter length portrait.",
+      "alt": "Campaign inspiration: a woman in a lightweight sand-coloured jacket on a travertine terrace"
+    },
+    {
+      "route": "/coats-and-jackets/linen-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/linen-jackets.webp",
+      "subject": "An adult South Asian woman with long softly waved dark hair wearing a relaxed warm ivory linen jacket with an unstructured lapel, a single natural horn-style button and slightly pushed-back sleeves, over a plain cream top and taupe tailored trousers. Show real linen slubs and fine natural creases, an airy elegant silhouette. She pauses by a pale limestone terrace in warm morning light. Frame the entire jacket and natural hands.",
+      "alt": "Campaign inspiration: a woman wearing an ivory linen jacket on a warm limestone terrace"
+    },
+    {
+      "route": "/coats-and-jackets/long-parka-coat/",
+      "asset": "/assets/campaigns/coats-and-jackets/long-parka-coat.webp",
+      "subject": "An adult woman with medium olive skin and loosely gathered dark hair wearing a long muted olive parka coat that reaches below the knees, with a substantial plain hood resting behind her shoulders, a central covered zip and large functional flap pockets. No fur trim. Underneath are an ivory knit and dark slim trousers with simple brown boots. Frame her whole figure so the long parka hem is unmistakable. She stands by a tall warm limestone doorway on a softly overcast day.",
+      "alt": "Campaign inspiration: a woman in a long olive parka with a generous hood by a limestone doorway"
+    },
+    {
+      "route": "/coats-and-jackets/military-and-cargo-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/military-and-cargo-jackets.webp",
+      "subject": "An adult Black woman with long loosely tied braids wearing an olive cotton utility jacket with four clearly defined flap pockets, a neat stand collar and subtle waist shaping, over a plain ivory tee and dark brown tailored trousers. Refined everyday cargo styling, realistic stitching and fabric, no camouflage, military insignia, badges or weapons. She turns naturally in a pale stone urban courtyard. Three-quarter length portrait with the full jacket visible.",
+      "alt": "Campaign inspiration: a woman wearing an olive cargo jacket with flap pockets in a stone courtyard"
+    },
+    {
+      "route": "/coats-and-jackets/quilted-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/quilted-jackets.webp",
+      "subject": "An adult East Asian woman with a dark chin-length bob wearing a muted sage quilted jacket with fine diamond stitching, a warm corduroy collar, discreet snap fastenings and a softly rounded hip-length shape, over a cream knit and stone trousers. Lightly padded diamond quilting is clear and refined, distinct from a puffer coat. She stands beside a warm pale plaster townhouse doorway in gentle autumn light. Natural posture, whole jacket visible.",
+      "alt": "Campaign inspiration: a woman in a sage diamond-quilted jacket beside a warm plaster doorway"
+    },
+    {
+      "route": "/coats-and-jackets/rain-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/rain-jackets.webp",
+      "subject": "An adult woman with warm brown skin and dark shoulder-length curls wearing a muted clay-coloured rain jacket with a generous hood down behind the neck, a high collar, clean covered zip and practical pockets, over a light cream knit and dark trousers. The smooth matte shell falls to mid-thigh and has a few delicate visible raindrops, with realistic seams. A softly overcast pale limestone arcade after light rain, a little wet paving at the far right. Calm warm neutral grading, no umbrella covering the coat, no dramatic storm.",
+      "alt": "Campaign inspiration: a woman in a clay-coloured hooded rain jacket beneath a limestone arcade"
+    },
+    {
+      "route": "/coats-and-jackets/trench-coats/",
+      "asset": "/assets/campaigns/coats-and-jackets/trench-coats.webp",
+      "subject": "An adult woman with warm olive skin and long loose chestnut waves wearing a classic honey-beige cotton trench coat with double-breasted buttons, a storm flap, modest shoulder epaulettes and a belt loosely knotted at the waist. The coat falls to mid-calf, over an ivory top and cream straight trousers with understated brown shoes. Show her whole figure and the flowing lower hem as she takes a gentle step along a quiet pale limestone townhouse street. Elegant natural morning light, authentic fabric movement.",
+      "alt": "Campaign inspiration: a woman wearing a belted beige trench coat on a quiet limestone street"
+    },
+    {
+      "route": "/coats-and-jackets/winter-coats/",
+      "asset": "/assets/campaigns/coats-and-jackets/winter-coats.webp",
+      "subject": "An adult woman in her forties with medium brown skin and softly waved shoulder-length dark hair wearing a substantial deep ink-blue wool winter coat with wide lapels and a long below-knee silhouette, layered over a thick ivory knit and a softly draped oatmeal scarf, with cream trousers. Clearly a winter wool coat, not a puffer, the scarf does not hide the coat's shape. She stands near a pale stone doorway in soft winter morning light, framed from head to below the coat hem, relaxed and warm.",
+      "alt": "Campaign inspiration: a woman in an ink-blue winter coat and oatmeal scarf outside a stone doorway"
+    },
+    {
+      "route": "/coats-and-jackets/work-and-pea-coats/",
+      "asset": "/assets/campaigns/coats-and-jackets/work-and-pea-coats.webp",
+      "subject": "An adult South Asian woman with dark hair in an elegant low bun wearing a sharply considered navy wool pea coat with two symmetrical rows of dark buttons, broad classic lapels and a hip-to-upper-thigh hem, over an ivory fine-knit top and charcoal tailored trousers. The coat fits neatly at the shoulders and is partly buttoned. She stands by a tall pale limestone townhouse entrance, polished workday styling and natural confidence. Frame from head to mid-thigh.",
+      "alt": "Campaign inspiration: a woman wearing a tailored navy pea coat outside a limestone townhouse"
+    },
+    {
+      "route": "/coats-and-jackets/down-coats/",
+      "asset": "/assets/campaigns/coats-and-jackets/down-coats.webp",
+      "subject": "An adult East Asian woman with softly waved dark hair wearing a deep forest-green long down-style puffer coat with broad horizontal padded baffles, a generous high collar and a neatly centred zipper, over an ivory knit and cream trousers. The coat reaches around the knees and has realistic lightweight matte technical fabric, dimensional padding and no fur. Frame her whole figure to show the padded silhouette clearly, standing in a pale limestone courtyard in diffused winter light.",
+      "alt": "Campaign inspiration: a woman in a forest-green padded down-style coat in a limestone courtyard"
+    },
+    {
+      "route": "/coats-and-jackets/fall-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/fall-jackets.webp",
+      "subject": "An adult woman with warm olive skin and a wavy dark bob wearing an autumnal rust, oat and espresso checked wool-look shacket with a soft collar, horn-style buttons and two simple chest pockets, over a cream fine-knit top and dark blue denim. The jacket is relaxed and hip-length, with tactile woven check texture. She pauses by a warm pale stone wall, with just a few autumn leaves and foliage at the far right. Gentle low autumn sunlight, three-quarter portrait.",
+      "alt": "Campaign inspiration: a woman wearing a rust-and-oat checked autumn jacket beside a pale stone wall"
+    },
+    {
+      "route": "/coats-and-jackets/spring-jackets/",
+      "asset": "/assets/campaigns/coats-and-jackets/spring-jackets.webp",
+      "subject": "An adult Black woman with shoulder-length natural curls wearing a fresh pale powder-blue cotton jacket with a neat collar, simple light buttons and a softly tailored waist-length cut, over an ivory tee and sand-coloured wide-leg trousers. Light smooth fabric and an easy spring silhouette, no hood or heavy padding. She stands on a pale limestone garden terrace with soft spring foliage only at the far right, natural bright morning light and a relaxed expression. Three-quarter portrait.",
+      "alt": "Campaign inspiration: a woman in a powder-blue spring jacket on a limestone garden terrace"
+    }
+  ]
+}
