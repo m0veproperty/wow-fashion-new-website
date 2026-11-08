@@ -563,5 +563,75 @@
     "src": "/assets/campaigns/skirts/a-line-skirts.webp",
     "alt": "Campaign inspiration: a woman in a dusty-rose A-line skirt on a limestone courtyard terrace",
     "position": "77% 42%"
+  },
+  "/sweaters/cardigan-sweaters/": {
+    "src": "/assets/campaigns/sweaters/cardigan-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in an oatmeal cardigan sweater in a pale limestone café courtyard",
+    "position": "77% 42%"
+  },
+  "/sweaters/cashmere-sweaters/": {
+    "src": "/assets/campaigns/sweaters/cashmere-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a pale taupe fine-knit sweater beside a travertine doorway",
+    "position": "77% 42%"
+  },
+  "/sweaters/cotton-sweaters/": {
+    "src": "/assets/campaigns/sweaters/cotton-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a powder-blue ribbed sweater beside a pale plaster garden wall",
+    "position": "77% 42%"
+  },
+  "/sweaters/cropped-sweaters/": {
+    "src": "/assets/campaigns/sweaters/cropped-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a dusty-rose cropped sweater with high-waisted cream trousers",
+    "position": "77% 42%"
+  },
+  "/sweaters/long-sweaters/": {
+    "src": "/assets/campaigns/sweaters/long-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a forest-green long sweater beside a pale stone townhouse",
+    "position": "77% 42%"
+  },
+  "/sweaters/off-the-shoulder-sweaters/": {
+    "src": "/assets/campaigns/sweaters/off-the-shoulder-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a muted mauve off-the-shoulder sweater on a pale café terrace",
+    "position": "77% 42%"
+  },
+  "/sweaters/oversized-and-baggy-sweaters/": {
+    "src": "/assets/campaigns/sweaters/oversized-and-baggy-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a light-grey oversized ribbed sweater beside a limestone courtyard wall",
+    "position": "77% 42%"
+  },
+  "/sweaters/spring-sweaters/": {
+    "src": "/assets/campaigns/sweaters/spring-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a sage-green spring sweater in a softly lit limestone courtyard",
+    "position": "77% 42%"
+  },
+  "/sweaters/summer-sweaters/": {
+    "src": "/assets/campaigns/sweaters/summer-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in an airy ivory summer knit on a pale limestone seaside terrace",
+    "position": "77% 42%"
+  },
+  "/sweaters/tunic-sweaters/": {
+    "src": "/assets/campaigns/sweaters/tunic-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a navy tunic sweater beneath a pale travertine arcade",
+    "position": "77% 42%"
+  },
+  "/sweaters/turtle-neck-sweaters/": {
+    "src": "/assets/campaigns/sweaters/turtle-neck-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a rust-coloured roll-neck sweater beside a limestone doorway",
+    "position": "77% 42%"
+  },
+  "/sweaters/winter-sweaters/": {
+    "src": "/assets/campaigns/sweaters/winter-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a cream patterned winter sweater beside a pale stone country-house wall",
+    "position": "77% 42%"
+  },
+  "/sweaters/wool-and-knitted-sweaters/": {
+    "src": "/assets/campaigns/sweaters/wool-and-knitted-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a deep teal cable-knit sweater beside a limestone garden wall",
+    "position": "77% 42%"
+  },
+  "/sweaters/fall-sweaters/": {
+    "src": "/assets/campaigns/sweaters/fall-sweaters.webp",
+    "alt": "Campaign inspiration: a woman in a burnt-cinnamon autumn sweater beside a pale plaster townhouse",
+    "position": "77% 42%"
   }
 }

@@ -1,0 +1,98 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "14 new bespoke Sweaters subcategory photographs with the shared atmosphere treatment. The existing parent Sweaters campaign image is retained. All 15 Sweaters pages use bespoke campaign hero imagery. Existing product photography and all other page content outside the campaign note are unchanged.",
+  "artDirection": "Use case: photorealistic-natural. Asset type: one bespoke wide photographic hero for the WOW Fashion women's Sweaters collection, matching a premium warm editorial fashion campaign. Create ONE finished photograph, horizontal 16:9 landscape, ideally 1672 by 941 pixels. Authentic natural photography, lifelike skin, realistic tactile knit texture, anatomically correct hands and believable garment construction. One adult woman on the RIGHT side, centred near 77 percent of the image width. Frame from comfortably above her entire head down to at least just below her knees, showing the complete sweater neckline, sleeves, silhouette and hem. The knitwear is the clear focus; no coat, scarf, bag or crossed arms covering it. The LEFT 55 percent is quiet low-contrast warm pale limestone or plaster, unobstructed for dark website headlines. Architecture and foliage stay mostly at the far right. Soft flattering daylight, warm cream and pale stone surroundings, natural unforced posture and realistic fabric weight. No text, typography, logos, watermarks, UI, graphic gradients, smoke or artificial fog. The website adds its animated bottom blend later. An original fashion campaign in a real setting. Specific garment and scene: ",
+  "retainedCampaignHeroes": [
+    {
+      "route": "/sweaters/",
+      "asset": "/assets/sweaters/hero.webp"
+    }
+  ],
+  "assets": [
+    {
+      "route": "/sweaters/cardigan-sweaters/",
+      "asset": "/assets/campaigns/sweaters/cardigan-sweaters.webp",
+      "subject": "An adult Black woman with soft natural shoulder-length curls wearing a warm oatmeal cardigan sweater with a clear open button front, ribbed placket, small tonal buttons, long sleeves and a neat hip-length hem. The cardigan is worn partly open over a simple ivory vest with dark straight jeans; hands relaxed at her sides leave the knit and opening fully visible. A pale limestone café courtyard in gentle morning light, detailed soft yarn and relaxed everyday styling.",
+      "alt": "Campaign inspiration: a woman in an oatmeal cardigan sweater in a pale limestone café courtyard"
+    },
+    {
+      "route": "/sweaters/cashmere-sweaters/",
+      "asset": "/assets/campaigns/sweaters/cashmere-sweaters.webp",
+      "subject": "An adult East Asian woman in her thirties with a softly waved dark bob wearing a refined pale taupe cashmere-look crewneck sweater with a fine, softly brushed knit, delicate ribbed cuffs and a smooth relaxed hip-length hem. Quiet luxury styling with ivory tailored trousers, the sweater untucked so its full shape shows. She stands beside a pale travertine townhouse doorway in diffuse warm daylight; realistic delicate yarn texture with no large cables or pattern.",
+      "alt": "Campaign inspiration: a woman in a pale taupe fine-knit sweater beside a travertine doorway"
+    },
+    {
+      "route": "/sweaters/cotton-sweaters/",
+      "asset": "/assets/campaigns/sweaters/cotton-sweaters.webp",
+      "subject": "An adult South Asian woman with dark hair loosely tied back wearing a fresh powder-blue cotton-look sweater in a clean fine ribbed knit, an easy crewneck, long sleeves and a simple hip-length hem. A matte light knit with clear stitch definition and no fuzzy wool halo, styled with relaxed cream trousers. She stands beside a pale plaster garden wall in bright soft daylight, hands loosely at her sides and the whole sweater visible.",
+      "alt": "Campaign inspiration: a woman in a powder-blue ribbed sweater beside a pale plaster garden wall"
+    },
+    {
+      "route": "/sweaters/cropped-sweaters/",
+      "asset": "/assets/campaigns/sweaters/cropped-sweaters.webp",
+      "subject": "An adult woman with olive skin and loose chestnut waves wearing a dusty-rose cropped crewneck sweater with a clearly short straight ribbed hem ending at the natural waist, softly rounded long sleeves and textured knit stitches. High-waisted cream wide-leg trousers meet the sweater hem, modest everyday styling. She stands in a pale limestone courtyard, angled gently toward the camera so the short waist-length proportion is unmistakable, no front tuck and no long hem.",
+      "alt": "Campaign inspiration: a woman in a dusty-rose cropped sweater with high-waisted cream trousers"
+    },
+    {
+      "route": "/sweaters/long-sweaters/",
+      "asset": "/assets/campaigns/sweaters/long-sweaters.webp",
+      "subject": "An adult Black woman in her thirties with a neat natural curly bob wearing a deep forest-green long sweater with an unmistakably extended relaxed hem falling to mid-thigh, a soft crewneck, long sleeves and subtle side slits. The long knit is untucked over slim dark trousers, with no belt. Frame far enough down to show both knees and the complete long sweater hem. She stands beside a pale stone townhouse in gentle autumn light, realistic yarn weight and soft folds.",
+      "alt": "Campaign inspiration: a woman in a forest-green long sweater beside a pale stone townhouse"
+    },
+    {
+      "route": "/sweaters/off-the-shoulder-sweaters/",
+      "asset": "/assets/campaigns/sweaters/off-the-shoulder-sweaters.webp",
+      "subject": "An adult white woman in her thirties with softly waved auburn hair wearing a muted mauve off-the-shoulder sweater with a broad folded ribbed neckline sitting visibly below both shoulders, long sleeves and a relaxed waist-skimming hem. Tasteful everyday knitwear styling with high-waisted charcoal trousers, no straps and no necklace obscuring the neckline. She stands naturally beside a pale plaster café terrace in soft daylight, shoulders and complete folded neckline clearly visible.",
+      "alt": "Campaign inspiration: a woman in a muted mauve off-the-shoulder sweater on a pale café terrace"
+    },
+    {
+      "route": "/sweaters/oversized-and-baggy-sweaters/",
+      "asset": "/assets/campaigns/sweaters/oversized-and-baggy-sweaters.webp",
+      "subject": "An adult East Asian woman with loosely tied dark hair wearing a soft light-grey oversized sweater with generous width, clearly dropped shoulder seams, roomy sleeves and a loose hem extending below the hips. A visible chunky rib stitch and relaxed drape make the extra volume unmistakable. Styled with narrow dark trousers, hands down at her sides without stretching the garment. She stands beside a pale limestone courtyard wall in gentle diffuse light.",
+      "alt": "Campaign inspiration: a woman in a light-grey oversized ribbed sweater beside a limestone courtyard wall"
+    },
+    {
+      "route": "/sweaters/spring-sweaters/",
+      "asset": "/assets/campaigns/sweaters/spring-sweaters.webp",
+      "subject": "An adult Black woman with long loosely tied braids wearing a soft sage-green lightweight spring sweater with a neat crewneck, fine textured knit, gently pushed-up sleeves and an easy hip-length hem. Styled with cream straight-leg jeans. Fresh spring daylight in a pale limestone courtyard with a subtle flowering branch only at the far right; calm pale left half. She has a relaxed natural smile, and the whole lightweight sweater silhouette is clear.",
+      "alt": "Campaign inspiration: a woman in a sage-green spring sweater in a softly lit limestone courtyard"
+    },
+    {
+      "route": "/sweaters/summer-sweaters/",
+      "asset": "/assets/campaigns/sweaters/summer-sweaters.webp",
+      "subject": "An adult woman with warm medium-brown skin and loose dark waves wearing an ivory lightweight short-sleeve summer sweater with a fine open-knit stitch, modest round neckline and a waist-skimming hem. A plain tonal camisole underneath provides opaque coverage without distracting from the airy knit. Styled with sand-coloured linen-look trousers. She stands on a pale limestone seaside terrace with a faint muted-blue sea glimpse only at far right, luminous soft summer light.",
+      "alt": "Campaign inspiration: a woman in an airy ivory summer knit on a pale limestone seaside terrace"
+    },
+    {
+      "route": "/sweaters/tunic-sweaters/",
+      "asset": "/assets/campaigns/sweaters/tunic-sweaters.webp",
+      "subject": "An adult South Asian woman in her forties with a softly waved dark bob wearing a deep navy tunic sweater with a clean narrow boat neckline, straight long sleeves and a clearly elongated straight body ending at the lower thigh. Small side vents and a defined ribbed hem show the tunic construction. Worn untucked over slim warm-grey trousers, with no belt. Frame the full tunic hem and both knees. She stands beside a pale travertine arcade in warm diffuse light.",
+      "alt": "Campaign inspiration: a woman in a navy tunic sweater beneath a pale travertine arcade"
+    },
+    {
+      "route": "/sweaters/turtle-neck-sweaters/",
+      "asset": "/assets/campaigns/sweaters/turtle-neck-sweaters.webp",
+      "subject": "An adult woman with olive skin and dark hair in a soft low bun wearing a rich rust-coloured turtleneck sweater with a clearly folded roll collar covering the neck, finely ribbed texture, long sleeves and a neat hip-length hem. Styled with cream tailored trousers, the sweater untucked and uncovered by outerwear. She stands beside a pale limestone doorway in soft autumn daylight, the rolled neck and yarn texture sharply visible.",
+      "alt": "Campaign inspiration: a woman in a rust-coloured roll-neck sweater beside a limestone doorway"
+    },
+    {
+      "route": "/sweaters/winter-sweaters/",
+      "asset": "/assets/campaigns/sweaters/winter-sweaters.webp",
+      "subject": "An adult white woman in her forties with warm freckles and a softly waved chestnut bob wearing a substantial cream winter sweater with a muted charcoal and cocoa Fair Isle yoke pattern, a cosy high ribbed neck, thick long sleeves and a full hip-length hem. Styled with dark chocolate trousers, no coat or scarf covering the sweater. She stands beside a pale stone country-house wall in soft cool winter daylight, subtle bare branches only at the far right, realistic thick wool-like texture.",
+      "alt": "Campaign inspiration: a woman in a cream patterned winter sweater beside a pale stone country-house wall"
+    },
+    {
+      "route": "/sweaters/wool-and-knitted-sweaters/",
+      "asset": "/assets/campaigns/sweaters/wool-and-knitted-sweaters.webp",
+      "subject": "An adult Black woman with a softly shaped natural afro wearing a muted deep teal wool-look cable-knit sweater with pronounced interwoven cables, textured stitch panels, a ribbed crewneck, long sleeves and a neat hip-length hem. Styled with ivory straight-leg trousers. She stands beside a pale limestone garden wall, soft warm daylight revealing the rich yarn texture and complete knit pattern, no jewellery or props covering the garment.",
+      "alt": "Campaign inspiration: a woman in a deep teal cable-knit sweater beside a limestone garden wall"
+    },
+    {
+      "route": "/sweaters/fall-sweaters/",
+      "asset": "/assets/campaigns/sweaters/fall-sweaters.webp",
+      "subject": "An adult East Asian woman in her thirties with loose dark shoulder-length waves wearing a burnt-cinnamon autumn sweater with an easy V-neck, medium-weight textured knit, softly relaxed long sleeves and a hip-length ribbed hem. Styled with dark indigo straight jeans. She stands beside a pale plaster townhouse entrance with a few softly lit amber leaves at the far right, warm gentle autumn daylight and the full sweater visible.",
+      "alt": "Campaign inspiration: a woman in a burnt-cinnamon autumn sweater beside a pale plaster townhouse"
+    }
+  ]
+}
