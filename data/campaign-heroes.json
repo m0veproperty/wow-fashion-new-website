@@ -98,5 +98,80 @@
     "src": "/assets/sweaters/hero.webp",
     "alt": "Campaign inspiration: a woman in an oatmeal cable-knit sweater beside a pale stone wall",
     "position": "72% 42%"
+  },
+  "/cardigans/animal-print-cardigans/": {
+    "src": "/assets/campaigns/cardigans/animal-print-cardigans.webp",
+    "alt": "Campaign inspiration: a woman in a leopard-print cardigan outside a pale limestone townhouse",
+    "position": "74% 42%"
+  },
+  "/cardigans/cardigan-vests/": {
+    "src": "/assets/campaigns/cardigans/cardigan-vests.webp",
+    "alt": "Campaign inspiration: a woman layering a moss-green cardigan vest over an ivory shirt in a stone arcade",
+    "position": "74% 42%"
+  },
+  "/cardigans/cashmere-cardigans/": {
+    "src": "/assets/campaigns/cardigans/cashmere-cardigans.webp",
+    "alt": "Campaign inspiration: a woman wearing an oatmeal cashmere wrap cardigan beside a softly lit window",
+    "position": "74% 42%"
+  },
+  "/cardigans/cropped-dressy-cardigans/": {
+    "src": "/assets/campaigns/cardigans/cropped-dressy-cardigans.webp",
+    "alt": "Campaign inspiration: a woman in a plum cropped cardigan and champagne trousers on a travertine terrace",
+    "position": "74% 42%"
+  },
+  "/cardigans/kimono-cardigans/": {
+    "src": "/assets/campaigns/cardigans/kimono-cardigans.webp",
+    "alt": "Campaign inspiration: a woman in a flowing botanical-print kimono cardigan in a limestone courtyard",
+    "position": "74% 42%"
+  },
+  "/cardigans/lace-cardigans/": {
+    "src": "/assets/campaigns/cardigans/lace-cardigans.webp",
+    "alt": "Campaign inspiration: a woman wearing an ivory lace cardigan over a cream camisole by a warm plaster doorway",
+    "position": "74% 42%"
+  },
+  "/cardigans/lightweight-cardigans/": {
+    "src": "/assets/campaigns/cardigans/lightweight-cardigans.webp",
+    "alt": "Campaign inspiration: a woman in a lightweight sage cardigan in a sunlit stone courtyard",
+    "position": "74% 42%"
+  },
+  "/cardigans/long-cardigans/": {
+    "src": "/assets/campaigns/cardigans/long-cardigans.webp",
+    "alt": "Campaign inspiration: a woman wearing a cocoa long cardigan while walking past a limestone doorway",
+    "position": "74% 42%"
+  },
+  "/cardigans/short-sleeved-cardigans/": {
+    "src": "/assets/campaigns/cardigans/short-sleeved-cardigans.webp",
+    "alt": "Campaign inspiration: a woman wearing an ivory short-sleeved cardigan beside a travertine terrace",
+    "position": "74% 42%"
+  },
+  "/cardigans/silk-cardigans/": {
+    "src": "/assets/campaigns/cardigans/silk-cardigans.webp",
+    "alt": "Campaign inspiration: a woman in a fluid pearl-grey silk cardigan beside a tall limestone-framed window",
+    "position": "74% 42%"
+  },
+  "/cardigans/summer-spring-cardigans/": {
+    "src": "/assets/campaigns/cardigans/summer-spring-cardigans.webp",
+    "alt": "Campaign inspiration: a woman in a pistachio open-knit cardigan and ivory dress on a spring garden terrace",
+    "position": "74% 42%"
+  },
+  "/cardigans/wool-cardigans/": {
+    "src": "/assets/campaigns/cardigans/wool-cardigans.webp",
+    "alt": "Campaign inspiration: a woman wearing a cinnamon wool cardigan in warm autumn light",
+    "position": "74% 42%"
+  },
+  "/cardigans/hooded-cardigans/": {
+    "src": "/assets/campaigns/cardigans/hooded-cardigans.webp",
+    "alt": "Campaign inspiration: a woman wearing a greige knitted hooded cardigan in a quiet courtyard",
+    "position": "74% 42%"
+  },
+  "/cardigans/warm-cardigans/": {
+    "src": "/assets/campaigns/cardigans/warm-cardigans.webp",
+    "alt": "Campaign inspiration: a woman in a warm oatmeal cable-knit cardigan beside a winter-lit window",
+    "position": "74% 42%"
+  },
+  "/cardigans/zipped-cardigans/": {
+    "src": "/assets/campaigns/cardigans/zipped-cardigans.webp",
+    "alt": "Campaign inspiration: a woman wearing a charcoal zipped knit cardigan outside a limestone townhouse",
+    "position": "74% 42%"
   }
 }

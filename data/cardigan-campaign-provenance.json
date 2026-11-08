@@ -1,0 +1,102 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "15 new bespoke cardigan subcategory photographs. The existing bespoke top-level Cardigans campaign photograph and shared atmosphere treatment are retained. Existing product photography and all video assets are unchanged.",
+  "artDirection": "Use case: photorealistic-natural. Asset type: bespoke wide photographic hero for the WOW Fashion women's cardigan collection website, part of a cohesive premium editorial campaign. Create ONE finished photograph, horizontal landscape 16:9, ideally 1672 by 941 pixels. Authentic natural editorial fashion photography, high-end lens quality, lifelike skin, true knit and fabric texture, anatomically correct hands, subtle film colour, refined warm cream and pale stone surroundings. Subject occupies the RIGHT side, centred near 76 percent of image width, with the entire head safely below the top edge and the relevant garment clearly visible. The LEFT 55 percent is quiet photographic negative space: softly textured warm pale limestone/plaster with low contrast, unobstructed and free of foreground props, ready for dark website headlines. Background architectural details and foliage stay mostly to the far right. Gentle flattering natural sidelight, calm expressive styling, believable fabric drape. No typography, words, captions, logos, watermark, UI, product labels, graphic gradients, smoke or artificial fog baked into the image. The website adds its own animated bottom blend. It must feel like a bespoke fashion campaign in a real setting, not a cutout catalogue product photograph. The pictured woman is an adult. Specific scene and garment: ",
+  "retainedParent": {
+    "route": "/cardigans/",
+    "asset": "/assets/cardigans/hero.webp"
+  },
+  "assets": [
+    {
+      "route": "/cardigans/animal-print-cardigans/",
+      "asset": "/assets/campaigns/cardigans/animal-print-cardigans.webp",
+      "subject": "An adult Black woman with short natural curls wearing a relaxed leopard-print fine-knit open cardigan in camel, espresso and cream over an opaque ivory camisole and dark brown tailored trousers. Three-quarter length fashion portrait beside a pale limestone townhouse doorway, one hand gently holding the cardigan edge. The animal-print layer is clearly a cardigan with an open front, not a dress or coat.",
+      "alt": "Campaign inspiration: a woman in a leopard-print cardigan outside a pale limestone townhouse"
+    },
+    {
+      "route": "/cardigans/cardigan-vests/",
+      "asset": "/assets/campaigns/cardigans/cardigan-vests.webp",
+      "subject": "An adult South Asian woman with loose dark shoulder-length hair wearing a longline sleeveless moss-green knitted cardigan vest, open over a crisp ivory shirt with visible long white sleeves and sand-coloured trousers. The sleeveless cardigan has two clear arm openings and hangs to mid-thigh. She pauses in a light stone arcade, both arms naturally visible. Three-quarter length view.",
+      "alt": "Campaign inspiration: a woman layering a moss-green cardigan vest over an ivory shirt in a stone arcade"
+    },
+    {
+      "route": "/cardigans/cashmere-cardigans/",
+      "asset": "/assets/campaigns/cardigans/cashmere-cardigans.webp",
+      "subject": "An adult East Asian woman with a softly waved black bob wearing a fine oatmeal cashmere wrap cardigan with a small relaxed tie at the waist, over cream tailored trousers. The fabric has a delicate soft cashmere halo and beautiful natural folds. She stands near a tall window in a warm pale limestone interior, gently resting one hand by her cuff. Quiet, warm, relaxed elegance.",
+      "alt": "Campaign inspiration: a woman wearing an oatmeal cashmere wrap cardigan beside a softly lit window"
+    },
+    {
+      "route": "/cardigans/cropped-dressy-cardigans/",
+      "asset": "/assets/campaigns/cardigans/cropped-dressy-cardigans.webp",
+      "subject": "An adult woman with olive skin and dark hair in a loose low bun wearing a deep plum cropped fine-knit cardigan with refined small gold buttons and a graceful neckline, paired with champagne high-waisted wide-leg trousers. The cardigan ends clearly at the natural waist and is buttoned, without exposing the midriff. She stands at a pale travertine restaurant terrace in warm late-afternoon light. Polished occasion styling, hands natural.",
+      "alt": "Campaign inspiration: a woman in a plum cropped cardigan and champagne trousers on a travertine terrace"
+    },
+    {
+      "route": "/cardigans/kimono-cardigans/",
+      "asset": "/assets/campaigns/cardigans/kimono-cardigans.webp",
+      "subject": "An adult woman with warm brown skin and loose dark curls wearing a flowing open-front kimono-style cardigan in a muted sage and ivory botanical print, with broad relaxed elbow-length sleeves and a hem to mid-thigh. Underneath are an opaque plain ivory tank and stone trousers. She gently turns in a quiet pale limestone courtyard, with subtle natural movement in the wide sleeves. Clearly a contemporary cardigan layer, not traditional ceremonial clothing.",
+      "alt": "Campaign inspiration: a woman in a flowing botanical-print kimono cardigan in a limestone courtyard"
+    },
+    {
+      "route": "/cardigans/lace-cardigans/",
+      "asset": "/assets/campaigns/cardigans/lace-cardigans.webp",
+      "subject": "An adult woman with fair skin, light freckles and auburn shoulder-length hair wearing an intricate ivory floral lace open cardigan with scalloped edges and long sleeves, over an opaque cream camisole and tailored taupe trousers. Full lining beneath the torso; lace texture visible in the sleeves. She stands beside a pale warm plaster doorway, with softly filtered morning light showing the delicate openwork.",
+      "alt": "Campaign inspiration: a woman wearing an ivory lace cardigan over a cream camisole by a warm plaster doorway"
+    },
+    {
+      "route": "/cardigans/lightweight-cardigans/",
+      "asset": "/assets/campaigns/cardigans/lightweight-cardigans.webp",
+      "subject": "An adult East Asian woman with shoulder-length softly waved dark hair wearing a pale sage lightweight fine-gauge cardigan with small tonal buttons, left partly open over an ivory tank, and soft stone trousers. Thin elegant knit, relaxed hip-length shape, distinctly light rather than chunky. She stands in a breezy pale limestone courtyard in soft spring light, one hand resting naturally near her trouser pocket.",
+      "alt": "Campaign inspiration: a woman in a lightweight sage cardigan in a sunlit stone courtyard"
+    },
+    {
+      "route": "/cardigans/long-cardigans/",
+      "asset": "/assets/campaigns/cardigans/long-cardigans.webp",
+      "subject": "An adult Black woman with long loosely tied braids wearing a cocoa-brown finely ribbed long open-front cardigan that falls clearly to the middle of her calves, over a plain ivory top and straight cream trousers, with understated brown shoes. Frame her full figure from head to feet so the long cardigan hem and movement are obvious. She is taking a gentle step past a tall warm limestone doorway. The long silhouette is elegant and relaxed.",
+      "alt": "Campaign inspiration: a woman wearing a cocoa long cardigan while walking past a limestone doorway"
+    },
+    {
+      "route": "/cardigans/short-sleeved-cardigans/",
+      "asset": "/assets/campaigns/cardigans/short-sleeved-cardigans.webp",
+      "subject": "An adult woman with olive skin and a chin-length dark bob wearing a warm ivory short-sleeved knitted cardigan with visible above-elbow sleeves, a modest V neckline and small honey-coloured buttons, paired with camel high-waisted trousers. Her forearms are uncovered and relaxed, the cardigan is fully buttoned. A three-quarter portrait standing beside a pale travertine terrace wall in warm morning sunlight.",
+      "alt": "Campaign inspiration: a woman wearing an ivory short-sleeved cardigan beside a travertine terrace"
+    },
+    {
+      "route": "/cardigans/silk-cardigans/",
+      "asset": "/assets/campaigns/cardigans/silk-cardigans.webp",
+      "subject": "An adult South Asian woman with dark hair in a soft low bun wearing a fluid pearl-grey silk-knit long cardigan with an open front and delicate narrow cuffs, over an opaque ivory camisole and cream tailored trousers. Restrained soft silk lustre, fine luxurious fabric, a graceful below-hip hem. She pauses beside an old tall window in a pale limestone interior with gentle sidelight.",
+      "alt": "Campaign inspiration: a woman in a fluid pearl-grey silk cardigan beside a tall limestone-framed window"
+    },
+    {
+      "route": "/cardigans/summer-spring-cardigans/",
+      "asset": "/assets/campaigns/cardigans/summer-spring-cardigans.webp",
+      "subject": "An adult woman with fair freckled skin and softly wavy auburn hair wearing a light pistachio open-knit cardigan over a simple opaque ivory linen midi dress. Relaxed fine stitching, a gently open front, long sleeves loosely pushed just above the wrists. She stands on a sunlit pale stone garden terrace, soft olive foliage and a hint of white blossom only at the far right. Fresh spring morning, light breeze, comfortable and natural.",
+      "alt": "Campaign inspiration: a woman in a pistachio open-knit cardigan and ivory dress on a spring garden terrace"
+    },
+    {
+      "route": "/cardigans/wool-cardigans/",
+      "asset": "/assets/campaigns/cardigans/wool-cardigans.webp",
+      "subject": "An adult Black woman with shoulder-length natural curls wearing a rich cinnamon-brown wool cardigan with substantial ribbed knit, a softly structured V neckline and large natural horn-style buttons, over a cream top and ivory trousers. Visible wool fibres and beautifully resolved stitches. She stands beside a pale limestone wall in gentle autumn afternoon light, with relaxed shoulders and warm quiet confidence.",
+      "alt": "Campaign inspiration: a woman wearing a cinnamon wool cardigan in warm autumn light"
+    },
+    {
+      "route": "/cardigans/hooded-cardigans/",
+      "asset": "/assets/campaigns/cardigans/hooded-cardigans.webp",
+      "subject": "An adult woman with medium olive skin and long loosely gathered chestnut hair wearing a soft greige knitted hooded cardigan with an open front and a clearly visible generous knit hood resting behind her neck and shoulders, over an opaque ivory tee and dark indigo jeans. It is a knitted cardigan, not a sweatshirt or rain jacket. She is standing in three-quarter view beside a warm pale plaster doorway, looking gently across a quiet courtyard, the hood silhouette clearly readable.",
+      "alt": "Campaign inspiration: a woman wearing a greige knitted hooded cardigan in a quiet courtyard"
+    },
+    {
+      "route": "/cardigans/warm-cardigans/",
+      "asset": "/assets/campaigns/cardigans/warm-cardigans.webp",
+      "subject": "An adult woman with deep brown skin and dark hair in a loose low bun wearing a thick warm oatmeal shawl-collar cardigan with generous textured cable knitting and large horn-style buttons, layered over a simple cream top and cocoa trousers. Cosy substantial knit and relaxed cuffs, clearly an openable cardigan rather than a pullover. She gently draws the collar closer with one hand beside a tall window in a pale warm limestone room on a soft winter morning.",
+      "alt": "Campaign inspiration: a woman in a warm oatmeal cable-knit cardigan beside a winter-lit window"
+    },
+    {
+      "route": "/cardigans/zipped-cardigans/",
+      "asset": "/assets/campaigns/cardigans/zipped-cardigans.webp",
+      "subject": "An adult East Asian woman with a dark chin-length bob wearing a deep charcoal finely ribbed knitted cardigan with one clean silver centre-front zipper, partially zipped to frame a modest ivory tee beneath, paired with stone tailored trousers. Distinct zipper pull and realistic zip construction, no buttons, no hood. She walks gently past a warm pale limestone townhouse wall, confident easy everyday styling, three-quarter length view.",
+      "alt": "Campaign inspiration: a woman wearing a charcoal zipped knit cardigan outside a limestone townhouse"
+    }
+  ]
+}
