@@ -1,0 +1,185 @@
+/* Campaign treatment is opt-in; product-led categories and dress films retain their layouts. */
+.campaign-hero {
+  --campaign-end: var(--opening-blush, #e7d6c3);
+  isolation: isolate;
+  background: var(--campaign-end);
+}
+
+.campaign-hero.sub-hero {
+  --campaign-end: var(--cream, #f8f5ef);
+}
+
+.blouse-hero.campaign-hero .hero-media {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  will-change: auto;
+}
+
+.blouse-hero.campaign-hero .hero-poster {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.blouse-hero.campaign-hero .hero-shade {
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(90deg, #f2e7d8e8 0%, #f2e7d8c4 28%, #f2e7d852 49%, transparent 66%);
+}
+
+.campaign-hero .hero-copy {
+  z-index: 4;
+}
+
+.campaign-hero .hero-aside {
+  z-index: 4;
+}
+
+.campaign-hero .hero-smoke,
+.campaign-hero .hero-fade {
+  position: absolute;
+  pointer-events: none;
+}
+
+.campaign-hero .hero-smoke {
+  z-index: 2;
+  bottom: -11%;
+  left: -15%;
+  width: 130%;
+  height: 36%;
+  opacity: .78;
+  background:
+    radial-gradient(ellipse at 12% 64%, var(--campaign-end) 5%, transparent 45%),
+    radial-gradient(ellipse at 51% 80%, var(--campaign-end) 12%, transparent 53%),
+    radial-gradient(ellipse at 89% 61%, var(--campaign-end) 3%, transparent 43%);
+  filter: blur(19px);
+  animation: campaign-mist-drift 22s ease-in-out infinite alternate;
+}
+
+.campaign-hero .hero-smoke-two {
+  bottom: -14%;
+  opacity: .46;
+  animation-duration: 29s;
+  animation-delay: -13s;
+  animation-direction: alternate-reverse;
+}
+
+.campaign-hero .hero-fade {
+  z-index: 3;
+  inset: auto 0 -1px;
+  height: 24%;
+  background: linear-gradient(0deg, var(--campaign-end) 2%, color-mix(in srgb, var(--campaign-end) 88%, transparent) 23%, transparent 100%);
+}
+
+.campaign-hero .hero-atmosphere-toggle {
+  position: absolute;
+  right: 5%;
+  bottom: 20px;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 1px solid #76504338;
+  border-radius: 0;
+  background: #f8f5ef8c;
+  color: var(--ink);
+  font: 10px/1.3 var(--sans);
+  letter-spacing: .2px;
+  cursor: pointer;
+}
+
+.campaign-hero .hero-atmosphere-toggle:hover {
+  background: #f8f5ef;
+}
+
+.campaign-hero .hero-atmosphere-toggle:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+}
+
+.campaign-hero[data-motion-paused="true"] .hero-smoke {
+  animation-play-state: paused;
+}
+
+@keyframes campaign-mist-drift {
+  from { transform: translate3d(-2%, 4%, 0) scale(1); }
+  to { transform: translate3d(3%, -9%, 0) scale(1.06); }
+}
+
+@media (min-width: 761px) and (max-width: 1000px) {
+  .campaign-hero.sub-hero .hero-copy { width: 65%; }
+  .campaign-hero.sub-hero h1 { font-size: clamp(43px, 5.9vw, 59px); }
+}
+
+@media (max-width: 760px) {
+  .blouse-hero.campaign-hero,
+  .blouse-hero.campaign-hero.sub-hero {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+  }
+
+  .blouse-hero.campaign-hero .hero-media {
+    inset: 0 0 auto;
+    height: 470px;
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 61%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 0%, #000 61%, transparent 100%);
+  }
+
+  .blouse-hero.campaign-hero .hero-poster {
+    object-position: 88% top;
+  }
+
+  .blouse-hero.campaign-hero .hero-shade {
+    background: none;
+  }
+
+  .blouse-hero.campaign-hero .hero-copy,
+  .blouse-hero.campaign-hero.sub-hero .hero-copy {
+    width: 100%;
+    padding: 362px 6% 77px;
+  }
+
+  .campaign-hero .hero-smoke {
+    top: 304px;
+    bottom: auto;
+    height: 172px;
+    opacity: .54;
+    filter: blur(16px);
+  }
+
+  .campaign-hero .hero-smoke-two {
+    top: 326px;
+    opacity: .32;
+  }
+
+  .campaign-hero .hero-fade {
+    top: 405px;
+    bottom: auto;
+    height: 72px;
+  }
+
+  .blouse-hero.campaign-hero h1 {
+    font-size: clamp(40px, 11.5vw, 60px);
+    line-height: 1.02;
+    overflow-wrap: normal;
+  }
+
+  .blouse-hero.campaign-hero .hero-description {
+    max-width: 37em;
+    font-size: 13px;
+  }
+
+  .campaign-hero .hero-atmosphere-toggle {
+    right: 6%;
+    bottom: 18px;
+    min-height: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .campaign-hero .hero-smoke { animation: none; }
+  .campaign-hero .hero-atmosphere-toggle { display: none; }
+}

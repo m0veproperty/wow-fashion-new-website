@@ -1,0 +1,73 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "13 new blouse subcategory campaign photographs; retained existing bespoke Denim and six top-level campaign photographs. Dresses and Club Dresses videos preserved.",
+  "artDirection": "Warm limestone and plaster settings, natural editorial fashion photography, adult models, each blouse category clearly represented. Horizontal 16:9 composition with subject on the right and photographic negative space to the left. No baked-in text, UI or mist. The separate CSS atmosphere supports later replacement of stills with video.",
+  "assets": [
+    {
+      "route": "/blouses/chiffon-blouses/",
+      "asset": "/assets/campaigns/blouses/chiffon-blouses.webp",
+      "subject": "An adult woman in a powder-blue chiffon blouse with flowing sleeves and an opaque camisole, on a sunlit limestone terrace."
+    },
+    {
+      "route": "/blouses/cotton-blouses/",
+      "asset": "/assets/campaigns/blouses/cotton-blouses.webp",
+      "subject": "an adult Black woman with short natural curls, wearing a crisp white cotton blouse with an open collar and lightly rolled cuffs, half tucked into taupe tailored trousers. She is naturally pausing by a limestone doorway in a quiet morning courtyard. Focus on the crisp cotton, understated confidence and easy everyday styling"
+    },
+    {
+      "route": "/blouses/dressy-blouses/",
+      "asset": "/assets/campaigns/blouses/dressy-blouses.webp",
+      "subject": "an adult woman with warm olive skin and chestnut hair in a loose low bun, wearing an elegant deep burgundy dressy blouse with a graceful asymmetric neckline and sculptural long sleeves, paired with tailored black trousers. She is standing at the edge of an intimate restaurant terrace in the golden hour, turned gently toward the light. Refined muted champagne surroundings and glowing brass details on the far right only; quiet pale warm stone on the left. A polished evening mood"
+    },
+    {
+      "route": "/blouses/lace-blouses/",
+      "asset": "/assets/campaigns/blouses/lace-blouses.webp",
+      "subject": "an adult East Asian woman with shoulder-length dark hair, wearing a finely detailed ivory lace blouse with a scalloped collar and long floral lace sleeves, opaque ivory lining beneath the bodice, paired with soft beige trousers. She is standing by an old tall window in a warm limestone interior. Gentle sidelight reveals the delicate lace texture; natural poised expression"
+    },
+    {
+      "route": "/blouses/long-sleeved-blouses/",
+      "asset": "/assets/campaigns/blouses/long-sleeved-blouses.webp",
+      "subject": "an adult woman with medium brown skin and long loosely braided hair, wearing a muted sage-green long-sleeved blouse with full flowing sleeves and beautifully tailored cuffs, paired with stone trousers. She gently adjusts one cuff while standing beside a pale travertine wall in a sunlit contemporary courtyard. The complete sleeves and natural hands are prominent and clear"
+    },
+    {
+      "route": "/blouses/peasant-blouses/",
+      "asset": "/assets/campaigns/blouses/peasant-blouses.webp",
+      "subject": "an adult woman with auburn shoulder-length softly wavy hair and light freckles, wearing an ivory peasant blouse with a gathered modest neckline, loose balloon sleeves, fine tonal embroidery and softly gathered cuffs, paired with light blue straight-leg denim. She is casually strolling through a quiet sunlit rustic courtyard with warm pale plaster, an olive tree far right. Romantic relaxed mood and believable movement"
+    },
+    {
+      "route": "/blouses/pussy-bow-blouse/",
+      "asset": "/assets/campaigns/blouses/pussy-bow-blouse.webp",
+      "subject": "an adult Black woman with hair in an elegant low bun, wearing a warm ivory blouse with a clearly visible softly tied pussy-bow at the neck, long fluid sleeves and tailored camel trousers. She turns gently by a tall pale limestone doorway at a quiet city townhouse. Refined work-to-evening styling, bow fully visible with two soft ends, face natural and confident"
+    },
+    {
+      "route": "/blouses/ruffled-blouses/",
+      "asset": "/assets/campaigns/blouses/ruffled-blouses.webp",
+      "subject": "an adult woman with warm brown skin and dark shoulder-length waves, wearing a soft dusty-rose blouse with sculptural cascading ruffles at the neckline and subtle ruffled cuffs, paired with cream high-waisted trousers. She stands in a warm sunlit courtyard with pale stone arches, caught mid-turn with a slight movement in the fabric. Beautiful believable ruffle detail and graceful modern styling"
+    },
+    {
+      "route": "/blouses/satin-blouses/",
+      "asset": "/assets/campaigns/blouses/satin-blouses.webp",
+      "subject": "an adult East Asian woman with short dark softly waved hair, wearing a champagne satin blouse with an open collar, long fluid sleeves and a lustrous but understated sheen, tucked into dark espresso tailored trousers. She pauses by a travertine terrace balustrade in late-afternoon light. Satin catches soft highlights, elegant cinematic warm tones"
+    },
+    {
+      "route": "/blouses/short-sleeved-blouses/",
+      "asset": "/assets/campaigns/blouses/short-sleeved-blouses.webp",
+      "subject": "an adult woman with olive skin and a loose dark bob, wearing a warm ivory short-sleeved blouse with clearly visible above-elbow sleeves, a relaxed collar and subtle pintuck detail, paired with light taupe wide-leg trousers. She is sitting sideways on a low pale stone terrace wall, both arms naturally visible, a relaxed warm-weather fashion editorial. A softly sunlit courtyard and gentle leaf shadows"
+    },
+    {
+      "route": "/blouses/silk-blouses/",
+      "asset": "/assets/campaigns/blouses/silk-blouses.webp",
+      "subject": "an adult woman with deep brown skin and shoulder-length natural curls, wearing a fluid muted pearl-blue silk blouse with an understated open neck and long elegant sleeves, paired with cream tailored trousers. She stands in a quiet limestone courtyard near a tall window, turning her gaze toward soft late-afternoon light. Gentle silk lustre and flowing drape, luxurious but relaxed"
+    },
+    {
+      "route": "/blouses/summer-blouses/",
+      "asset": "/assets/campaigns/blouses/summer-blouses.webp",
+      "subject": "an adult woman with warm tan skin and medium-length dark wavy hair, wearing a light ivory summer blouse with a soft open neckline, airy elbow-length loose sleeves and subtle tonal woven stripes, paired with sand-coloured linen trousers. She strolls on a sunlit Mediterranean terrace with a hint of bougainvillea in the far upper right. Breezy, warm, natural and effortless; fabric gently moving"
+    },
+    {
+      "route": "/blouses/work-and-formal-blouses/",
+      "asset": "/assets/campaigns/blouses/work-and-formal-blouses.webp",
+      "subject": "an adult woman with fair skin and shoulder-length chestnut hair, wearing a beautifully tailored pale-blue formal blouse with a neat collar and elegant cuffed long sleeves, paired with charcoal high-waisted trousers and a slim tan belt. She is naturally walking past a refined limestone townhouse entrance, professional yet personal styling. No blazer obscuring the blouse. Soft morning sidelight and clean considered details"
+    }
+  ]
+}

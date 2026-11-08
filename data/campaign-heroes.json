@@ -1,0 +1,102 @@
+{
+  "/blouses/chiffon-blouses/": {
+    "src": "/assets/campaigns/blouses/chiffon-blouses.webp",
+    "alt": "Campaign inspiration: a woman in a powder-blue chiffon blouse on a sunlit limestone terrace",
+    "position": "74% 42%"
+  },
+  "/blouses/cotton-blouses/": {
+    "src": "/assets/campaigns/blouses/cotton-blouses.webp",
+    "alt": "Campaign inspiration: a woman in a crisp white cotton blouse in a quiet courtyard",
+    "position": "74% 42%"
+  },
+  "/blouses/dressy-blouses/": {
+    "src": "/assets/campaigns/blouses/dressy-blouses.webp",
+    "alt": "Campaign inspiration: a woman in a burgundy statement blouse on a golden-hour restaurant terrace",
+    "position": "74% 42%"
+  },
+  "/blouses/lace-blouses/": {
+    "src": "/assets/campaigns/blouses/lace-blouses.webp",
+    "alt": "Campaign inspiration: a woman in an ivory lace blouse beside a softly lit window",
+    "position": "74% 42%"
+  },
+  "/blouses/long-sleeved-blouses/": {
+    "src": "/assets/campaigns/blouses/long-sleeved-blouses.webp",
+    "alt": "Campaign inspiration: a woman adjusting the cuff of a sage-green long-sleeved blouse",
+    "position": "74% 42%"
+  },
+  "/blouses/peasant-blouses/": {
+    "src": "/assets/campaigns/blouses/peasant-blouses.webp",
+    "alt": "Campaign inspiration: a woman in an embroidered ivory peasant blouse in a sunlit courtyard",
+    "position": "74% 42%"
+  },
+  "/blouses/pussy-bow-blouse/": {
+    "src": "/assets/campaigns/blouses/pussy-bow-blouse.webp",
+    "alt": "Campaign inspiration: a woman in an ivory pussy-bow blouse beside a limestone doorway",
+    "position": "74% 42%"
+  },
+  "/blouses/ruffled-blouses/": {
+    "src": "/assets/campaigns/blouses/ruffled-blouses.webp",
+    "alt": "Campaign inspiration: a woman in a dusty-rose ruffled blouse in a warm stone courtyard",
+    "position": "74% 42%"
+  },
+  "/blouses/satin-blouses/": {
+    "src": "/assets/campaigns/blouses/satin-blouses.webp",
+    "alt": "Campaign inspiration: a woman wearing a champagne satin blouse on a travertine terrace",
+    "position": "74% 42%"
+  },
+  "/blouses/short-sleeved-blouses/": {
+    "src": "/assets/campaigns/blouses/short-sleeved-blouses.webp",
+    "alt": "Campaign inspiration: a woman in an ivory short-sleeved blouse seated on a stone terrace wall",
+    "position": "74% 42%"
+  },
+  "/blouses/silk-blouses/": {
+    "src": "/assets/campaigns/blouses/silk-blouses.webp",
+    "alt": "Campaign inspiration: a woman in a fluid pearl-blue silk blouse in a quiet limestone courtyard",
+    "position": "74% 42%"
+  },
+  "/blouses/summer-blouses/": {
+    "src": "/assets/campaigns/blouses/summer-blouses.webp",
+    "alt": "Campaign inspiration: a woman in an airy ivory summer blouse on a Mediterranean terrace",
+    "position": "74% 42%"
+  },
+  "/blouses/work-and-formal-blouses/": {
+    "src": "/assets/campaigns/blouses/work-and-formal-blouses.webp",
+    "alt": "Campaign inspiration: a woman wearing a tailored pale-blue blouse outside a limestone townhouse",
+    "position": "74% 42%"
+  },
+  "/blouses/denim-blouses/": {
+    "src": "/assets/blouses/denim-hero.webp",
+    "alt": "Campaign inspiration: a woman in a denim blouse beside a sunlit stone wall",
+    "position": "72% 42%"
+  },
+  "/blouses/": {
+    "src": "/assets/blouses/hero.webp",
+    "alt": "Campaign inspiration: a woman wearing an ivory blouse in a sunlit courtyard",
+    "position": "72% 42%"
+  },
+  "/cardigans/": {
+    "src": "/assets/cardigans/hero.webp",
+    "alt": "Campaign inspiration: a woman in an oatmeal cardigan and cream trousers beside a sunlit stone wall",
+    "position": "72% 42%"
+  },
+  "/coats-and-jackets/": {
+    "src": "/assets/coats-and-jackets/hero.webp",
+    "alt": "Campaign inspiration: a woman wearing a camel coat over an ivory knit on a quiet stone street",
+    "position": "72% 42%"
+  },
+  "/pants/": {
+    "src": "/assets/pants/hero.webp",
+    "alt": "Campaign inspiration: a woman in taupe wide-leg trousers and an ivory top in a pale stone courtyard",
+    "position": "72% 42%"
+  },
+  "/skirts/": {
+    "src": "/assets/skirts/hero.webp",
+    "alt": "Campaign inspiration: a woman in a terracotta pleated midi skirt and ivory top in a pale stone courtyard",
+    "position": "72% 42%"
+  },
+  "/sweaters/": {
+    "src": "/assets/sweaters/hero.webp",
+    "alt": "Campaign inspiration: a woman in an oatmeal cable-knit sweater beside a pale stone wall",
+    "position": "72% 42%"
+  }
+}
