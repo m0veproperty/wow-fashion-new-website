@@ -24,7 +24,9 @@
 .blouse-hero.campaign-hero .hero-shade {
   z-index: 1;
   pointer-events: none;
-  background: linear-gradient(90deg, #f2e7d8e8 0%, #f2e7d8c4 28%, #f2e7d852 49%, transparent 66%);
+  background:
+    linear-gradient(180deg, #f2e7d8cc 0%, #f2e7d875 85px, transparent 150px),
+    linear-gradient(90deg, #f2e7d8e8 0%, #f2e7d8c4 28%, #f2e7d852 49%, transparent 66%);
 }
 
 .campaign-hero .hero-copy {
@@ -90,6 +92,22 @@
   cursor: pointer;
 }
 
+.campaign-hero .hero-motion-icon {
+  display: block;
+  width: 7px;
+  height: 8px;
+  background: linear-gradient(90deg, currentColor 0 2px, transparent 2px 5px, currentColor 5px 7px);
+}
+
+.campaign-hero .hero-atmosphere-toggle[aria-pressed="true"] .hero-motion-icon {
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 6px solid currentColor;
+  background: none;
+}
+
 .campaign-hero .hero-atmosphere-toggle:hover {
   background: #f8f5ef;
 }
@@ -133,7 +151,7 @@
   }
 
   .blouse-hero.campaign-hero .hero-shade {
-    background: none;
+    background: linear-gradient(180deg, #f2e7d8ad 0%, #f2e7d840 75px, transparent 130px);
   }
 
   .blouse-hero.campaign-hero .hero-copy,

@@ -11,7 +11,6 @@ document.querySelectorAll('.campaign-hero').forEach(hero => {
     button.setAttribute('aria-pressed', String(paused));
     button.setAttribute('aria-label', paused ? 'Resume atmospheric animation' : 'Pause atmospheric animation');
     button.querySelector('.hero-motion-label').textContent = paused ? 'Resume motion' : 'Pause motion';
-    button.querySelector('[aria-hidden]').textContent = paused ? '▷' : 'Ⅱ';
   };
 
   button.addEventListener('click', () => {
