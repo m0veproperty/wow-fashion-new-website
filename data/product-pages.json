@@ -52,16 +52,16 @@
         "images": [
           {
             "view": "front",
-            "src": "/assets/products/everyday-rib-cardigan/sage-front.webp",
-            "thumb": "/assets/products/everyday-rib-cardigan/sage-front-thumb.webp",
+            "src": "/assets/products/everyday-rib-cardigan/sage-front-v2.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/sage-front-thumb-v2.webp",
             "alt": "The Everyday Rib Cardigan in Sage, front view on a model",
             "width": 900,
             "height": 1600
           },
           {
             "view": "back",
-            "src": "/assets/products/everyday-rib-cardigan/sage-back.webp",
-            "thumb": "/assets/products/everyday-rib-cardigan/sage-back-thumb.webp",
+            "src": "/assets/products/everyday-rib-cardigan/sage-back-v2.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/sage-back-thumb-v2.webp",
             "alt": "The Everyday Rib Cardigan in Sage, back view on a model",
             "width": 900,
             "height": 1600
@@ -75,16 +75,16 @@
         "images": [
           {
             "view": "front",
-            "src": "/assets/products/everyday-rib-cardigan/cocoa-front.webp",
-            "thumb": "/assets/products/everyday-rib-cardigan/cocoa-front-thumb.webp",
+            "src": "/assets/products/everyday-rib-cardigan/cocoa-front-v2.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/cocoa-front-thumb-v2.webp",
             "alt": "The Everyday Rib Cardigan in Cocoa, front view on a model",
             "width": 900,
             "height": 1600
           },
           {
             "view": "back",
-            "src": "/assets/products/everyday-rib-cardigan/cocoa-back.webp",
-            "thumb": "/assets/products/everyday-rib-cardigan/cocoa-back-thumb.webp",
+            "src": "/assets/products/everyday-rib-cardigan/cocoa-back-v2.webp",
+            "thumb": "/assets/products/everyday-rib-cardigan/cocoa-back-thumb-v2.webp",
             "alt": "The Everyday Rib Cardigan in Cocoa, back view on a model",
             "width": 900,
             "height": 1600
