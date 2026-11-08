@@ -2,6 +2,8 @@
 .campaign-hero {
   --campaign-end: var(--opening-blush, #e7d6c3);
   isolation: isolate;
+  /* Mist extends beyond the frame; focusing controls must not scroll the hero. */
+  overflow: clip;
   background: var(--campaign-end);
 }
 
