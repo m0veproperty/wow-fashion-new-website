@@ -21,3 +21,7 @@ dialog{border:0;border-radius:14px;padding:0;width:min(760px,calc(100vw - 36px))
 /* Build tracking columns remain readable on narrow screens. */
 .table-wrap th:nth-child(5),.table-wrap th:nth-child(6){min-width:145px;max-width:210px;white-space:normal}.table-wrap td .url-line .link-btn{font-size:10px;margin-top:7px}
 
+
+
+/* Core page planning */
+.core-filters{align-items:end;flex-wrap:wrap;margin-top:24px}.core-filters .field{flex:1;min-width:150px}.core-filters .field:first-child{flex:2;min-width:220px}.core-table{min-width:960px}.core-table td{vertical-align:top}.core-table td:first-child{min-width:230px}.core-table td:nth-child(2){max-width:350px}.core-table .small{overflow-wrap:anywhere}
