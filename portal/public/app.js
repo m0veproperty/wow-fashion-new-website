@@ -1,3 +1,4 @@
+import './table-tools.js';
 import { corePages, mountCorePages } from './core-pages.js';
 import { productCategories, priceRange, supplierSummary } from './inventory.js';
 import { productPageView, reviewsView } from './product-pages.js';
@@ -213,6 +214,7 @@ function collectionCoverage(view){const q=filters.q.toLowerCase().trim();let ite
 function exportVariants(){download('Wow_Fashion_Product_Variations.csv',csv([['Product ID','Product','Supplier','AliExpress URL','Variation ID','Colour','Style','Size','Other option','SKU','Price','Currency','Availability','Categories','Proposed keyword pages'],...ws.products.flatMap(p=>(p.variants||[]).map(v=>[p.id,p.name,ws.suppliers.find(s=>s.id===p.supplierId)?.name,p.sourceUrl,v.id,v.colour,v.style,v.size,v.option,v.sku,v.price,p.currency,v.availability,productCategories(p).map(id=>rowById(id)?.name||id).join(' | '),(p.keywordTargets||[]).map(t=>t.keyword).join(' | ')]))]),'text/csv;charset=utf-8');}
 
 init();
+
 
 
 
