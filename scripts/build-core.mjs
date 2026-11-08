@@ -1,4 +1,4 @@
-import {mkdir,writeFile} from 'node:fs/promises';
+import {mkdir,writeFile,rm} from 'node:fs/promises';
 import {buildCatalog} from './core-catalog.mjs';
 import {renderDiscoveryPages} from './core-discovery.mjs';
 import {renderContentPages} from './core-content.mjs';
@@ -21,10 +21,14 @@ export async function buildCorePages({departments,campaignHeroes}) {
     if(paths.has(page.path))throw new Error('Duplicate core page route: '+page.path);
     if(!/^\/[a-z0-9\/-]+\/$/.test(page.path)||page.path.includes('..'))throw new Error('Invalid core page route: '+page.path);
     pageIds.add(page.id);paths.add(page.path);
-    const folder='dist'+page.path;
+    const systemCode=page.id==='core-404'?404:page.id==='core-error'?503:null;
+    // Vercel checks static files before rewrites. Keep the function documents
+    // away from their public routes, including on a repeated local build.
+    if(systemCode)await rm('dist'+page.path,{recursive:true,force:true});
+    const folder=systemCode?'dist/_system/':'dist'+page.path;
     await mkdir(folder,{recursive:true});
     const html=renderCorePage(page);
-    await writeFile(folder+'index.html',html);
+    await writeFile(folder+(systemCode?systemCode+'.html':'index.html'),html);
     if(page.id==='core-404')await writeFile('dist/404.html',html);
   }
   const missing=corePages.filter(page=>page.id!=='core-home'&&!pageIds.has(page.id));

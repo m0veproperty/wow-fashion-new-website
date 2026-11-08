@@ -4,10 +4,12 @@ import {readFile,stat} from 'node:fs/promises';
 import {corePages} from '../portal/public/core-pages.js';
 import {corePageBuilds} from '../portal/public/data/core-page-builds.js';
 import systemPage from '../api/system-page.js';
+import {createPreviewServer} from '../scripts/dev.mjs';
 
 const read=path=>readFile(new URL('../'+path,import.meta.url),'utf8');
 const manifest=JSON.parse(await read('dist/data/core-page-builds.json'));
-const builtPath=route=>'dist'+route+(route.endsWith('/')?'index.html':'');
+const systemRoutes=new Map([['/404/',404],['/service-unavailable/',503]]);
+const builtPath=route=>systemRoutes.has(route)?'dist/_system/'+systemRoutes.get(route)+'.html':'dist'+route+(route.endsWith('/')?'index.html':'');
 
 test('every portal core screen has one concrete built route and a public review link',async()=>{
   assert.equal(corePages.length,50);
@@ -59,9 +61,9 @@ test('homepage and discovery pages use the same wishlist owner without the old e
 });
 
 test('system pages return real error status codes and cannot be cached as customer content',async()=>{
-  for(const code of [404,503]){
+  for(const [url,code] of [['/api/system-page?code=404',404],['/api/system-page?code=503',503],['/404/?code=503',404],['/service-unavailable/?code=404',503]]){
     const response={headers:{},setHeader(name,value){this.headers[name]=value;},end(body){this.body=body;}};
-    await systemPage({url:'/api/system-page?code='+code,method:'GET'},response);
+    await systemPage({url,method:'GET'},response);
     assert.equal(response.statusCode,code);
     assert.equal(response.headers['Cache-Control'],'no-store');
     assert.equal(response.headers['X-Robots-Tag'],'noindex, nofollow');
@@ -70,7 +72,36 @@ test('system pages return real error status codes and cannot be cached as custom
     if(code===503)assert.equal(response.headers['Retry-After'],'120');
   }
   const config=JSON.parse(await read('vercel.json'));
-  assert.ok(config.rewrites.some(rule=>rule.source==='/service-unavailable/'&&rule.destination.includes('code=503')));
+  for(const [route,code] of systemRoutes){
+    assert.ok(config.rewrites.some(rule=>rule.source===route&&rule.destination==='/api/system-page?code='+code));
+    await assert.rejects(stat(new URL('../dist'+route+'index.html',import.meta.url)),{code:'ENOENT'},'Static route files must not bypass the error handler');
+  }
+  assert.equal(config.functions['api/system-page.js'].includeFiles,'dist/_system/*.html');
   assert.ok(config.headers.some(rule=>rule.headers.some(header=>header.key==='X-Robots-Tag'&&header.value==='noindex, nofollow')));
   assert.match(await read('dist/404.html'),/data-core-page="core-404"/);
+});
+
+test('public error routes and missing URLs serve the designed page with the correct HTTP status',async t=>{
+  const server=createPreviewServer();
+  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+  t.after(()=>new Promise(resolve=>server.close(resolve)));
+  const origin='http://127.0.0.1:'+server.address().port;
+  for(const [route,code,id] of [
+    ['/404/',404,'core-404'],
+    ['/service-unavailable/',503,'core-error'],
+    ['/missing-route-for-error-check/',404,'core-404']
+  ]){
+    const response=await fetch(origin+route);
+    assert.equal(response.status,code,route);
+    assert.equal(response.headers.get('cache-control'),'no-store');
+    assert.equal(response.headers.get('x-robots-tag'),'noindex, nofollow');
+    assert.ok((await response.text()).includes('data-core-page="'+id+'"'));
+    if(code===503)assert.equal(response.headers.get('retry-after'),'120');
+  }
+  const head=await fetch(origin+'/service-unavailable/',{method:'HEAD'});
+  assert.equal(head.status,503);
+  assert.equal(await head.text(),'');
+  const shop=await fetch(origin+'/shop/');
+  assert.equal(shop.status,200);
+  assert.match(await shop.text(),/data-core-page="core-shop"/);
 });

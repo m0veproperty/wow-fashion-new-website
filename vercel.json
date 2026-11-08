@@ -21,7 +21,7 @@
   ],
   "functions": {
     "api/system-page.js": {
-      "includeFiles": "dist/{404,service-unavailable}/index.html"
+      "includeFiles": "dist/_system/*.html"
     }
   },
   "rewrites": [
