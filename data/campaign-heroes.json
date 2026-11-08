@@ -263,5 +263,80 @@
     "src": "/assets/campaigns/coats-and-jackets/spring-jackets.webp",
     "alt": "Campaign inspiration: a woman in a powder-blue spring jacket on a limestone garden terrace",
     "position": "74% 42%"
+  },
+  "/dresses/boho-dresses/": {
+    "src": "/assets/campaigns/dresses/boho-dresses.webp",
+    "alt": "Campaign inspiration: a woman in an ivory-and-rust printed boho dress in a limestone courtyard",
+    "position": "74% 42%"
+  },
+  "/dresses/casual-dresses/": {
+    "src": "/assets/campaigns/dresses/casual-dresses.webp",
+    "alt": "Campaign inspiration: a woman wearing a blue cotton shirt dress outside a pale stone café",
+    "position": "74% 42%"
+  },
+  "/dresses/cocktail-and-evening-dresses/": {
+    "src": "/assets/campaigns/dresses/cocktail-and-evening-dresses.webp",
+    "alt": "Campaign inspiration: a woman in an emerald satin evening dress on a softly lit travertine terrace",
+    "position": "74% 42%"
+  },
+  "/dresses/long-dresses/": {
+    "src": "/assets/campaigns/dresses/long-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a flowing burgundy long dress by a limestone townhouse",
+    "position": "74% 42%"
+  },
+  "/dresses/short-dresses/": {
+    "src": "/assets/campaigns/dresses/short-dresses.webp",
+    "alt": "Campaign inspiration: a woman wearing a black short A-line dress in a sunlit stone courtyard",
+    "position": "74% 42%"
+  },
+  "/dresses/spring-dresses/": {
+    "src": "/assets/campaigns/dresses/spring-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a lavender floral spring dress on a limestone garden terrace",
+    "position": "74% 42%"
+  },
+  "/dresses/summer-dresses/": {
+    "src": "/assets/campaigns/dresses/summer-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a butter-yellow linen sundress on a sunlit stone terrace",
+    "position": "74% 42%"
+  },
+  "/dresses/tea-length-dresses/": {
+    "src": "/assets/campaigns/dresses/tea-length-dresses.webp",
+    "alt": "Campaign inspiration: a woman wearing a powder-blue tea-length dress by a limestone garden entrance",
+    "position": "74% 42%"
+  },
+  "/dresses/two-piece-dresses/": {
+    "src": "/assets/campaigns/dresses/two-piece-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a matching sage top and midi skirt in a travertine courtyard",
+    "position": "74% 42%"
+  },
+  "/dresses/winter-dresses/": {
+    "src": "/assets/campaigns/dresses/winter-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a chocolate ribbed winter dress outside a limestone doorway",
+    "position": "74% 42%"
+  },
+  "/dresses/floral-dresses/": {
+    "src": "/assets/campaigns/dresses/floral-dresses.webp",
+    "alt": "Campaign inspiration: a woman wearing an ivory botanical floral dress in a warm stone courtyard",
+    "position": "74% 42%"
+  },
+  "/dresses/maxi-dresses/": {
+    "src": "/assets/campaigns/dresses/maxi-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a flowing terracotta maxi dress beneath a limestone arcade",
+    "position": "74% 42%"
+  },
+  "/dresses/sequin-dresses/": {
+    "src": "/assets/campaigns/dresses/sequin-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a champagne-bronze sequin dress outside a softly lit restaurant",
+    "position": "74% 42%"
+  },
+  "/dresses/wedding-guest-dresses/": {
+    "src": "/assets/campaigns/dresses/wedding-guest-dresses.webp",
+    "alt": "Campaign inspiration: a woman wearing a dusty-rose wedding-guest dress on a limestone garden terrace",
+    "position": "74% 42%"
+  },
+  "/dresses/work-dresses/": {
+    "src": "/assets/campaigns/dresses/work-dresses.webp",
+    "alt": "Campaign inspiration: a woman in a tailored navy work dress outside a limestone townhouse",
+    "position": "74% 42%"
   }
 }

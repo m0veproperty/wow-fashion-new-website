@@ -1,0 +1,108 @@
+{
+  "created": "2026-11-08",
+  "source": "OpenAI built-in image generation",
+  "scope": "15 new bespoke dress subcategory photographs with the shared atmosphere treatment. The original Dresses and Club Dresses video heroes are retained byte-for-byte. Existing product photography and all other page content outside the campaign note are unchanged.",
+  "artDirection": "Use case: photorealistic-natural. Asset type: one bespoke wide photographic hero for the WOW Fashion women's Dresses collection website, matching its premium warm editorial campaign. Create ONE finished photograph, horizontal 16:9 landscape, ideally 1672 by 941 pixels. Authentic natural fashion photography, lifelike skin, refined lens quality, realistic fabric texture, anatomically correct hands and believable garment construction. Show one adult woman on the RIGHT side, centred near 77 percent of the image width. Her entire head must have comfortable space above it, and the entire dress hem must be visible. For full-length looks include shoes and the complete silhouette. The LEFT 55 percent is quiet low-contrast warm pale limestone or plaster, unobstructed and ready for dark website headlines. Architecture, foliage and props stay mostly at the far right. Warm cream and pale stone surroundings, gentle flattering light, natural posture and realistic fabric movement. No text, letters, typography, logos, watermarks, UI, product labels, graphic gradients, smoke or artificial fog. The website adds its animated bottom blend later. Make this an original fashion campaign in a real setting, not an isolated catalogue cutout. Specific garment and scene: ",
+  "preservedVideoHeroes": [
+    {
+      "route": "/dresses/",
+      "asset": "/dresses/assets/hero.mp4"
+    },
+    {
+      "route": "/dresses/club-dresses/",
+      "asset": "/dresses/club-dresses/assets/hero.mp4"
+    }
+  ],
+  "assets": [
+    {
+      "route": "/dresses/boho-dresses/",
+      "asset": "/assets/campaigns/dresses/boho-dresses.webp",
+      "subject": "An adult Black woman with loose natural curls wearing a flowing ivory-and-rust botanical-print boho midi dress, with softly gathered three-quarter sleeves, a modest open neckline and a tiered skirt that falls to the lower calf. Fine woven fabric with beautiful natural movement, small understated jewellery and tan flat sandals. She takes an easy step through a warm pale limestone courtyard. Show the whole dress and her sandals, relaxed unhurried feeling.",
+      "alt": "Campaign inspiration: a woman in an ivory-and-rust printed boho dress in a limestone courtyard"
+    },
+    {
+      "route": "/dresses/casual-dresses/",
+      "asset": "/assets/campaigns/dresses/casual-dresses.webp",
+      "subject": "An adult East Asian woman with a softly waved dark bob wearing a relaxed cornflower-blue cotton shirt dress with short sleeves, a neat collar, tonal buttons and a loose self-tie belt. The easy A-line skirt ends just below the knee. White minimal trainers and a small natural canvas tote at her side. She pauses outside a quiet pale stone café doorway in gentle morning light. Show the entire dress and shoes, candid everyday styling.",
+      "alt": "Campaign inspiration: a woman wearing a blue cotton shirt dress outside a pale stone café"
+    },
+    {
+      "route": "/dresses/cocktail-and-evening-dresses/",
+      "asset": "/assets/campaigns/dresses/cocktail-and-evening-dresses.webp",
+      "subject": "An adult South Asian woman with dark hair in an elegant low bun wearing a deep emerald satin midi evening dress with a graceful asymmetric one-shoulder neckline, a softly defined waist and a flowing skirt ending above the ankles. Restrained sculptural draping and authentic satin lustre, opaque fabric, understated gold earrings and simple dark heeled sandals. She stands beside a pale travertine restaurant terrace at early evening with a hint of warm architectural lighting at the far right. The left wall remains pale and quietly lit for copy. Full figure with the entire dress visible.",
+      "alt": "Campaign inspiration: a woman in an emerald satin evening dress on a softly lit travertine terrace"
+    },
+    {
+      "route": "/dresses/long-dresses/",
+      "asset": "/assets/campaigns/dresses/long-dresses.webp",
+      "subject": "An adult woman with olive skin and loose chestnut waves wearing a fluid burgundy long dress with elegant long sleeves, a modest V neckline, a softly defined waist and an ankle-length gently flared skirt. Smooth matte crepe fabric with realistic flowing folds, understated brown shoes. She turns gently beside a tall pale limestone townhouse doorway. Frame her complete figure, clearly showing the long hem and subtle fabric movement. Quiet confident elegance in diffused afternoon light.",
+      "alt": "Campaign inspiration: a woman in a flowing burgundy long dress by a limestone townhouse"
+    },
+    {
+      "route": "/dresses/short-dresses/",
+      "asset": "/assets/campaigns/dresses/short-dresses.webp",
+      "subject": "An adult Black woman with short natural curls wearing a refined black short A-line dress with short gently puffed sleeves, a square neckline and a softly defined waist. The hem falls a few inches above the knees, elegant and comfortable, with opaque fabric and no extreme cut-outs. Simple black ballet flats and a small tan shoulder bag held naturally at her side. She stands in a sunlit pale stone courtyard, framed from head to feet so the short silhouette is clear.",
+      "alt": "Campaign inspiration: a woman wearing a black short A-line dress in a sunlit stone courtyard"
+    },
+    {
+      "route": "/dresses/spring-dresses/",
+      "asset": "/assets/campaigns/dresses/spring-dresses.webp",
+      "subject": "An adult woman with fair freckled skin and softly gathered auburn hair wearing a fresh pale lavender midi dress with a delicate small ivory floral print, short softly gathered sleeves, a modest neckline and a gently flared skirt. The hem falls to mid-calf. Cream flat sandals, a light breeze and a hint of fresh blossom only at the far right of a pale limestone garden terrace. Full figure with the whole dress visible, bright gentle spring morning light.",
+      "alt": "Campaign inspiration: a woman in a lavender floral spring dress on a limestone garden terrace"
+    },
+    {
+      "route": "/dresses/summer-dresses/",
+      "asset": "/assets/campaigns/dresses/summer-dresses.webp",
+      "subject": "An adult woman with warm olive skin and shoulder-length chestnut waves wearing a butter-yellow linen sundress with broad shoulder straps, a simple square neckline, a gently fitted bodice and a relaxed midi skirt. Natural linen slubs and soft creases, fully opaque fabric, tan flat sandals and a woven straw bag held low at her side. She takes a gentle step along a pale stone Mediterranean terrace in warm morning sunshine. Show the entire dress and sandals, effortless warm-weather styling.",
+      "alt": "Campaign inspiration: a woman in a butter-yellow linen sundress on a sunlit stone terrace"
+    },
+    {
+      "route": "/dresses/tea-length-dresses/",
+      "asset": "/assets/campaigns/dresses/tea-length-dresses.webp",
+      "subject": "An adult woman in her forties with medium brown skin and dark hair in a low bun wearing a powder-blue tea-length dress with short sleeves, an elegant shallow scoop neckline, a fitted waist and a softly full A-line skirt ending clearly halfway between the knees and ankles. Fine matte cotton fabric with beautiful structured folds and simple nude low-heeled shoes. She stands beside a pale limestone garden entrance in gentle afternoon light. Full figure, the distinctive mid-calf hem clearly visible.",
+      "alt": "Campaign inspiration: a woman wearing a powder-blue tea-length dress by a limestone garden entrance"
+    },
+    {
+      "route": "/dresses/two-piece-dresses/",
+      "asset": "/assets/campaigns/dresses/two-piece-dresses.webp",
+      "subject": "An adult South Asian woman with shoulder-length dark waves wearing a coordinated muted sage two-piece dress set: a modest sleeveless structured crop top and a separate high-waisted flowing midi skirt, both in the same fine textured linen. The two separate garment edges are clearly visible at the waist, with a very narrow gap, so the outfit reads as a matching two-piece rather than one dress. Flat tan sandals, natural hands and relaxed posture. She stands in a pale travertine courtyard in warm morning light. Full figure showing the whole skirt.",
+      "alt": "Campaign inspiration: a woman in a matching sage top and midi skirt in a travertine courtyard"
+    },
+    {
+      "route": "/dresses/winter-dresses/",
+      "asset": "/assets/campaigns/dresses/winter-dresses.webp",
+      "subject": "An adult East Asian woman with long softly waved dark hair wearing a substantial chocolate-brown ribbed knitted midi dress with long sleeves, a soft roll neck and a gently shaped straight silhouette ending at mid-calf. Rich visible knit texture, opaque wool-look fabric, simple dark brown knee-high boots partly covered by the hem. She stands beside a tall pale limestone doorway in soft winter morning light. Full figure so the dress silhouette and boots are visible, warm composed styling.",
+      "alt": "Campaign inspiration: a woman in a chocolate ribbed winter dress outside a limestone doorway"
+    },
+    {
+      "route": "/dresses/floral-dresses/",
+      "asset": "/assets/campaigns/dresses/floral-dresses.webp",
+      "subject": "An adult Black woman with long loosely tied braids wearing an ivory midi dress with a beautiful expressive rose, terracotta and olive botanical floral print. Soft elbow-length sleeves, a graceful modest wrap-style neckline and a gently flowing skirt ending at the lower calf. Matte woven fabric, natural print placement and simple cream sandals. She turns lightly in a warm pale limestone courtyard with a few flowering plants at the far right. Full figure with dress hem visible, natural morning light.",
+      "alt": "Campaign inspiration: a woman wearing an ivory botanical floral dress in a warm stone courtyard"
+    },
+    {
+      "route": "/dresses/maxi-dresses/",
+      "asset": "/assets/campaigns/dresses/maxi-dresses.webp",
+      "subject": "An adult woman with olive skin and shoulder-length dark waves wearing a flowing terracotta maxi dress with broad shoulder straps, a clean modest neckline and a relaxed sweeping skirt that reaches the ankles and nearly brushes the ground. Soft opaque woven fabric with graceful folds and subtle movement, simple tan sandals just visible under the hem. She walks slowly along a tall pale limestone arcade. Frame her complete figure and the entire long hem, quiet warm afternoon light.",
+      "alt": "Campaign inspiration: a woman in a flowing terracotta maxi dress beneath a limestone arcade"
+    },
+    {
+      "route": "/dresses/sequin-dresses/",
+      "asset": "/assets/campaigns/dresses/sequin-dresses.webp",
+      "subject": "An adult woman with medium brown skin and dark hair swept into a soft low bun wearing a refined champagne-bronze sequin midi dress with a modest boat neckline, short sleeves and a softly fitted straight silhouette. The dress is fully lined and opaque; the fine small sequins catch warm light realistically without exaggerated glitter. Simple dark heeled sandals and a tiny dark clutch held naturally at her side. She stands beside a pale travertine restaurant entrance at early evening; warm lamps stay far right and the left wall remains softly pale. Show her complete figure and the calf-length hem.",
+      "alt": "Campaign inspiration: a woman in a champagne-bronze sequin dress outside a softly lit restaurant"
+    },
+    {
+      "route": "/dresses/wedding-guest-dresses/",
+      "asset": "/assets/campaigns/dresses/wedding-guest-dresses.webp",
+      "subject": "An adult East Asian woman with dark hair in a loose low bun wearing a refined dusty-rose chiffon wedding-guest midi dress with softly draped short flutter sleeves, a modest V neckline and a flowing pleated skirt. A fully opaque lining beneath delicate chiffon, gentle movement and an elegant mid-calf hem, understated small earrings and taupe low-heeled sandals. She pauses on a pale limestone garden terrace with a little white blossom only at the far right. Full figure, soft late-afternoon light, special-occasion elegance without bridal styling.",
+      "alt": "Campaign inspiration: a woman wearing a dusty-rose wedding-guest dress on a limestone garden terrace"
+    },
+    {
+      "route": "/dresses/work-dresses/",
+      "asset": "/assets/campaigns/dresses/work-dresses.webp",
+      "subject": "An adult Black woman in her forties with a neat dark bob wearing a sharply considered navy work dress with elbow-length sleeves, a modest round neckline, subtle waist shaping and a clean knee-length pencil silhouette. Fine structured matte fabric, realistic seams, comfortable professional fit and simple dark low-heeled shoes. She carries a small structured tan work bag at her side beside a pale limestone townhouse entrance. Full figure showing the entire dress, calm confident workday styling in gentle morning light.",
+      "alt": "Campaign inspiration: a woman in a tailored navy work dress outside a limestone townhouse"
+    }
+  ]
+}
